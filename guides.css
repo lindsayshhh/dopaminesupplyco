@@ -1,0 +1,55 @@
+/* Gift guides: label-style tiles and guide pages, built from the existing palette. */
+.guides-home{padding-top:6px;padding-bottom:44px}
+.guides-home .section-heading{margin-bottom:20px}
+.guide-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.guide-tile{display:flex;flex-direction:column;gap:8px;min-height:150px;padding:20px 22px 18px;border:2px solid var(--ink);border-radius:26px;box-shadow:4px 5px 0 var(--ink);text-decoration:none;color:var(--ink);background:var(--tile);transition:transform .16s,box-shadow .16s}
+.guide-tile:hover{transform:translate(-1px,-2px);box-shadow:5px 7px 0 var(--ink)}
+.guide-tile:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.guide-rx{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:1.4px;font-weight:800;text-transform:uppercase}
+.guide-rx .mini-capsule{width:24px;height:13px}
+.guide-tile h3{font-size:21px;letter-spacing:-.6px;line-height:1.15}
+.guide-tile p{font-size:13px;line-height:1.5}
+.guide-tile .go{margin-top:auto;font-size:12px;font-weight:700}
+.t-orange{--tile:#f6a06f}.t-pink{--tile:var(--pink)}.t-yellow{--tile:var(--yellow)}.t-green{--tile:var(--green)}
+.t-blue{--tile:#aeb6f3}.t-lavender{--tile:#e6dcf7}.t-amber{--tile:#eea038}
+
+.crumbs{font-size:11px;color:#696354;padding-top:4px}
+.crumbs a{text-underline-offset:3px}
+.guide-hero{text-align:center;max-width:680px;margin:0 auto;padding-top:26px;padding-bottom:34px}
+.guide-hero .eyebrow{display:inline-flex;align-items:center;gap:9px;margin-bottom:14px}
+.guide-hero .eyebrow .mini-capsule{width:24px;height:13px}
+.guide-hero h1{font-size:38px;letter-spacing:-1.6px;line-height:1.1;text-wrap:balance}
+.guide-hero .collection-intro{max-width:600px;margin-top:16px}
+.guide-hero .affiliate-note{margin:14px auto 0}
+
+.guide-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:34px 22px}
+.guide-grid .card-image{position:relative}
+.pick-no{position:absolute;left:12px;bottom:11px;background:var(--paper);border:1.3px solid var(--ink);border-radius:99px;padding:5px 9px;font-size:10px;font-weight:800;letter-spacing:.6px}
+.guide-grid .card h3{font-size:18px;margin-bottom:6px}
+.guide-grid .card p{font-size:12px;min-height:0;margin:0 0 8px}
+.guide-grid .card p.note{font-size:13.5px;line-height:1.6;color:var(--ink);margin-bottom:12px}
+.more-guides{padding-top:10px;padding-bottom:40px}
+.more-guides .section-heading{margin-bottom:20px}
+
+@media(max-width:900px){.guide-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){
+ .guides-home{padding-bottom:32px}
+ .guide-tiles{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .guide-tile{min-height:0;padding:15px 15px 14px;border-radius:20px;box-shadow:3px 4px 0 var(--ink)}
+ .guide-tile h3{font-size:17px}.guide-tile p{font-size:12px}.guide-tile .go{display:none}
+ .guide-hero{padding-top:18px;padding-bottom:24px}
+ .guide-hero h1{font-size:clamp(26px,7.4vw,32px);letter-spacing:-1.1px}
+}
+@media(max-width:560px){
+ .guide-grid{grid-template-columns:minmax(0,1fr);gap:22px}
+ .guide-grid .card{display:grid;grid-template-columns:128px minmax(0,1fr);gap:14px;align-items:start}
+ .guide-grid .card-image{border-radius:44px 44px 18px 18px}
+ .guide-grid .card-body{padding-top:2px}
+ .guide-grid .card h3{font-size:16px}
+ .guide-grid .card p.note{font-size:13px}
+ .pick-no{left:7px;bottom:7px;padding:3px 7px;font-size:9px}
+ .guide-grid .card-image .save-button{width:30px;height:30px;font-size:18px;right:6px;bottom:6px}
+}
+@media(max-width:380px){.guide-tiles{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.guide-tile{transition:none}}
+.t-mint{--tile:#bfe7d9}

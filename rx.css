@@ -1,0 +1,141 @@
+/* The Dopamine Pharmacy: gift prescription quiz, homepage promo and guide labels. */
+h1,h2,h3,.brand,.surprise{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif}
+body{font-family:'DM Sans','Helvetica Neue',Arial,sans-serif}
+
+/* Shared pill pieces */
+.rx-capsule{display:inline-flex;width:30px;height:15px;flex:none;box-sizing:border-box;border:2px solid var(--ink);border-radius:99px;overflow:hidden;transform:rotate(-30deg)}
+.rx-capsule>span{flex:1}.rx-capsule>span:first-child{border-right:2px solid var(--ink)}
+.rx-joy{color:#ad2462}
+.rx-eyebrow{font-size:10px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase}
+
+/* Page */
+.rx{padding-top:8px;padding-bottom:50px}
+.rx-col{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+.rx-intro{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.rx-intro h1{font-size:40px;line-height:1.05;letter-spacing:-1.6px;font-weight:700}
+.rx-intro p.rx-sub{font-size:16px;line-height:1.55;color:#625b62;max-width:360px}
+.rx-noscript{text-align:center;font-size:14px;line-height:1.6}
+.rx:not(.rx-ready) #rx-begin{display:none}
+
+/* Pill bottle */
+.rx-bottle{display:flex;flex-direction:column;align-items:center;margin-top:6px}
+.rx-cap{width:280px;height:46px;box-sizing:border-box;border:2px solid var(--ink);border-radius:12px 12px 7px 7px;background:#fffdf6;box-shadow:0 5px 0 var(--ink);padding:8px 11px;position:relative;z-index:1}
+.rx-cap>span{display:block;height:100%;border-radius:3px;background:repeating-linear-gradient(90deg,transparent 0 9px,#b8b2a5 9px 11px,transparent 11px 17px)}
+.rx-neck{width:224px;height:16px;box-sizing:border-box;background:#d88a25;border:2px solid var(--ink);border-bottom:0;border-radius:5px 5px 0 0;margin-top:2px}
+.rx-body{width:264px;box-sizing:border-box;background:#eea038;border:2px solid var(--ink);border-radius:44px 44px 26px 26px;box-shadow:5px 6px 0 var(--ink);padding:16px 16px 18px;display:flex;flex-direction:column;gap:12px}
+.rx-pills{position:relative;height:62px}
+.rx-pills .rx-capsule{position:absolute;width:50px;height:22px}
+.rx-pills .rx-capsule:nth-child(1){left:18px;top:22px;transform:rotate(-24deg)}
+.rx-pills .rx-capsule:nth-child(2){left:74px;top:6px;transform:rotate(16deg)}
+.rx-pills .rx-capsule:nth-child(3){left:118px;top:30px;transform:rotate(-8deg)}
+.rx-pills .rx-capsule:nth-child(4){left:164px;top:4px;transform:rotate(32deg)}
+.rx-pills .rx-capsule:nth-child(5){left:176px;top:34px;width:40px;height:18px;transform:rotate(-30deg)}
+.rx-bottle-label{background:var(--paper);border:2px solid var(--ink);border-radius:12px;padding:12px 14px 10px;display:flex;flex-direction:column;gap:6px}
+.rx-label-top{display:flex;justify-content:space-between;gap:8px;font-size:9px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}
+.rx-bottle-label p{font-size:13px;line-height:1.45}
+.rx-barcode{height:18px;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 5px,transparent 5px 8px,var(--ink) 8px 11px,transparent 11px 13px)}
+
+/* Buttons */
+.rx-cta{width:100%;max-width:420px;height:60px;box-sizing:border-box;display:flex;align-items:stretch;padding:0;border:2px solid var(--ink);border-radius:99px;background:var(--pink);box-shadow:4px 4px 0 var(--ink);overflow:hidden;text-decoration:none;color:var(--ink);font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:18px;transition:transform .16s,box-shadow .16s;margin:0 auto}
+.rx-cta:hover{transform:translate(-1px,-2px);box-shadow:5px 6px 0 var(--ink)}
+.rx-cta:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.rx-cta .rx-cta-text{flex:1;display:flex;align-items:center;gap:12px;padding-left:20px}
+.rx-cta .rx-cta-text .rx-capsule{width:28px;height:14px;transform:rotate(-35deg)}
+.rx-cta .rx-cta-end{width:70px;display:grid;place-items:center;background:var(--yellow);border-left:2px solid var(--ink)}
+.rx-cta svg,.rx-btn svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.rx-small{font-size:12px;color:#625b62;text-align:center}
+.rx-btn{min-height:54px;display:flex;align-items:center;justify-content:center;gap:9px;border:2px solid var(--ink);border-radius:99px;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer;padding:0 18px}
+.rx-btn.dark{background:var(--ink);color:var(--paper)}
+.rx-btn.light{background:var(--paper);color:var(--ink)}
+.rx-btn:disabled{opacity:.35;cursor:not-allowed}
+.rx-link{align-self:center;min-height:44px;display:flex;align-items:center;gap:7px;font-size:13px;font-weight:700;text-decoration:underline;text-underline-offset:4px;padding:0 6px}
+
+/* Quiz */
+.rx-quiz-top{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px}
+.rx-back{display:flex;align-items:center;gap:4px;font-size:13px;font-weight:700;min-height:44px;padding:0 4px 0 0}
+.rx-back svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
+.rx-progress{display:flex;align-items:center;gap:10px;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}
+.rx-dots{display:flex;gap:5px}
+.rx-dot{width:22px;height:11px;box-sizing:border-box;border:2px solid var(--ink);border-radius:99px;background:var(--paper)}
+.rx-dot.on{background:linear-gradient(90deg,var(--pink) 50%,var(--yellow) 50%)}
+.rx-chips{display:flex;flex-wrap:wrap;gap:8px}.rx-chips:empty{display:none}
+.rx-chip{background:#f6f0fc;border:1px solid #ded4ea;border-radius:99px;padding:6px 12px;font-size:12px}
+.rx-pad{background:#fff;border:2px solid var(--ink);border-radius:24px;box-shadow:5px 6px 0 var(--ink);overflow:hidden}
+.rx-pad-top{display:flex;justify-content:space-between;padding:11px 16px;border-bottom:2px dashed var(--ink);font-size:9px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}
+.rx-pad-body{padding:18px 16px;display:flex;flex-direction:column;gap:14px}
+.rx-pad-body h2{font-size:27px;line-height:1.1;letter-spacing:-.9px;margin:0}
+.rx-options{display:flex;flex-direction:column;gap:10px}
+.rx-opt{display:flex;align-items:center;gap:12px;width:100%;min-height:64px;box-sizing:border-box;padding:10px 14px;border:2px solid var(--ink);border-radius:16px;background:var(--paper);color:var(--ink);text-align:left;cursor:pointer;transition:background .12s}
+.rx-opt:hover{background:#fff1c2}
+.rx-opt[aria-pressed="true"]{background:var(--blue);color:#fff}
+.rx-opt-text{flex:1;display:flex;flex-direction:column;gap:2px}
+.rx-opt-text b{font-size:16px}.rx-opt-text small{font-size:13px;opacity:.85}
+.rx-check{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;visibility:hidden}
+.rx-opt[aria-pressed="true"] .rx-check{visibility:visible}
+.rx-quiz-actions{display:flex;flex-direction:column;gap:4px}
+
+/* Result */
+.rx-result-head{display:flex;flex-direction:column;gap:8px}
+.rx-result-head h1{font-size:34px;line-height:1.05;letter-spacing:-1.3px;font-weight:700}
+.rx-rxlabel{background:#fff;border:2px solid var(--ink);border-radius:18px;box-shadow:5px 6px 0 var(--ink);overflow:hidden;transform:rotate(-1deg)}
+.rx-rxlabel-band{display:flex;justify-content:space-between;gap:10px;background:var(--pink);border-bottom:2px solid var(--ink);padding:10px 14px;font-size:9px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}
+.rx-fields{margin:0;padding:14px 16px 12px;display:grid;grid-template-columns:96px minmax(0,1fr);row-gap:9px;column-gap:10px;font-size:14px;line-height:1.35}
+.rx-fields dt,.rx-mini dt{font-size:9px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase;padding-top:3px;color:#625b62}
+.rx-fields dd,.rx-mini dd{margin:0}
+.rx-fields dd.big{font-weight:700}
+.rx-rxlabel .rx-barcode{margin:0 16px 14px;height:26px}
+.rx-picks-panel{background:#f6f0fc;border:1px solid #ded4ea;border-radius:26px;padding:18px 14px 20px;display:flex;flex-direction:column;gap:20px}
+.rx-picks-panel h2{font-size:22px;letter-spacing:-.8px;margin:0}
+.rx-picks{display:flex;flex-direction:column;gap:20px}
+.rx-pick{display:grid;grid-template-columns:128px minmax(0,1fr);gap:14px;align-items:start}
+.rx-pick-img{position:relative;width:128px;height:128px;box-sizing:border-box;border:1.5px solid var(--ink);border-radius:46px 46px 18px 18px;background:#fff;overflow:hidden}
+.rx-pick-img>button:first-child{display:block;width:100%;height:100%;padding:0}
+.rx-pick-img img{width:100%;height:100%;object-fit:contain;padding:9px;box-sizing:border-box}
+.rx-pick-img .pick-no{position:absolute;left:7px;bottom:7px;background:var(--paper);border:1.3px solid var(--ink);border-radius:99px;padding:3px 7px;font-size:9px;font-weight:800;letter-spacing:.6px}
+.rx-pick-img .save-button{top:auto;bottom:5px;right:5px;width:32px;height:32px;font-size:19px}
+.rx-pick-body{display:flex;flex-direction:column;gap:5px;min-width:0}
+.rx-pick-body h3{font-size:16px;line-height:1.25;margin:0}
+.rx-pick-body p{font-size:12.5px;line-height:1.45;margin:0}
+.rx-pick-body .rx-caption{color:#625b62}
+.rx-buy{align-self:flex-start;margin-top:4px;display:inline-flex;align-items:center;gap:6px;background:var(--yellow);border:1.5px solid var(--ink);border-radius:99px;padding:8px 14px;font-size:12px;font-weight:700;text-decoration:none}
+.rx-buy:hover{background:#ffe37f}
+.rx-actions{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px}.rx-actions .rx-btn{white-space:nowrap;padding:0 16px}
+.rx-save-all svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.rx-save-all.on svg{fill:var(--pink)}
+.rx-copy{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px}
+.rx-copy input{flex:1;min-width:0;padding:10px;border:1px solid var(--ink);border-radius:10px;background:#fff;font-size:12px}
+.rx-disclose{font-size:11px;line-height:1.6;color:#625b62;text-align:center}
+
+/* Homepage and guide promo */
+.rx-promo{padding-bottom:40px}
+.rx-promo-card{display:flex;align-items:center;gap:28px;flex-wrap:wrap;background:#fff;border:2px solid var(--ink);border-radius:28px;box-shadow:5px 6px 0 var(--ink);padding:24px 28px;text-decoration:none;color:var(--ink);transition:transform .16s,box-shadow .16s}
+.rx-promo-card:hover{transform:translate(-1px,-2px);box-shadow:6px 8px 0 var(--ink)}
+.rx-promo-art{position:relative;width:150px;height:110px;flex:none;background:#eea038;border:2px solid var(--ink);border-radius:30px 30px 20px 20px}
+.rx-promo-art .rx-capsule{position:absolute;width:46px;height:20px}
+.rx-promo-art .rx-capsule:nth-child(1){left:14px;top:18px;transform:rotate(-24deg)}
+.rx-promo-art .rx-capsule:nth-child(2){left:62px;top:12px;transform:rotate(18deg)}
+.rx-promo-art .rx-capsule:nth-child(3){left:28px;top:58px;transform:rotate(10deg)}
+.rx-promo-art .rx-capsule:nth-child(4){left:82px;top:56px;transform:rotate(-34deg)}
+.rx-promo-text{flex:1 1 280px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.rx-promo-text h2{font-size:28px;letter-spacing:-1px;margin:0;line-height:1.1}
+.rx-promo-text p{font-size:14px;line-height:1.55;color:#625b62;margin:0}
+.rx-promo-go{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;margin-top:4px;background:var(--pink);border:2px solid var(--ink);border-radius:99px;padding:10px 18px;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:15px}
+
+/* Rx line and label on guide pages */
+.rx-line{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:18px;color:#ad2462;margin-top:12px}
+.rx-mini{margin:4px 0 12px;background:#fff;border:1.5px solid var(--ink);border-radius:14px;overflow:hidden}
+.rx-mini-band{background:var(--green);border-bottom:1.5px solid var(--ink);padding:6px 12px;font-size:9px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}
+.rx-mini dl{margin:0;padding:10px 12px;display:grid;grid-template-columns:80px minmax(0,1fr);row-gap:7px;column-gap:8px;font-size:12.5px;line-height:1.4}
+
+@media(max-width:700px){
+ .rx-intro h1{font-size:34px;letter-spacing:-1.4px}
+ .rx-result-head h1{font-size:30px}
+ .rx-promo-card{padding:20px;gap:18px;border-radius:24px}
+ .rx-promo-art{width:120px;height:90px}
+ .rx-promo-art .rx-capsule{width:40px;height:18px}
+ .rx-promo-art .rx-capsule:nth-child(2){left:52px}.rx-promo-art .rx-capsule:nth-child(3){top:48px}.rx-promo-art .rx-capsule:nth-child(4){left:66px;top:46px}
+ .rx-promo-text h2{font-size:24px}
+}
+@media(max-width:560px){.rx-mini dl{grid-template-columns:minmax(0,1fr);row-gap:2px}.rx-mini dd{margin-bottom:6px}.rx-mini dd:last-child{margin-bottom:0}}
+@media(max-width:380px){.rx-pick{grid-template-columns:104px minmax(0,1fr)}.rx-pick-img{width:104px;height:104px}.rx-actions{grid-template-columns:minmax(0,1fr)}.rx-actions .rx-btn{white-space:normal}}
+@media(prefers-reduced-motion:reduce){.rx-cta,.rx-promo-card,.rx-opt{transition:none}}
