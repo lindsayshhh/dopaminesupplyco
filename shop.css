@@ -1,0 +1,59 @@
+/* "Made by me" shop band: Lindsay's own designs, sold through her Etsy shop. */
+.maker{padding-top:6px;padding-bottom:48px}
+.maker .section-heading{margin-bottom:20px}
+.maker-eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:10px;letter-spacing:1.4px;font-weight:800;text-transform:uppercase}
+.maker-eyebrow .mini-capsule{width:24px;height:13px}
+.maker-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.maker-card{display:flex;flex-direction:column;background:#fff;border:2px solid var(--ink);border-radius:26px;box-shadow:4px 5px 0 var(--ink);overflow:hidden;color:var(--ink);text-decoration:none;transition:transform .16s,box-shadow .16s}
+.maker-card:hover{transform:translate(-1px,-2px);box-shadow:5px 7px 0 var(--ink)}
+.maker-card:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.maker-photo{position:relative;aspect-ratio:1;background:#f3f1ec;border-bottom:2px solid var(--ink)}
+.maker-photo img{display:block;width:100%;height:100%;object-fit:cover}
+.maker-tag{position:absolute;left:12px;top:12px;background:var(--yellow);border:1.5px solid var(--ink);border-radius:99px;padding:5px 10px;font-size:10px;font-weight:800;letter-spacing:.8px;text-transform:uppercase}
+.maker-body{display:flex;flex-direction:column;gap:6px;padding:16px 18px 18px;flex:1}
+.maker-kind{font-size:10px;letter-spacing:1.3px;font-weight:800;text-transform:uppercase;color:#625b62}
+.maker-body h3{font-size:19px;letter-spacing:-.5px;line-height:1.2;margin:0}
+.maker-body p{font-size:13px;line-height:1.5;color:#4b4650;margin:0}
+.maker-buy{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;padding-top:10px}
+.maker-price{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:20px}
+.maker-go{display:inline-flex;align-items:center;gap:8px;background:var(--pink);border:2px solid var(--ink);border-radius:99px;padding:9px 16px;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;white-space:nowrap}
+.maker-shop{background:var(--blue);color:var(--paper);justify-content:space-between;padding:22px 22px 20px;gap:14px;min-height:260px}
+.maker-shop .maker-eyebrow{color:var(--paper)}
+.maker-shop h3{font-size:28px;letter-spacing:-1px;line-height:1.08;margin:0}
+.maker-shop p{font-size:14px;line-height:1.5;margin:0}
+.maker-shop .maker-go{align-self:flex-start;background:var(--yellow);color:var(--ink)}
+.maker-pills{position:relative;height:64px}
+.maker-pills .rx-capsule{position:absolute;width:44px;height:20px}
+.maker-pills .rx-capsule:nth-child(1){left:0;top:24px;transform:rotate(-24deg)}
+.maker-pills .rx-capsule:nth-child(2){left:52px;top:6px;transform:rotate(18deg)}
+.maker-pills .rx-capsule:nth-child(3){left:104px;top:30px;transform:rotate(-8deg)}
+.maker-note{font-size:12px;color:#625b62;margin-top:14px}
+@media(min-width:901px){
+ .maker-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .maker-shop{grid-column:span var(--span,1)}
+ .maker-shop[style*="--span:2"],.maker-shop[style*="--span:3"]{justify-content:center;padding:36px 44px;position:relative}
+ .maker-shop[style*="--span:2"] h3,.maker-shop[style*="--span:3"] h3{font-size:44px;letter-spacing:-1.8px;max-width:11ch}
+ .maker-shop[style*="--span:2"] p,.maker-shop[style*="--span:3"] p{font-size:16px;max-width:34ch}
+ .maker-shop[style*="--span:2"] .maker-pills,.maker-shop[style*="--span:3"] .maker-pills{position:absolute;right:44px;top:50%;width:190px;height:150px;margin-top:-75px}
+ .maker-shop[style*="--span:2"] .maker-pills .rx-capsule,.maker-shop[style*="--span:3"] .maker-pills .rx-capsule{width:84px;height:38px;border-width:3px}
+ .maker-shop[style*="--span:2"] .maker-pills .rx-capsule:nth-child(2),.maker-shop[style*="--span:3"] .maker-pills .rx-capsule:nth-child(2){left:96px;top:14px}
+ .maker-shop[style*="--span:2"] .maker-pills .rx-capsule:nth-child(3),.maker-shop[style*="--span:3"] .maker-pills .rx-capsule:nth-child(3){left:46px;top:96px}
+ .maker-shop[style*="--span:2"] .maker-pills .rx-capsule:nth-child(1),.maker-shop[style*="--span:3"] .maker-pills .rx-capsule:nth-child(1){top:40px}
+}
+@media(max-width:900px) and (min-width:701px){.maker-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){
+ .maker{padding-bottom:36px}
+ .maker-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .maker-card{border-radius:20px;box-shadow:3px 4px 0 var(--ink)}
+ .maker-body{padding:12px 13px 14px}
+ .maker-body h3{font-size:16px}.maker-body p{display:none}
+ .maker-buy{flex-direction:column;align-items:flex-start;gap:8px}
+ .maker-price{font-size:17px}
+ .maker-go{font-size:13px;padding:8px 13px}
+ .maker-shop{min-height:0;padding:15px}
+ .maker-shop h3{font-size:21px}.maker-shop p{font-size:12px}
+ .maker-pills{height:46px}.maker-pills .rx-capsule{width:34px;height:16px}
+ .maker-pills .rx-capsule:nth-child(2){left:40px}.maker-pills .rx-capsule:nth-child(3){left:80px}
+}
+@media(max-width:380px){.maker-grid{grid-template-columns:minmax(0,1fr)}}
+@media(prefers-reduced-motion:reduce){.maker-card{transition:none}}
