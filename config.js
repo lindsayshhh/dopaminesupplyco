@@ -1,1 +1,1 @@
-window.SHOP_CONFIG = { amazonTag: "dopmainesupplyco-20", amazonDomain: "www.amazon.com" };
+window.SHOP_CONFIG = { amazonTag: "dopaminesupplyco-20", amazonDomain: "www.amazon.com" };
