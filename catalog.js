@@ -366,6 +366,469 @@ window.PRODUCTS = [
   "active": true
  },
  {
+  "id": "pearl-shell-lamp",
+  "name": "Pearl in a shell lamp",
+  "caption": "A glowing pearl in a ceramic clamshell. Mermaid core, unlocked.",
+  "brand": "IMIKEYA",
+  "moods": [
+   "Cozy",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B086BRGBM3",
+  "sourceType": "amazon",
+  "image": "assets/pearl-shell-lamp.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B086BRGBM3",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "eclectic-art-print-set",
+  "name": "Eclectic art print set of 6",
+  "caption": "Six vintage-meets-maximalist prints. Instant gallery wall.",
+  "brand": "SHEWANT ART",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CYLVNDMX",
+  "sourceType": "amazon",
+  "image": "assets/eclectic-art-print-set.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CYLVNDMX",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "juice-pouch-still-life",
+  "name": "Juice pouch still life print",
+  "caption": "A classic still life, but make it a Capri Sun moment.",
+  "brand": "APOHBGV",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GX6DFQC9",
+  "sourceType": "amazon",
+  "image": "assets/juice-pouch-still-life.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GX6DFQC9",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "you-look-good-bath-mat",
+  "name": "You Look Good bath mat",
+  "caption": "A tufted pink pep talk for your toes.",
+  "brand": "DyeFury",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CCY5NVWG",
+  "sourceType": "amazon",
+  "image": "assets/you-look-good-bath-mat.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CCY5NVWG",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "pink-sea-otter-print",
+  "name": "Pink sea otter print",
+  "caption": "A spa-day otter in a towel turban. Relatable.",
+  "brand": "Jefuzh",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DMJ526Z5",
+  "sourceType": "amazon",
+  "image": "assets/pink-sea-otter-print.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DMJ526Z5",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "pixel-art-gamer-clock",
+  "name": "Pixel art gamer clock",
+  "caption": "Five tiny screens of animated pixel art for the ultimate desk setup.",
+  "brand": "Divoom",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CG1PXHRQ",
+  "sourceType": "amazon",
+  "image": "assets/pixel-art-gamer-clock.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CG1PXHRQ",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "sleeping-leopard-art",
+  "name": "Sleeping leopard art",
+  "caption": "A big cat napping in a flower jungle, in a fancy gold frame.",
+  "brand": "LEKDRA",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FRM5Y668",
+  "sourceType": "amazon",
+  "image": "assets/sleeping-leopard-art.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FRM5Y668",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "pearl-toilet-paper-holder",
+  "name": "Pearl toilet paper holder",
+  "caption": "Your toilet paper, wearing a pearl necklace.",
+  "brand": "Milnnie",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FP2JJH2K",
+  "sourceType": "amazon",
+  "image": "assets/pearl-toilet-paper-holder.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FP2JJH2K",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "raw-chicken-vase",
+  "name": "Raw chicken vase",
+  "caption": "A pink ceramic raw chicken that holds your flowers. You're welcome.",
+  "brand": "SAANG & JAT",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0G9M9XPSX",
+  "sourceType": "amazon",
+  "image": "assets/raw-chicken-vase.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0G9M9XPSX",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "panic-at-the-desk-o-print",
+  "name": "Panic at the Desk-O print",
+  "caption": "A flower-covered disco ball for your office meltdown era.",
+  "brand": "JINYO",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F2TRYHM3",
+  "sourceType": "amazon",
+  "image": "assets/panic-at-the-desk-o-print.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F2TRYHM3",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "queen-of-hearts-print",
+  "name": "Queen of Hearts print",
+  "caption": "A pink-and-orange playing card for the queen of your apartment.",
+  "brand": "XMOPNITIN",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DMW8RR5D",
+  "sourceType": "amazon",
+  "image": "assets/queen-of-hearts-print.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DMW8RR5D",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "velvet-stripe-pillow-covers",
+  "name": "Velvet stripe pillow covers",
+  "caption": "Two candy-striped velvet covers for an instant couch upgrade.",
+  "brand": "Pecfamly",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FQWNNCX4",
+  "sourceType": "amazon",
+  "image": "assets/velvet-stripe-pillow-covers.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FQWNNCX4",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "disco-ball-sun-catcher",
+  "name": "Disco ball sun catcher",
+  "caption": "Six rainbow disco balls that throw sparkles around the room.",
+  "brand": "AceList",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FNCDKM76",
+  "sourceType": "amazon",
+  "image": "assets/disco-ball-sun-catcher.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FNCDKM76",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "funny-bathroom-print-set",
+  "name": "Funny bathroom print set",
+  "caption": "Six cheeky prints. Nice bum included.",
+  "brand": "ZYANGZY",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GYQZRF42",
+  "sourceType": "amazon",
+  "image": "assets/funny-bathroom-print-set.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GYQZRF42",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "never-lose-your-whimsy-art",
+  "name": "Never Lose Your Whimsy art",
+  "caption": "A framed reminder to stay a little silly.",
+  "brand": "ZDMFLTPP",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H8J4LLS9",
+  "sourceType": "amazon",
+  "image": "assets/never-lose-your-whimsy-art.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H8J4LLS9",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "lounging-opossum-art",
+  "name": "Lounging opossum art",
+  "caption": "An opossum lounging like it pays rent.",
+  "brand": "AFCHUNZ",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GQGN24HJ",
+  "sourceType": "amazon",
+  "image": "assets/lounging-opossum-art.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GQGN24HJ",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "chubby-cat-couple-art",
+  "name": "Chubby cat couple art",
+  "caption": "Two very round cats having a very romantic sunset moment.",
+  "brand": "KYSNGMT",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GVCJ819S",
+  "sourceType": "amazon",
+  "image": "assets/chubby-cat-couple-art.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GVCJ819S",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "smoking-frog-art",
+  "name": "Smoking frog art",
+  "caption": "A frog with a cigarette and an attitude, in a gold frame.",
+  "brand": "HIKERFEIJUN",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GT4PRGDD",
+  "sourceType": "amazon",
+  "image": "assets/smoking-frog-art.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GT4PRGDD",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "break-glass-emergency-box",
+  "name": "In case of emergency box",
+  "caption": "Fill it with chocolate, cash or a tiny joke. Break glass when needed.",
+  "brand": "WenmthG",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DR59YK7Z",
+  "sourceType": "amazon",
+  "image": "assets/break-glass-emergency-box.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DR59YK7Z",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "live-laugh-lobotomy-sign",
+  "name": "Live Laugh Lobotomy sign",
+  "caption": "The dark-humor sequel to Live Laugh Love.",
+  "brand": "CHCdecor",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FSXXZLT8",
+  "sourceType": "amazon",
+  "image": "assets/live-laugh-lobotomy-sign.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FSXXZLT8",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "chill-pill-candle",
+  "name": "Giant pill candle",
+  "caption": "A giant pill-shaped candle for anyone who needs to calm down.",
+  "brand": "Genesis Savoir",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0B3LD9P1K",
+  "sourceType": "amazon",
+  "image": "assets/chill-pill-candle.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0B3LD9P1K",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "rude-garden-gnome",
+  "name": "Rude garden gnome",
+  "caption": "A garden gnome with strong opinions.",
+  "brand": "Generic",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0D25QMXJT",
+  "sourceType": "amazon",
+  "image": "assets/rude-garden-gnome.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0D25QMXJT",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "sheep-toilet-paper-holder",
+  "name": "Sheep toilet paper holders",
+  "caption": "Three little sheep that turn your toilet paper into a flock.",
+  "brand": "VELENTI",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CRRWZHK1",
+  "sourceType": "amazon",
+  "image": "assets/sheep-toilet-paper-holder.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CRRWZHK1",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "modern-cuckoo-clock",
+  "name": "Modern cuckoo clock",
+  "caption": "A modern cuckoo clock whose little bird still pops out every hour.",
+  "brand": "Fisura",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BXPRLGHC",
+  "sourceType": "amazon",
+  "image": "assets/modern-cuckoo-clock.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BXPRLGHC",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "desktop-goose",
+  "name": "Desktop goose",
+  "caption": "A 7-inch goose for your desk. Dress it up or let it judge you.",
+  "brand": "Fox Valley Traders",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FNRSX2Z9",
+  "sourceType": "amazon",
+  "image": "assets/desktop-goose.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FNRSX2Z9",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
+  "id": "surfing-seal-squishy",
+  "name": "Surfing seal squishy cube",
+  "caption": "A tiny ocean world inside a squishy cube, with a surfing seal.",
+  "brand": "HLXY",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H9KMD61H",
+  "sourceType": "amazon",
+  "image": "assets/surfing-seal-squishy.webp",
+  "imageSource": "",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H9KMD61H",
+  "amazonVerified": "2026-10-12",
+  "active": true
+ },
+ {
   "id": "sardine-erasers",
   "name": "Tinned sardine erasers",
   "caption": "A very small school of second chances.",
