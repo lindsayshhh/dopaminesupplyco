@@ -1,0 +1,10 @@
+{
+  "name": "dopamine-pinkit",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@fontsource-variable/dm-sans": "^5.0.0",
+    "@fontsource/space-grotesk": "^5.0.0",
+    "playwright": "1.64.0"
+  }
+}

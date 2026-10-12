@@ -1,0 +1,122 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<!-- Pin template for Dopamine Supply Co. render.mjs injects window.SPEC and fonts, then screenshots 1000x1500. -->
+<style>
+body{margin:0}
+:root{--ink:#26251e;--cream:#fff9ee}
+.pin{width:1000px;height:1500px;box-sizing:border-box;padding:64px 64px 54px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative;font-family:'DM Sans',sans-serif}
+.pin.center{align-items:center;text-align:center}
+.top{display:flex;flex-direction:column;gap:20px;position:relative;z-index:1}
+.center .top{align-items:center}
+.chip{align-self:flex-start;display:inline-flex;align-items:center;gap:14px;border:3px solid currentColor;border-radius:99px;padding:10px 22px 10px 18px;font-size:20px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+.center .chip{align-self:center}
+.chip.filled{border-color:var(--ink);color:var(--ink)}
+h1{margin:0;font-family:'Space Grotesk',sans-serif;font-weight:700;line-height:.95;letter-spacing:-.045em;text-wrap:balance}
+.sub{margin:0;font-size:30px;line-height:1.32;opacity:.88;max-width:820px}
+.cap{display:inline-flex;box-sizing:border-box;border:3px solid currentColor;border-radius:99px;overflow:hidden;flex:none}
+.cap span{flex:1}.cap span:first-child{border-right:3px solid currentColor}
+.mid{position:relative;display:flex;justify-content:center;align-items:center;flex:1;margin:26px 0}
+.float{position:absolute;box-sizing:border-box;border:4px solid currentColor;border-radius:99px;overflow:hidden;display:flex}
+.float span{flex:1}.float span:first-child{border-right:4px solid currentColor}
+/* Rx label card */
+.label{width:800px;background:var(--cream);color:var(--ink);border:4px solid var(--ink);border-radius:30px;overflow:hidden;position:relative;z-index:1;text-align:left}
+.band{display:flex;justify-content:space-between;gap:20px;border-bottom:4px solid var(--ink);padding:18px 28px;font-size:18px;font-weight:800;letter-spacing:2.6px;text-transform:uppercase}
+.fields{display:grid;grid-template-columns:190px minmax(0,1fr);gap:18px;padding:28px 30px 20px;font-size:29px;line-height:1.25}
+.fields b{font-size:17px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;padding-top:7px;color:#625b62}
+.fields .big{font-weight:700}
+.bars{margin:4px 30px 26px;height:46px;background:repeating-linear-gradient(90deg,var(--ink) 0 4px,transparent 4px 8px,var(--ink) 8px 10px,transparent 10px 15px,var(--ink) 15px 21px,transparent 21px 25px)}
+/* List card */
+.list{width:100%;background:#fff;color:var(--ink);border:5px solid var(--ink);border-radius:36px;overflow:hidden;text-align:left}
+.list .head{display:flex;justify-content:space-between;padding:20px 32px;border-bottom:4px dashed var(--ink);font-size:18px;font-weight:800;letter-spacing:2.6px;text-transform:uppercase}
+.list ol{margin:0;padding:14px 32px 8px;list-style:none}
+.list li{display:flex;align-items:center;gap:22px;padding:14px 0;border-bottom:2px solid #e8e0d2;font-size:34px;font-weight:700;letter-spacing:-.5px;line-height:1.15}
+.list li:last-child{border-bottom:0}
+.list .no{width:54px;height:54px;flex:none;border-radius:50%;border:4px solid var(--ink);display:grid;place-items:center;font-size:24px;font-weight:800;box-sizing:border-box}
+.list .more{margin:0;padding:6px 32px 24px;font-size:26px;font-weight:700;color:#ad2462}
+/* Pill bottle */
+.bottle{display:flex;flex-direction:column;align-items:center}
+.lid{width:560px;height:86px;box-sizing:border-box;border:5px solid var(--ink);border-radius:22px 22px 12px 12px;background:var(--cream);box-shadow:0 9px 0 var(--ink);padding:14px 20px;position:relative;z-index:1}
+.lid div{height:100%;border-radius:6px;background:repeating-linear-gradient(90deg,transparent 0 16px,#b8b2a5 16px 20px,transparent 20px 30px)}
+.neck{width:450px;height:30px;box-sizing:border-box;border:5px solid var(--ink);border-bottom:0;border-radius:8px 8px 0 0;margin-top:4px}
+.jar{width:560px;box-sizing:border-box;background:var(--ink);border:5px solid var(--ink);border-radius:80px 80px 48px 48px;padding:30px 30px 34px;display:flex;flex-direction:column;gap:22px;color:var(--cream)}
+.jar .pills{position:relative;height:104px}
+.jar .pills .float{border-color:var(--cream)}
+.jar .pills .float span:first-child{border-right-color:var(--cream)}
+.jlabel{background:var(--cream);color:var(--ink);border:5px solid var(--ink);border-radius:24px;padding:24px 28px 20px;display:flex;flex-direction:column;gap:12px;text-align:left}
+.jlabel .row{display:flex;justify-content:space-between;font-size:17px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase}
+.jlabel .t{margin:0;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:46px;line-height:1.02;letter-spacing:-1.6px}
+.jlabel .d{margin:0;font-size:24px;line-height:1.4}
+.jlabel .bars{margin:0;height:36px}
+/* Photo (her own designs only) */
+.photo{width:600px;height:600px;background:#fff;border:5px solid var(--ink);outline:4px solid var(--cream);border-radius:34px;overflow:hidden;transform:rotate(-2.5deg);margin-right:130px}
+.photo img{width:116%;height:116%;object-fit:cover;margin:-8% 0 0 -8%}
+.sticker{position:absolute;right:-40px;bottom:-24px;width:350px;z-index:2;transform:rotate(4deg)}
+.sticker .fields{grid-template-columns:118px 1fr;gap:10px;padding:16px 18px 14px;font-size:20px}
+.sticker .fields b{font-size:12px;padding-top:4px}
+.sticker .band{padding:12px 18px;font-size:14px}
+.sticker .bars{margin:2px 18px 16px;height:30px}
+/* Footer */
+.foot{display:flex;flex-direction:column;align-items:center;gap:30px;position:relative;z-index:1}
+.cta{width:640px;height:102px;box-sizing:border-box;display:flex;border:4px solid currentColor;border-radius:99px;overflow:hidden;color:var(--ink)}
+.cta .t{flex:1;display:flex;align-items:center;justify-content:center;gap:20px;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:40px;letter-spacing:-1px}
+.cta .a{width:120px;display:grid;place-items:center;background:#ffd84d;border-left:4px solid var(--ink)}
+.brand{display:flex;align-items:center;gap:20px;text-align:left}
+.brand img{width:96px;height:96px;object-fit:contain;background:var(--cream);border-radius:50%}
+.brand .n{display:block;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:32px;letter-spacing:-1px}
+.brand .u{display:block;font-size:23px;font-weight:600;letter-spacing:.5px;margin-top:4px}
+</style></head>
+<body><div id="root"></div>
+<script>
+// Spec fields (all optional unless noted):
+// layout: "label" | "list" | "bottle" | "photo" (required)
+// bg, accent: colors from PALETTE names or hex. Text color follows bg automatically.
+// eyebrow: small chip text. headline (required): use *word* to color that part with accent.
+// sub: one line under the headline.
+// label: {band, rx, rows: [[name, value], ...]}  (label, photo layouts; first row shown bold)
+// list: [item, ...] and more: "+ 6 more on the list"  (list layout)
+// bottle: {title, tag, directions}  (bottle layout)
+// photo: path relative to pinkit/ (photo layout, Lindsay's own design photos only)
+// cta: button text. site: footer second line (default "dopaminesupplyco.com").
+const PALETTE={ink:'#26251e',cream:'#fff9ee',orange:'#f46b45',pink:'#ff8ebd',yellow:'#ffd84d',blue:'#4754cf',green:'#d8e897',purple:'#8755ad',amber:'#eea038',mint:'#bfe7d9',white:'#ffffff',lavender:'#e6dcf7'};
+const DARK=['#26251e','#4754cf','#f46b45','#8755ad'];
+const S=window.SPEC; const c=v=>PALETTE[v]||v||'';
+const bg=c(S.bg)||PALETTE.ink, dark=DARK.includes(bg.toLowerCase()), fg=dark?PALETTE.cream:PALETTE.ink;
+let accent=c(S.accent)||(dark?PALETTE.pink:PALETTE.orange);
+const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+const LIGHT=['#ff8ebd','#ffd84d','#d8e897','#bfe7d9','#fff9ee','#ffffff','#e6dcf7','#eea038'];
+const hlColor=(!dark&&LIGHT.includes(accent.toLowerCase()))?(bg===PALETTE.cream||bg===PALETTE.white?PALETTE.orange:PALETTE.blue):accent;
+const hl=s=>esc(s).replace(/\*(.+?)\*/g,`<span style="color:${hlColor}">$1</span>`);
+const cap=(a,b,w=40,h=20,rot=-30)=>`<span class="cap" style="width:${w}px;height:${h}px;transform:rotate(${rot}deg)"><span style="background:${a}"></span><span style="background:${b}"></span></span>`;
+const pairs=[['pink','yellow'],['green','cream'],['yellow','orange'],['blue','pink'],['orange','ink'],['purple','cream'],['amber','pink'],['mint','yellow']].map(p=>p.map(c));
+const fl=(i,s)=>{const [a,b]=pairs[i%pairs.length];return `<span class="float" style="${s}"><span style="background:${a}"></span><span style="background:${b}"></span></span>`};
+const arrow=`<svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="#26251e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>`;
+const rows=(r=[])=>r.map(([k,v],i)=>`<b>${esc(k)}</b><span class="${i===0?'big':''}">${esc(v)}</span>`).join('');
+const labelCard=(L,rot)=>`<section class="label" style="transform:rotate(${rot}deg);box-shadow:12px 14px 0 ${dark?accent:PALETTE.ink}"><div class="band" style="background:${accent}"><span>${esc(L.band||'Dopamine Supply Co. Pharmacy')}</span><span>Rx ${esc(L.rx||'0001')}</span></div><div class="fields">${rows(L.rows)}</div><div class="bars"></div></section>`;
+let mid='';
+if(S.layout==='label'){
+  mid=`${fl(0,'left:-10px;top:-6px;width:120px;height:52px;transform:rotate(-28deg)')}${fl(5,'right:6px;top:-14px;width:104px;height:46px;transform:rotate(24deg)')}${fl(6,'left:10px;bottom:-6px;width:96px;height:42px;transform:rotate(18deg)')}${fl(4,'right:-14px;bottom:20px;width:112px;height:48px;transform:rotate(-36deg)')}${labelCard(S.label||{},S.tilt??-2)}`;
+}else if(S.layout==='list'){
+  const cols=['#f46b45','#eea038','#ff8ebd','#d8e897','#ffd84d','#c9b3e6','#bfe7d9','#aeb6f3'];
+  mid=`<section class="list" style="box-shadow:12px 14px 0 ${dark?accent:PALETTE.ink}"><div class="head"><span>Rx pad</span><span>Dopamine Supply Co.</span></div><ol>${(S.list||[]).map((t,i)=>`<li><span class="no" style="background:${cols[i%cols.length]}">${i+1}</span>${esc(t)}</li>`).join('')}</ol>${S.more?`<p class="more">${esc(S.more)}</p>`:''}</section>`;
+}else if(S.layout==='bottle'){
+  const B=S.bottle||{};
+  mid=`<div class="bottle"><div class="lid"><div></div></div><div class="neck" style="background:${accent}"></div><div class="jar" style="box-shadow:12px 14px 0 ${dark?PALETTE.cream:PALETTE.ink}"><div class="pills">${fl(0,'left:30px;top:40px;width:96px;height:42px;transform:rotate(-24deg)')}${fl(5,'left:140px;top:8px;width:96px;height:42px;transform:rotate(16deg)')}${fl(6,'left:232px;top:52px;width:96px;height:42px;transform:rotate(-8deg)')}${fl(3,'left:330px;top:4px;width:96px;height:42px;transform:rotate(32deg)')}</div><div class="jlabel"><div class="row"><span>Rx No. ${esc(B.rx||'0001')}</span><span>${esc(B.tag||'')}</span></div><p class="t">${esc(B.title||'')}</p><p class="d"><b>Directions:</b> ${esc(B.directions||'')}</p><div class="bars"></div></div></div></div>`;
+}else if(S.layout==='photo'){
+  const L=S.label||{};
+  mid=`${fl(0,'left:-14px;top:40px;width:112px;height:48px;transform:rotate(-28deg)')}${fl(2,'right:10px;top:-6px;width:100px;height:44px;transform:rotate(24deg)')}${fl(1,'left:6px;bottom:30px;width:96px;height:42px;transform:rotate(16deg)')}<div style="position:relative"><div class="photo" style="box-shadow:14px 16px 0 ${accent}"><img src="${esc(S.photo)}" alt=""></div><section class="label sticker" style="box-shadow:8px 9px 0 #ffd84d"><div class="band" style="background:#ffd84d"><span>${esc(L.band||'Dopamine Pharmacy')}</span><span>Rx ${esc(L.rx||'0001')}</span></div><div class="fields">${rows(L.rows)}</div><div class="bars"></div></section></div>`;
+}
+const ctaBg = S.ctaColor? c(S.ctaColor) : (accent===PALETTE.pink||!dark ? (bg===PALETTE.pink?PALETTE.cream:PALETTE.pink) : PALETTE.pink);
+const center = S.layout==='bottle';
+document.getElementById('root').innerHTML=`<div class="pin ${center?'center':''}" style="background:${bg};color:${fg}">
+<div class="top">${S.eyebrow?`<div class="chip ${dark?'':'filled'}" ${dark?'':`style="background:${PALETTE.cream}"`}>${cap(PALETTE.pink,PALETTE.yellow,40,20)}${esc(S.eyebrow)}</div>`:''}
+<h1 id="h1">${hl(S.headline)}</h1>${S.sub?`<p class="sub">${esc(S.sub)}</p>`:''}</div>
+<div class="mid">${mid}</div>
+<div class="foot"><div class="cta" style="background:${ctaBg};box-shadow:8px 8px 0 ${dark?PALETTE.cream:PALETTE.ink};border-color:${dark?PALETTE.cream:PALETTE.ink}"><span class="t">${cap(PALETTE.yellow,PALETTE.cream,52,26,-35)}${esc(S.cta||'See the list')}</span><span class="a">${arrow}</span></div>
+<div class="brand"><img src="../assets/dopamine-logo-transparent.png" alt=""><div><span class="n">Dopamine Supply Co.</span><span class="u">${esc(S.site||'dopaminesupplyco.com')}</span></div></div></div></div>`;
+// Fit: shrink the headline, then the middle card, until nothing spills past 1500px.
+window.fitPin=()=>{const pin=document.querySelector('.pin'),h=document.getElementById('h1'),mid=document.querySelector('.mid');let size=S.headlineSize||112;h.style.fontSize=size+'px';
+ const over=()=>{mid.style.flex='none';const r=pin.scrollHeight>1500;mid.style.flex='';return r};
+ while(over()&&size>60){size-=4;h.style.fontSize=size+'px'}
+ let sc=1;const m=mid.lastElementChild;while(over()&&sc>.7){sc-=.03;m.style.zoom=sc}
+ return {headline:size,zoom:+sc.toFixed(2),overflow:over()}};
+</script></body></html>
