@@ -1,8 +1,162 @@
 [
-  {"date": "2026-10-11", "type": "etsy", "subject": "support-your-local-murder-tee", "layout": "photo", "image": "pins/pin-6-murder-tee.jpg", "title": "Support Your Local Murder Tee: Funny Crow Shirt for True Crime Fans", "link": "https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow", "board": "True Crime Gifts"},
-  {"date": "2026-10-11", "type": "guide", "subject": "spooky-cute-halloween-gifts", "layout": "label", "image": "pins/pin-1-halloween-label.jpg", "title": "12 Spooky-Cute Halloween Gifts for People Who Decorate in September", "link": "https://dopaminesupplyco.com/spooky-cute-halloween-gifts.html", "board": "Halloween Gift Ideas"},
-  {"date": "2026-10-11", "type": "guide", "subject": "spooky-cute-halloween-gifts", "layout": "bottle", "image": "pins/pin-2-halloween-bottle.jpg", "title": "Gifts for People Who Decorate for Halloween in September", "link": "https://dopaminesupplyco.com/spooky-cute-halloween-gifts.html", "board": "Halloween Gift Ideas"},
-  {"date": "2026-10-11", "type": "guide", "subject": "spooky-cute-halloween-gifts", "layout": "list", "image": "pins/pin-3-halloween-list.jpg", "title": "Spooky Season Starter Kit: Cute, Creepy Gifts That Actually Get Used", "link": "https://dopaminesupplyco.com/spooky-cute-halloween-gifts.html", "board": "Halloween Gift Ideas"},
-  {"date": "2026-10-11", "type": "guide", "subject": "prescription", "layout": "quiz", "image": "pins/pin-4-gift-quiz.jpg", "title": "Gift Quiz: No Clue What to Get Them? Get a Gift Prescription", "link": "https://dopaminesupplyco.com/prescription.html", "board": "Gift Ideas"},
-  {"date": "2026-10-11", "type": "guide", "subject": "weird-stocking-stuffers", "layout": "label", "image": "pins/pin-5-stocking-stuffers.jpg", "title": "21 Weird Little Stocking Stuffers They'll Actually Remember", "link": "https://dopaminesupplyco.com/weird-stocking-stuffers.html", "board": "Stocking Stuffer Ideas"}
+ {
+  "date": "2026-10-11",
+  "type": "etsy",
+  "subject": "support-your-local-murder-tee",
+  "layout": "photo",
+  "image": "pins/pin-6-murder-tee.jpg",
+  "title": "Support Your Local Murder Tee: Funny Crow Shirt for True Crime Fans",
+  "link": "https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow",
+  "board": "True Crime Gifts"
+ },
+ {
+  "date": "2026-10-11",
+  "type": "guide",
+  "subject": "spooky-cute-halloween-gifts",
+  "layout": "label",
+  "image": "pins/pin-1-halloween-label.jpg",
+  "title": "12 Spooky-Cute Halloween Gifts for People Who Decorate in September",
+  "link": "https://dopaminesupplyco.com/spooky-cute-halloween-gifts.html",
+  "board": "Halloween Gift Ideas"
+ },
+ {
+  "date": "2026-10-11",
+  "type": "guide",
+  "subject": "spooky-cute-halloween-gifts",
+  "layout": "bottle",
+  "image": "pins/pin-2-halloween-bottle.jpg",
+  "title": "Gifts for People Who Decorate for Halloween in September",
+  "link": "https://dopaminesupplyco.com/spooky-cute-halloween-gifts.html",
+  "board": "Halloween Gift Ideas"
+ },
+ {
+  "date": "2026-10-11",
+  "type": "guide",
+  "subject": "spooky-cute-halloween-gifts",
+  "layout": "list",
+  "image": "pins/pin-3-halloween-list.jpg",
+  "title": "Spooky Season Starter Kit: Cute, Creepy Gifts That Actually Get Used",
+  "link": "https://dopaminesupplyco.com/spooky-cute-halloween-gifts.html",
+  "board": "Halloween Gift Ideas"
+ },
+ {
+  "date": "2026-10-11",
+  "type": "guide",
+  "subject": "prescription",
+  "layout": "quiz",
+  "image": "pins/pin-4-gift-quiz.jpg",
+  "title": "Gift Quiz: No Clue What to Get Them? Get a Gift Prescription",
+  "link": "https://dopaminesupplyco.com/prescription.html",
+  "board": "Gift Ideas"
+ },
+ {
+  "date": "2026-10-11",
+  "type": "guide",
+  "subject": "weird-stocking-stuffers",
+  "layout": "label",
+  "image": "pins/pin-5-stocking-stuffers.jpg",
+  "title": "21 Weird Little Stocking Stuffers They'll Actually Remember",
+  "link": "https://dopaminesupplyco.com/weird-stocking-stuffers.html",
+  "board": "Stocking Stuffer Ideas"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "dumpster-desk-organizer",
+  "layout": "label",
+  "title": "Dumpster Fire Desk Organizer: Funny Gift for the Coworker Running on Fumes",
+  "link": "https://www.amazon.com/dp/B08VN8VTQQ?tag=dopaminesupplyco-20",
+  "board": "Gift Ideas",
+  "image": "pins/2026-10-12-dumpster-desk-organizer.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "raw-chicken-vase",
+  "layout": "label",
+  "title": "Raw Chicken Vase: Weird Funny Home Decor and White Elephant Gift",
+  "link": "https://www.amazon.com/dp/B0G9M9XPSX?tag=dopaminesupplyco-20",
+  "board": "White Elephant Gift Ideas",
+  "image": "pins/2026-10-12-raw-chicken-vase.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "gracula-garlic-twist-crusher",
+  "layout": "label",
+  "title": "Vampire Garlic Crusher: Spooky-Cute Halloween Kitchen Gadget",
+  "link": "https://www.amazon.com/dp/B076CTTZKX?tag=dopaminesupplyco-20",
+  "board": "Halloween Gift Ideas",
+  "image": "pins/2026-10-12-gracula-garlic-twist-crusher.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "crab-spoon-holder",
+  "layout": "label",
+  "title": "Crab Spoon Holder: Funny Kitchen Gadget That Actually Works",
+  "link": "https://www.amazon.com/dp/B07VLBVQBP?tag=dopaminesupplyco-20",
+  "board": "Dopamine Kitchen",
+  "image": "pins/2026-10-12-crab-spoon-holder.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "disco-ball-planter",
+  "layout": "label",
+  "title": "Disco Ball Planter: Dopamine Decor for Plant Lovers",
+  "link": "https://www.amazon.com/dp/B0C5MF7D6W?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "image": "pins/2026-10-12-disco-ball-planter.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "giant-dumpling-pillow",
+  "layout": "label",
+  "title": "Giant Dumpling Pillow: Funny Food Plush and Squishy Gift",
+  "link": "https://www.amazon.com/dp/B0H9WC8DK4?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "image": "pins/2026-10-12-giant-dumpling-pillow.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "capybarahhh",
+  "layout": "label",
+  "title": "Capybara Tea Infuser: Cute Gift for Tea Lovers and Capybara Fans",
+  "link": "https://www.amazon.com/dp/B0D9ZKSQTF?tag=dopaminesupplyco-20",
+  "board": "Gift Ideas",
+  "image": "pins/2026-10-12-capybarahhh.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "sardine-erasers",
+  "layout": "label",
+  "title": "Tinned Sardine Erasers: Weird Little Stocking Stuffer",
+  "link": "https://www.amazon.com/dp/B0D9YVM6XP?tag=dopaminesupplyco-20",
+  "board": "Stocking Stuffer Ideas",
+  "image": "pins/2026-10-12-sardine-erasers.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "desktop-goose",
+  "layout": "label",
+  "title": "Desktop Goose Statue: Funny White Elephant and Office Gift",
+  "link": "https://www.amazon.com/dp/B0FNRSX2Z9?tag=dopaminesupplyco-20",
+  "board": "White Elephant Gift Ideas",
+  "image": "pins/2026-10-12-desktop-goose.jpg"
+ },
+ {
+  "date": "2026-10-12",
+  "type": "product",
+  "subject": "screaming-goat-desk-toy",
+  "layout": "label",
+  "title": "Screaming Goat Desk Toy: Funny Stress Relief Gag Gift",
+  "link": "https://www.amazon.com/dp/B0FZDRNRH4?tag=dopaminesupplyco-20",
+  "board": "White Elephant Gift Ideas",
+  "image": "pins/2026-10-12-screaming-goat-desk-toy.jpg"
+ }
 ]
