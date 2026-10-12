@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "pink",
+ "accent": "yellow",
+ "eyebrow": "Weird home decor",
+ "headline": "A raw chicken *vase.* Yes, really.",
+ "label": {
+  "rx": "0413",
+  "rows": [
+   [
+    "Patient",
+    "Anyone with a strange sense of humor"
+   ],
+   [
+    "Prescribed",
+    "1 raw chicken vase"
+   ],
+   [
+    "Dosage",
+    "Add 6 stems. Wait for reactions."
+   ],
+   [
+    "Side effects",
+    "Every guest asks about it."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

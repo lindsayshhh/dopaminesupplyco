@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "yellow",
+ "accent": "pink",
+ "eyebrow": "Funny pillow",
+ "headline": "A giant dumpling you're *allowed to nap on.*",
+ "label": {
+  "rx": "0417",
+  "rows": [
+   [
+    "Patient",
+    "Snack lovers and serious nappers"
+   ],
+   [
+    "Prescribed",
+    "1 giant dumpling pillow"
+   ],
+   [
+    "Dosage",
+    "Hug for 20 minutes daily."
+   ],
+   [
+    "Side effects",
+    "Dumpling cravings."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

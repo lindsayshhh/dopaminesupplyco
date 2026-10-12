@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "amber",
+ "accent": "pink",
+ "eyebrow": "Desk toy",
+ "headline": "Let the goat *scream for you.*",
+ "label": {
+  "rx": "0421",
+  "rows": [
+   [
+    "Patient",
+    "Anyone with an overflowing inbox"
+   ],
+   [
+    "Prescribed",
+    "1 screaming goat"
+   ],
+   [
+    "Dosage",
+    "Press once per bad email."
+   ],
+   [
+    "Side effects",
+    "Startled coworkers. Instant relief."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "green",
+ "accent": "pink",
+ "eyebrow": "Gift for tea lovers",
+ "headline": "A capybara that *steeps your tea.*",
+ "label": {
+  "rx": "0418",
+  "rows": [
+   [
+    "Patient",
+    "Tea drinkers who need a nap"
+   ],
+   [
+    "Prescribed",
+    "1 capybara tea infuser"
+   ],
+   [
+    "Dosage",
+    "Steep 3 to 5 minutes."
+   ],
+   [
+    "Side effects",
+    "Extreme calm. Mild capybara obsession."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

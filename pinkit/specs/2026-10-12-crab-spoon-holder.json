@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "orange",
+ "accent": "yellow",
+ "eyebrow": "Weird kitchen gadget",
+ "headline": "A tiny crab that *holds your spoon.*",
+ "label": {
+  "rx": "0415",
+  "rows": [
+   [
+    "Patient",
+    "Home cooks with nowhere to put the spoon"
+   ],
+   [
+    "Prescribed",
+    "1 crab spoon holder"
+   ],
+   [
+    "Dosage",
+    "Clip to pot as needed."
+   ],
+   [
+    "Side effects",
+    "Spoon stays put. Sauce stays in."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

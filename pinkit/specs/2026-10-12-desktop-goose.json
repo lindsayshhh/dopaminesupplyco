@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "mint",
+ "accent": "orange",
+ "eyebrow": "White elephant gift",
+ "headline": "A desk goose that *judges you* (lovingly).",
+ "label": {
+  "rx": "0420",
+  "rows": [
+   [
+    "Patient",
+    "Porch goose people with no porch"
+   ],
+   [
+    "Prescribed",
+    "1 desktop goose"
+   ],
+   [
+    "Dosage",
+    "Place on desk. Dress for the season."
+   ],
+   [
+    "Side effects",
+    "A goose with a wardrobe."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

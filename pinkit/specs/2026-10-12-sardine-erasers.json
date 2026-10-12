@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "blue",
+ "accent": "pink",
+ "eyebrow": "Stocking stuffer",
+ "headline": "Tinned sardine *erasers.* For mistakes.",
+ "label": {
+  "rx": "0419",
+  "rows": [
+   [
+    "Patient",
+    "Students, artists and chronic overthinkers"
+   ],
+   [
+    "Prescribed",
+    "1 tin of sardine erasers"
+   ],
+   [
+    "Dosage",
+    "Use on mistakes as needed."
+   ],
+   [
+    "Side effects",
+    "Tiny tinned joy."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

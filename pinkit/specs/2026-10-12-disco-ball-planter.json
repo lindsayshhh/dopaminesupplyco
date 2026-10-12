@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "purple",
+ "accent": "yellow",
+ "eyebrow": "Dopamine decor",
+ "headline": "Your houseplants deserve a *disco era.*",
+ "label": {
+  "rx": "0416",
+  "rows": [
+   [
+    "Patient",
+    "Plant parents who love a sparkle"
+   ],
+   [
+    "Prescribed",
+    "1 disco-ball planter"
+   ],
+   [
+    "Dosage",
+    "Hang in direct sunlight."
+   ],
+   [
+    "Side effects",
+    "Spontaneous room-wide sparkles."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}

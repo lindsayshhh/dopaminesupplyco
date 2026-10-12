@@ -1,0 +1,29 @@
+{
+ "layout": "label",
+ "bg": "ink",
+ "accent": "orange",
+ "eyebrow": "Spooky-cute kitchen",
+ "headline": "A vampire whose full-time job is *garlic.*",
+ "label": {
+  "rx": "0414",
+  "rows": [
+   [
+    "Patient",
+    "The goth who cooks"
+   ],
+   [
+    "Prescribed",
+    "1 vampire garlic crusher"
+   ],
+   [
+    "Dosage",
+    "Twist until garlicky."
+   ],
+   [
+    "Side effects",
+    "A vampire-free kitchen."
+   ]
+  ]
+ },
+ "cta": "Get it here"
+}
