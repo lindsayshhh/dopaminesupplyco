@@ -14,8 +14,8 @@
 .maker-kind{font-size:10px;letter-spacing:1.3px;font-weight:800;text-transform:uppercase;color:#625b62}
 .maker-body h3{font-size:19px;letter-spacing:-.5px;line-height:1.2;margin:0}
 .maker-body p{font-size:13px;line-height:1.5;color:#4b4650;margin:0}
-.maker-buy{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;padding-top:10px}
-.maker-price{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:20px}
+.maker-buy{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;padding-top:10px}
+.maker-price{white-space:nowrap;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:20px}
 .maker-go{display:inline-flex;align-items:center;gap:8px;background:var(--pink);border:2px solid var(--ink);border-radius:99px;padding:9px 16px;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:14px;white-space:nowrap}
 .maker-shop{background:var(--blue);color:var(--paper);justify-content:space-between;padding:22px 22px 20px;gap:14px;min-height:260px}
 .maker-shop .maker-eyebrow{color:var(--paper)}
@@ -31,16 +31,16 @@
 @media(min-width:901px){
  .maker-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
  .maker-shop{grid-column:span var(--span,1)}
- .maker-shop[style*="--span:2"],.maker-shop[style*="--span:3"]{justify-content:center;padding:36px 44px;position:relative}
- .maker-shop[style*="--span:2"] h3,.maker-shop[style*="--span:3"] h3{font-size:44px;letter-spacing:-1.8px;max-width:11ch}
- .maker-shop[style*="--span:2"] p,.maker-shop[style*="--span:3"] p{font-size:16px;max-width:34ch}
- .maker-shop[style*="--span:2"] .maker-pills,.maker-shop[style*="--span:3"] .maker-pills{position:absolute;right:44px;top:50%;width:190px;height:150px;margin-top:-75px}
- .maker-shop[style*="--span:2"] .maker-pills .rx-capsule,.maker-shop[style*="--span:3"] .maker-pills .rx-capsule{width:84px;height:38px;border-width:3px}
- .maker-shop[style*="--span:2"] .maker-pills .rx-capsule:nth-child(2),.maker-shop[style*="--span:3"] .maker-pills .rx-capsule:nth-child(2){left:96px;top:14px}
- .maker-shop[style*="--span:2"] .maker-pills .rx-capsule:nth-child(3),.maker-shop[style*="--span:3"] .maker-pills .rx-capsule:nth-child(3){left:46px;top:96px}
- .maker-shop[style*="--span:2"] .maker-pills .rx-capsule:nth-child(1),.maker-shop[style*="--span:3"] .maker-pills .rx-capsule:nth-child(1){top:40px}
+ .maker-shop[style*="--span:2;"],.maker-shop[style*="--span:3;"],.maker-shop[style*="--span:4;"]{justify-content:center;padding:36px 44px;position:relative}
+ .maker-shop[style*="--span:2;"] h3,.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] h3{font-size:44px;letter-spacing:-1.8px;max-width:11ch}
+ .maker-shop[style*="--span:2;"] p,.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] p{font-size:16px;max-width:34ch}
+ .maker-shop[style*="--span:2;"] .maker-pills,.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] .maker-pills{position:absolute;right:44px;top:50%;width:190px;height:150px;margin-top:-75px}
+ .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule,.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule{width:84px;height:38px;border-width:3px}
+ .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule:nth-child(2),.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule:nth-child(2){left:96px;top:14px}
+ .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule:nth-child(3),.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule:nth-child(3){left:46px;top:96px}
+ .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule:nth-child(1),.maker-shop[style*="--span:3;"] ,.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule:nth-child(1){top:40px}
 }
-@media(max-width:900px) and (min-width:701px){.maker-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:900px) and (min-width:701px){.maker-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.maker-shop{grid-column:span var(--span3,1)}}
 @media(max-width:700px){
  .maker{padding-bottom:36px}
  .maker-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
@@ -50,7 +50,7 @@
  .maker-buy{flex-direction:column;align-items:flex-start;gap:8px}
  .maker-price{font-size:17px}
  .maker-go{font-size:13px;padding:8px 13px}
- .maker-shop{min-height:0;padding:15px}
+ .maker-shop{min-height:0;padding:15px;grid-column:span var(--span2,1)}
  .maker-shop h3{font-size:21px}.maker-shop p{font-size:12px}
  .maker-pills{height:46px}.maker-pills .rx-capsule{width:34px;height:16px}
  .maker-pills .rx-capsule:nth-child(2){left:40px}.maker-pills .rx-capsule:nth-child(3){left:80px}
