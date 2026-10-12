@@ -97,8 +97,13 @@
   "rules": [
     "One pin per day. Never post the same destination link twice within 7 days.",
     "Each pin gets a fresh image (new headline, angle or layout), never a re-upload of an old image.",
-    "Product pins are text-only label designs. Never put Amazon product photos on a pin.",
+    "Product pins are text-only label designs that link straight to Amazon with the affiliate tag and carry the disclosure. Never put Amazon product photos on a pin.",
     "Photo layout only for Lindsay's own designs (her Etsy listing photos).",
     "Never use em dashes in any text."
-  ]
+  ],
+  "amazon": {
+    "tag": "dopaminesupplyco-20",
+    "link": "https://www.amazon.com/dp/<ASIN>?tag=dopaminesupplyco-20",
+    "disclosure": "#affiliate \u00b7 As an Amazon Associate I earn from qualifying purchases."
+  }
 }

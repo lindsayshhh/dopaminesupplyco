@@ -24,8 +24,11 @@ The scheduled task's own prompt holds the rules. This file holds the how-to deta
    last pin for that guide (check the log). Headline ideas: a specific person ("for the friend who..."),
    a number ("21 weird little..."), a moment ("Secret Santa under $25" only if true), or a joke.
 3. product: choose an active product from an in-season guide that has never been pinned (check
-   `subject` in the log). Link to `<guide>.html#<id>`, board = that guide's board. Use the label
-   layout: Patient = who it's for, Prescribed = 1 <product>, Dosage and Side effects from RX_DATA.
+   `subject` in the log). Link STRAIGHT TO AMAZON: `https://www.amazon.com/dp/<ASIN>?tag=dopaminesupplyco-20`
+   (ASIN from the product's affiliateUrl in catalog.js; never shorten or cloak the link). Board = that guide's
+   board. Use the label layout (text only, never Amazon photos): Patient = who it's for, Prescribed = 1 <product>,
+   Dosage and Side effects from RX_DATA. The description MUST end with the disclosure line
+   "#affiliate · As an Amazon Associate I earn from qualifying purchases." before the hashtags.
 4. etsy: open the Etsy shop in the browser pane and list active listings. Pick one whose listing
    was not pinned in the last `repeat_after_days` days. If none qualifies, do a guide pin instead.
    For a new listing photo, open the image URL (i.etsystatic.com, il_794xN size) in the pane, read it
@@ -37,6 +40,7 @@ The scheduled task's own prompt holds the rules. This file holds the how-to deta
 - Description: 2 to 3 sentences that name real items from the guide, then 4 to 5 hashtags.
 - Alt text: one plain sentence describing the image.
 - No em dashes anywhere. No claims about prices or sales that aren't on the site.
+- Amazon pins: put the affiliate disclosure in the description, keep the title free of prices, and never use the words "Amazon's choice" or "best seller".
 
 ## Publishing the image
 1. Commit the spec and the jpg, push to main. GitHub Pages serves it at
