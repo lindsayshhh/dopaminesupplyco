@@ -2253,7 +2253,7 @@ window.PRODUCTS = [
  {
   "id": "middle-finger-balloon-dog",
   "name": "Middle-finger balloon dog",
-  "caption": "A shiny little balloon dog with a very rude paw. Four inches of attitude.",
+  "caption": "A shiny gold balloon dog with two very rude paws. Four inches of attitude.",
   "brand": "zimiliz",
   "moods": [
    "Weird",
@@ -2270,8 +2270,8 @@ window.PRODUCTS = [
  },
  {
   "id": "vintage-motel-keychain",
-  "name": "Vintage motel keychain",
-  "caption": "The chunky motel key fob, minus the questionable room.",
+  "name": "White Lotus room keychain",
+  "caption": "A retro White Lotus resort room key fob. Check in, but maybe skip the vacation.",
   "brand": "Chillkat",
   "moods": [
    "Colorful"
@@ -2835,8 +2835,8 @@ window.PRODUCTS = [
  },
  {
   "id": "shit-typography-pillow",
-  "name": "Sh*t typography pillow",
-  "caption": "A bold black and white pillow that says exactly one word. You know which one.",
+  "name": "F*ck sh*t pillow",
+  "caption": "Two very honest words in big fuzzy letters. Says what everyone is thinking.",
   "brand": "Wakuma",
   "moods": [
    "Weird"
