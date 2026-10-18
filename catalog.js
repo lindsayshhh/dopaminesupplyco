@@ -2249,6 +2249,851 @@ window.PRODUCTS = [
   "affiliateUrl": "https://www.amazon.com/dp/B0DXP282H4",
   "amazonVerified": "2026-10-05",
   "active": true
+ },
+ {
+  "id": "middle-finger-balloon-dog",
+  "name": "Middle-finger balloon dog",
+  "caption": "A shiny little balloon dog with a very rude paw. Four inches of attitude.",
+  "brand": "zimiliz",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FQNK1HPZ",
+  "sourceType": "amazon",
+  "image": "assets/middle-finger-balloon-dog.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81SJW5lHn7L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FQNK1HPZ",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "vintage-motel-keychain",
+  "name": "Vintage motel keychain",
+  "caption": "The chunky motel key fob, minus the questionable room.",
+  "brand": "Chillkat",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B09F8BZXD5",
+  "sourceType": "amazon",
+  "image": "assets/vintage-motel-keychain.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51EjdJoZu8L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B09F8BZXD5",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "golden-girls-portrait-set",
+  "name": "Golden Girls portrait set",
+  "caption": "Four tropical canvas portraits of your favorite Miami roommates.",
+  "brand": "Generic",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DG2M1FLN",
+  "sourceType": "amazon",
+  "image": "assets/golden-girls-portrait-set.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91Ud0R8PntL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DG2M1FLN",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "emotional-support-cheez-it",
+  "name": "Emotional support Cheez-It",
+  "caption": "A plush cheesy cracker that is always there for you. Zero crumbs.",
+  "brand": "What Do You Meme?",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GFBS368G",
+  "sourceType": "amazon",
+  "image": "assets/emotional-support-cheez-it.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71YYqeEf13L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GFBS368G",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "skull-candle-warmer-lamp",
+  "name": "Skull candle warmer lamp",
+  "caption": "A skeleton holds a lamp over your candle and melts it from the top. No flame, all drama.",
+  "brand": "TOACSUCP",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H7R453BF",
+  "sourceType": "amazon",
+  "image": "assets/skull-candle-warmer-lamp.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71Bgfp8JUiL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H7R453BF",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "mystic-pickle",
+  "name": "Mystic pickle",
+  "caption": "A fortune-telling pickle with 100 answers. Press and receive wisdom.",
+  "brand": "DR DINGUS",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CYKK1167",
+  "sourceType": "amazon",
+  "image": "assets/mystic-pickle.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/8192d2+qedL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CYKK1167",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "big-eyed-frog-lamp",
+  "name": "Big-eyed frog lamp",
+  "caption": "A squishy silicone frog night light with very big, very concerned eyes.",
+  "brand": "Mubarek",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H1HP9VH7",
+  "sourceType": "amazon",
+  "image": "assets/big-eyed-frog-lamp.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61wEXFOAZvL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H1HP9VH7",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "gold-framed-pigeon-art",
+  "name": "Gold-framed pigeon art",
+  "caption": "Four nosy pigeons in a fancy gold frame. City birds, gallery treatment.",
+  "brand": "LJTYTHJA",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GZ36WRBQ",
+  "sourceType": "amazon",
+  "image": "assets/gold-framed-pigeon-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71UxoH831VL._AC_SL1486_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GZ36WRBQ",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "leaf-hand-towels",
+  "name": "Leaf hand towels",
+  "caption": "Three hand towels shaped like tropical leaves. Your sink gets a jungle.",
+  "brand": "Shape & Use",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GYRWG3NG",
+  "sourceType": "amazon",
+  "image": "assets/leaf-hand-towels.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71LpkeM6vhL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GYRWG3NG",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "money-bag-rug",
+  "name": "Money bag rug",
+  "caption": "A tufted pink money bag rug. Manifest from the floor up.",
+  "brand": "LAKEA",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0D22JMPGV",
+  "sourceType": "amazon",
+  "image": "assets/money-bag-rug.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91iRKabvs7L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0D22JMPGV",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "nature-pics-gag-calendar",
+  "name": "Cheeky nature gag calendar",
+  "caption": "A 2027 wall calendar of nature that looks very, very suggestive. Twelve months of giggles.",
+  "brand": "Lemome Home",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0B9R11K2B",
+  "sourceType": "amazon",
+  "image": "assets/nature-pics-gag-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81czo1k25uL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0B9R11K2B",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "crochet-friendship-candle",
+  "name": "Crochet friendship candle",
+  "caption": "A cute crochet candle with a sweet threat: forget me and I'll burn your house down.",
+  "brand": "YUEYUQIU",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GHDZ4BJM",
+  "sourceType": "amazon",
+  "image": "assets/crochet-friendship-candle.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61g9hPbkZOL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GHDZ4BJM",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "queen-card-pillow",
+  "name": "Queen card pillow",
+  "caption": "A plush playing card queen with fuzzy eyes and a mustache. Royal, weird, huggable.",
+  "brand": "Chegongmiao",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GRV56BYF",
+  "sourceType": "amazon",
+  "image": "assets/queen-card-pillow.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/718knvsPDoL._AC_SL1254_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GRV56BYF",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "long-cat-hand-towel",
+  "name": "Long cat hand towel",
+  "caption": "A very long orange cat that hangs around your kitchen and dries your hands.",
+  "brand": "MewMix",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CDVX61MG",
+  "sourceType": "amazon",
+  "image": "assets/long-cat-hand-towel.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71Y6yPD++rL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CDVX61MG",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "smiley-flower-sponge-holders",
+  "name": "Smiley flower sponge holders",
+  "caption": "Two happy little flowers that hold your sponge up so it can dry.",
+  "brand": "Lianxiaw",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GCWZ2WT5",
+  "sourceType": "amazon",
+  "image": "assets/smiley-flower-sponge-holders.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61BnZsl1SgL._AC_SL1024_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GCWZ2WT5",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "pickle-panic-print",
+  "name": "Pickle panic print",
+  "caption": "A cucumber watching its friend become a pickle. Kitchen art with a plot twist.",
+  "brand": "Ploceiny",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DBVLRC16",
+  "sourceType": "amazon",
+  "image": "assets/pickle-panic-print.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61qY6QfFvWL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DBVLRC16",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "space-cowboy-kitchen-towels",
+  "name": "Space cowboy kitchen towels",
+  "caption": "Retro desert towels with UFOs, cactus and cowboys. Yeehaw from space.",
+  "brand": "HSIASHENG",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GKDGMVYC",
+  "sourceType": "amazon",
+  "image": "assets/space-cowboy-kitchen-towels.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81vnoX8gUwL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GKDGMVYC",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "ketchup-splat-spoon-rest",
+  "name": "Ketchup splat spoon rest",
+  "caption": "A silicone ketchup splatter that catches your spoon. Messy look, clean counter.",
+  "brand": "LDAOS",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07G15Y3P3",
+  "sourceType": "amazon",
+  "image": "assets/ketchup-splat-spoon-rest.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51a5I92RcDL._AC_SL1105_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07G15Y3P3",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "funny-fridge-magnets",
+  "name": "Funny fridge magnets",
+  "caption": "Twenty silly magnets to hold up your grocery list and your sense of humor.",
+  "brand": "Ceenna",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CRL5RJJR",
+  "sourceType": "amazon",
+  "image": "assets/funny-fridge-magnets.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81S7ZuKgbpL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CRL5RJJR",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "burn-something-candle",
+  "name": "Burn something candle",
+  "caption": "For when you just want to burn something. A calmer option than the alternative.",
+  "brand": "Unbox Bliss",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H1R2G9YL",
+  "sourceType": "amazon",
+  "image": "assets/burn-something-candle.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61cEXa4XtwL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H1R2G9YL",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "low-vibin-energy-box-sign",
+  "name": "Low-vibin' energy box sign",
+  "caption": "A pink desk sign that bans low-vibin', sketchy energy from your aura.",
+  "brand": "mmiishe",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H29PVTPY",
+  "sourceType": "amazon",
+  "image": "assets/low-vibin-energy-box-sign.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/515ws2qLz5L._AC_SL1200_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H29PVTPY",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "retro-carton-vase",
+  "name": "Retro carton vase",
+  "caption": "A ceramic vase styled like a vintage cigarette pack, now full of flowers instead.",
+  "brand": "Moonlii",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DZTYW3J4",
+  "sourceType": "amazon",
+  "image": "assets/retro-carton-vase.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71MY5SP4mML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DZTYW3J4",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "crayon-golf-tees",
+  "name": "Crayon golf tees",
+  "caption": "Golf tees in a crayon box. For golfers who play like they're still learning to color.",
+  "brand": "HahaHome",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GHSR3QFX",
+  "sourceType": "amazon",
+  "image": "assets/crayon-golf-tees.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/718BX04dgML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GHSR3QFX",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "martha-and-snoop-candle",
+  "name": "Martha and Snoop prayer candle",
+  "caption": "The kitchen's most iconic duo, together on one glass prayer candle.",
+  "brand": "Celeb Prayer Candle",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BSHDZL9D",
+  "sourceType": "amazon",
+  "image": "assets/martha-and-snoop-candle.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/716BhERaakL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BSHDZL9D",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "drag-queen-prayer-candle",
+  "name": "Drag queen prayer candle",
+  "caption": "A glass prayer candle starring a drag icon. Good luck, and don't mess it up.",
+  "brand": "Celeb Prayer Candle",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07N7V9VJ9",
+  "sourceType": "amazon",
+  "image": "assets/drag-queen-prayer-candle.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51QUiHGgLUL._AC_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07N7V9VJ9",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "funky-tiger-pillow-cover",
+  "name": "Funky tiger pillow cover",
+  "caption": "A maximalist lumbar pillow cover with a tiger in the tropics.",
+  "brand": "awdschkj",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GKH547Z7",
+  "sourceType": "amazon",
+  "image": "assets/funky-tiger-pillow-cover.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81aWZjhSKfL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GKH547Z7",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "capybara-mama-plush",
+  "name": "Capybara mama plush",
+  "caption": "A big soft capybara with four baby capybaras zipped in her tummy.",
+  "brand": "TOYSYM",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DXVGBBSZ",
+  "sourceType": "amazon",
+  "image": "assets/capybara-mama-plush.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61qQ7l7KKeL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DXVGBBSZ",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "giant-toast-pillow",
+  "name": "Giant toast pillow",
+  "caption": "A huge slice of buttered toast you can lie on. Carbs, but cozy.",
+  "brand": "Levenkeness",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07QLCLJ2Q",
+  "sourceType": "amazon",
+  "image": "assets/giant-toast-pillow.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61d2ve5Kt4L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07QLCLJ2Q",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "chicken-vs-hotdog-game",
+  "name": "Chicken vs Hotdog game",
+  "caption": "A party game about flipping rubber chickens and tossing hot dogs. As serious as it sounds.",
+  "brand": "Big Potato",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0D9HM75PP",
+  "sourceType": "amazon",
+  "image": "assets/chicken-vs-hotdog-game.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71xYke6iEzL._AC_SL1369_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0D9HM75PP",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "buddha-board",
+  "name": "Buddha Board",
+  "caption": "Paint with water and watch it fade away. Art therapy with no mess.",
+  "brand": "Buddha Board",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0010TEFFQ",
+  "sourceType": "amazon",
+  "image": "assets/buddha-board.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71v7Kmsp0tL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0010TEFFQ",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "days-of-the-week-swear-pens",
+  "name": "Days of the week swear pens",
+  "caption": "One very honest pen for every day of the week, plus bonus feelings.",
+  "brand": "Cityhermit",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BMQC7YW1",
+  "sourceType": "amazon",
+  "image": "assets/days-of-the-week-swear-pens.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71+sbYidhQL._AC_SL1254_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BMQC7YW1",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "wap-waffles-and-pancakes-candle",
+  "name": "W.A.P. waffles and pancakes candle",
+  "caption": "Waffles and pancakes scented, with syrup and butter. What did you think it meant?",
+  "brand": "The Candle Daddy",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B09DTGX3BY",
+  "sourceType": "amazon",
+  "image": "assets/wap-waffles-and-pancakes-candle.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71smhPIRheL._AC_SL1408_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B09DTGX3BY",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "toaster-bath-bomb",
+  "name": "Toaster bath bomb",
+  "caption": "A bath bomb shaped like a toaster. Extremely dark humor, extremely safe bath.",
+  "brand": "MilkToast Brands",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BP8H79SX",
+  "sourceType": "amazon",
+  "image": "assets/toaster-bath-bomb.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71i4vY7deDL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BP8H79SX",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "shit-typography-pillow",
+  "name": "Sh*t typography pillow",
+  "caption": "A bold black and white pillow that says exactly one word. You know which one.",
+  "brand": "Wakuma",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0G52F5464",
+  "sourceType": "amazon",
+  "image": "assets/shit-typography-pillow.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91rspFOAOEL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0G52F5464",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "ew-david-pillow",
+  "name": "Ew, David pillow",
+  "caption": "A needlepoint pillow with Alexis's most iconic line. Officially licensed.",
+  "brand": "Jay Franco",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0G61CYKLY",
+  "sourceType": "amazon",
+  "image": "assets/ew-david-pillow.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81NuOjDb8lL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0G61CYKLY",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "poop-emoji-pillow",
+  "name": "Poop emoji pillow",
+  "caption": "The happiest emoji, now a 12-inch plush. Smiling, squishy and very brown.",
+  "brand": "Rhode Island Novelty",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B01BI6S0CO",
+  "sourceType": "amazon",
+  "image": "assets/poop-emoji-pillow.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71WM37zN-6L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B01BI6S0CO",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "middle-finger-pillow",
+  "name": "Middle-finger pillow",
+  "caption": "A soft sherpa hand pillow that says what you're thinking.",
+  "brand": "Menkxi",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CLY9VBRS",
+  "sourceType": "amazon",
+  "image": "assets/middle-finger-pillow.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81rkWJ6GxeL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CLY9VBRS",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "this-is-bananas-oven-mitt",
+  "name": "This is bananas oven mitt",
+  "caption": "An oven mitt that agrees: this whole situation is bananas.",
+  "brand": "Crazy Dog T-Shirts",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BZZWSH8B",
+  "sourceType": "amazon",
+  "image": "assets/this-is-bananas-oven-mitt.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71snwHmqpSL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BZZWSH8B",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "im-fine-kitchen-towels",
+  "name": "I'm Fine kitchen towels",
+  "caption": "Retro 50s housewife towels that insist everything is fine. It is not.",
+  "brand": "Foritho",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DL2VB313",
+  "sourceType": "amazon",
+  "image": "assets/im-fine-kitchen-towels.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61wCIermggL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DL2VB313",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "floral-taco-art",
+  "name": "Floral taco art",
+  "caption": "A taco stuffed with flowers in a fancy gold frame. Fine art, Tuesday edition.",
+  "brand": "SAMHOU",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H2VM5F4Y",
+  "sourceType": "amazon",
+  "image": "assets/floral-taco-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81QdiOcwGwL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H2VM5F4Y",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "chef-was-cute-poster",
+  "name": "Chef Was Cute poster",
+  "caption": "A five-star review for your kitchen: chef was cute, would eat here again.",
+  "brand": "HUGANE",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DJX78NBY",
+  "sourceType": "amazon",
+  "image": "assets/chef-was-cute-poster.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81XMVukiYcL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DJX78NBY",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "have-you-tried-cheese-towel",
+  "name": "Have You Tried Cheese towel",
+  "caption": "A cotton dish towel with life advice for every situation: have you tried cheese?",
+  "brand": "Blue Q",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07ML2RT85",
+  "sourceType": "amazon",
+  "image": "assets/have-you-tried-cheese-towel.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91d6JVxM6FL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07ML2RT85",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "scares-your-family-oven-mitt",
+  "name": "Scares Your Family oven mitt",
+  "caption": "Do one thing every day that scares your family. Like cooking.",
+  "brand": "Blue Q",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CRJ1CFJ4",
+  "sourceType": "amazon",
+  "image": "assets/scares-your-family-oven-mitt.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81CwQFSeSYL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CRJ1CFJ4",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "brain-dump-notepad",
+  "name": "Brain dump notepad",
+  "caption": "A tear-off notepad for unloading every thought before your brain does it for you.",
+  "brand": "Brain Dump",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HFFY687F",
+  "sourceType": "amazon",
+  "image": "assets/brain-dump-notepad.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71OGunHcezL._SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HFFY687F",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "vintage-goose-oval-art",
+  "name": "Vintage goose oval art",
+  "caption": "A grandma-core goose portrait in an oval frame. Honk, but make it cottage.",
+  "brand": "QKX",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FJRRTQ49",
+  "sourceType": "amazon",
+  "image": "assets/vintage-goose-oval-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81L4zzB85IL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FJRRTQ49",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "cactus-coaster-set",
+  "name": "Cactus coaster set",
+  "caption": "Six green coasters that stack into a cactus in a little pot.",
+  "brand": "Sirensky",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B075LZ539Z",
+  "sourceType": "amazon",
+  "image": "assets/cactus-coaster-set.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51P9--fQqtL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B075LZ539Z",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "snail-spa-headbands",
+  "name": "Snail spa headbands",
+  "caption": "Fuzzy face-wash headbands with little snails and palm trees on top.",
+  "brand": "Molain",
+  "moods": [
+   "Cozy",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BQJ9N5PR",
+  "sourceType": "amazon",
+  "image": "assets/snail-spa-headbands.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71Kzep16MKL._SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BQJ9N5PR",
+  "amazonVerified": "2026-10-18",
+  "active": true
+ },
+ {
+  "id": "go-the-f-to-sleep",
+  "name": "Go the F*ck to Sleep",
+  "caption": "The bedtime story for grown-ups who have read the same picture book 400 times.",
+  "brand": "Adam Mansbach",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/1617750255",
+  "sourceType": "amazon",
+  "image": "assets/go-the-f-to-sleep.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71qKtbosqdL._SL1200_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/1617750255",
+  "amazonVerified": "2026-10-18",
+  "active": true
  }
 ];
 window.SHOP_ITEMS = [{"id":"just-say-no-tee","name":"Just Say No tee","caption":"A retro green circle logo with a firm little message. Garment-dyed and lived-in soft.","kind":"Unisex tee","price":"$35.00","url":"https://www.etsy.com/listing/4593892518/just-say-no-circle-logo-t-shirt-retro","image":"assets/shop/just-say-no-tee.webp","alt":"White t-shirt with a distressed green circle logo reading Just say no"},{"id":"support-your-local-murder-tee","name":"Support Your Local Murder tee","caption":"A murder of crows, sticking together. For bird people and true crime fans.","kind":"Unisex tee","price":"$30.00","url":"https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow","image":"assets/shop/support-your-local-murder-tee.webp","alt":"White t-shirt printed with four black crows and the words Support Your Local Murder"},{"id":"rosie-riveter-pin","name":"Rosie the Riveter pin","caption":"We can do it, on your denim jacket. A glossy pin of the classic Rosie art.","kind":"Pin button","price":"From $6.10","url":"https://www.etsy.com/listing/4593859985/rosie-the-riveter-artwork-pin-button","image":"assets/shop/rosie-riveter-pin.webp","alt":"Round yellow pin button showing Rosie the Riveter flexing her arm"},{"id":"franklin-blanket","name":"Ben Franklin money blanket","caption":"Ben Franklin's engraved stare, blown up on a plush velveteen throw. Very money.","kind":"Velveteen throw","price":"From $25.00","url":"https://www.etsy.com/listing/4433255473/benjamin-franklin-portrait-blanket-money","image":"assets/shop/franklin-blanket.webp","alt":"Blanket printed with a close-up of Benjamin Franklin's engraved face from the 100 dollar bill"}];
