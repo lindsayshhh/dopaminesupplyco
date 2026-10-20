@@ -11,6 +11,12 @@ The scheduled task's own prompt holds the rules. This file holds the how-to deta
   It prints JSON. `overflow:false`, `imagesLoaded:true` and no errors means the pin is good.
 - `specs/examples/`: one spec per layout (label, list, bottle, photo). Copy one and edit.
 - `photos/`: Lindsay's own design photos (for the photo layout only).
+- Mascot: every rendered pin (guide and Etsy) includes Lindsay's pill mascot (Lindsay asked for this on 2026-10-20).
+  pin.html adds it by default (label: point, list: wave, bottle: thumbs-up, photo: cheer). Pick a pose that fits
+  with `"mascot":"<pose>"` or `{"pose","side","size","edge","flip"}`. Poses in `../assets/mascot/`: point, wave,
+  cheer, peace, thumbs-up, shy, crew (white elephant), with-coworker (coworker gifts), with-mom (mom gifts).
+  Check the jpg: the mascot must not cover headline, label text or the photo's design. Product pins use Amazon's
+  photo, so they have no mascot.
 
 ## Site data (in the repo root)
 - `catalog.js`: `window.PRODUCTS`, each with id, name, caption, brand, moods, affiliateUrl. Only `active` ones are live.

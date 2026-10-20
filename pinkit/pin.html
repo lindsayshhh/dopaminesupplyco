@@ -55,6 +55,8 @@ h1{margin:0;font-family:'Space Grotesk',sans-serif;font-weight:700;line-height:.
 .sticker .fields b{font-size:12px;padding-top:4px}
 .sticker .band{padding:12px 18px;font-size:14px}
 .sticker .bars{margin:2px 18px 16px;height:30px}
+/* Mascot (Lindsay's pill character, ../assets/mascot/<pose>.webp) */
+.mascot{position:absolute;z-index:3;height:340px;width:auto;filter:drop-shadow(6px 8px 0 rgba(38,37,30,.18));pointer-events:none}
 /* Footer */
 .foot{display:flex;flex-direction:column;align-items:center;gap:30px;position:relative;z-index:1}
 .cta{width:640px;height:102px;box-sizing:border-box;display:flex;border:4px solid currentColor;border-radius:99px;overflow:hidden;color:var(--ink)}
@@ -76,6 +78,8 @@ h1{margin:0;font-family:'Space Grotesk',sans-serif;font-weight:700;line-height:.
 // list: [item, ...] and more: "+ 6 more on the list"  (list layout)
 // bottle: {title, tag, directions}  (bottle layout)
 // photo: path relative to pinkit/ (photo layout, Lindsay's own design photos only)
+// mascot: pose name ("point","wave","cheer","peace","thumbs-up","shy","crew","with-coworker","with-mom")
+//   or {pose, side:"right"|"left", size:px height, edge:px from side (default -28), flip:true}. On by default; set false to hide.
 // cta: button text. site: footer second line (default "dopaminesupplyco.com").
 const PALETTE={ink:'#26251e',cream:'#fff9ee',orange:'#f46b45',pink:'#ff8ebd',yellow:'#ffd84d',blue:'#4754cf',green:'#d8e897',purple:'#8755ad',amber:'#eea038',mint:'#bfe7d9',white:'#ffffff',lavender:'#e6dcf7'};
 const DARK=['#26251e','#4754cf','#f46b45','#8755ad'];
@@ -107,16 +111,19 @@ if(S.layout==='label'){
 }
 const ctaBg = S.ctaColor? c(S.ctaColor) : (accent===PALETTE.pink||!dark ? (bg===PALETTE.pink?PALETTE.cream:PALETTE.pink) : PALETTE.pink);
 const center = S.layout==='bottle';
+const MDEF={label:{pose:'point',side:'right'},list:{pose:'wave',side:'right'},bottle:{pose:'thumbs-up',side:'right',size:270,edge:-56},photo:{pose:'cheer',side:'left'}};
+const MW=(S.mascot===false)?null:Object.assign({},MDEF[S.layout]||{pose:'wave',side:'right'},typeof S.mascot==='string'?{pose:S.mascot}:(S.mascot||{}));
+const mascotHtml=MW?`<img class="mascot" id="mascot" src="../assets/mascot/${esc(MW.pose)}.webp" alt="" style="height:${MW.size||(['crew','with-coworker','with-mom'].includes(MW.pose)?300:340)}px;${MW.side==='left'?'left':'right'}:${MW.edge??-28}px;bottom:-36px;${MW.flip?'transform:scaleX(-1)':''}">`:'';
 document.getElementById('root').innerHTML=`<div class="pin ${center?'center':''}" style="background:${bg};color:${fg}">
 <div class="top">${S.eyebrow?`<div class="chip ${dark?'':'filled'}" ${dark?'':`style="background:${PALETTE.cream}"`}>${cap(PALETTE.pink,PALETTE.yellow,40,20)}${esc(S.eyebrow)}</div>`:''}
 <h1 id="h1">${hl(S.headline)}</h1>${S.sub?`<p class="sub">${esc(S.sub)}</p>`:''}</div>
-<div class="mid">${mid}</div>
+<div class="mid">${mid}${mascotHtml}</div>
 <div class="foot"><div class="cta" style="background:${ctaBg};box-shadow:8px 8px 0 ${dark?PALETTE.cream:PALETTE.ink};border-color:${dark?PALETTE.cream:PALETTE.ink}"><span class="t">${cap(PALETTE.yellow,PALETTE.cream,52,26,-35)}${esc(S.cta||'See the list')}</span><span class="a">${arrow}</span></div>
 <div class="brand"><img src="../assets/dopamine-logo-transparent.png" alt=""><div><span class="n">Dopamine Supply Co.</span><span class="u">${esc(S.site||'dopaminesupplyco.com')}</span></div></div></div></div>`;
 // Fit: shrink the headline, then the middle card, until nothing spills past 1500px.
 window.fitPin=()=>{const pin=document.querySelector('.pin'),h=document.getElementById('h1'),mid=document.querySelector('.mid');let size=S.headlineSize||112;h.style.fontSize=size+'px';
  const over=()=>{mid.style.flex='none';const r=pin.scrollHeight>1500;mid.style.flex='';return r};
  while(over()&&size>60){size-=4;h.style.fontSize=size+'px'}
- let sc=1;const m=mid.lastElementChild;while(over()&&sc>.7){sc-=.03;m.style.zoom=sc}
+ let sc=1;const m=[...mid.children].filter(e=>e.id!=='mascot').pop();while(over()&&sc>.7){sc-=.03;m.style.zoom=sc}
  return {headline:size,zoom:+sc.toFixed(2),overflow:over()}};
 </script></body></html>
