@@ -139,3 +139,8 @@ body{font-family:'DM Sans','Helvetica Neue',Arial,sans-serif}
 @media(max-width:560px){.rx-mini dl{grid-template-columns:minmax(0,1fr);row-gap:2px}.rx-mini dd{margin-bottom:6px}.rx-mini dd:last-child{margin-bottom:0}}
 @media(max-width:380px){.rx-pick{grid-template-columns:104px minmax(0,1fr)}.rx-pick-img{width:104px;height:104px}.rx-actions{grid-template-columns:minmax(0,1fr)}.rx-actions .rx-btn{white-space:normal}}
 @media(prefers-reduced-motion:reduce){.rx-cta,.rx-promo-card,.rx-opt{transition:none}}
+.rx-bottle{position:relative}
+.rx-mascot-start{position:absolute;width:118px;left:calc(50% + 146px);bottom:-4px;transform:rotate(6deg)}
+.rx-mascot-result{width:92px;margin-bottom:2px}
+@media(max-width:900px){.rx-mascot-start{display:none}}
+@media(max-width:700px){.rx-mascot-result{width:72px}}

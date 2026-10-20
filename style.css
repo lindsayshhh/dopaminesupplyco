@@ -25,3 +25,10 @@ footer{border-top:1px solid var(--line);padding-top:22px;padding-bottom:22px}.fo
 .featured-copy h2{min-height:2.4em;display:flex;align-items:center;justify-content:center}.featured-copy{min-height:117px}
 .save-button,.card-image .save-button{width:44px;height:44px}.amazon-link{min-height:44px;align-items:center}.close{width:44px;height:44px}.chip{min-height:44px}.nav-save{min-height:44px}.remove{min-width:44px;min-height:44px}.saved-row>div{min-width:0}.saved-row h3{overflow-wrap:anywhere}.text-button{min-height:44px}
 @media(max-width:700px){.search input{font-size:16px}.search{min-width:160px}.filter-line{gap:10px}.budget select{font-size:16px;min-height:44px;width:125px}.nav-save{padding:7px 10px}.card-image .save-button{right:5px;top:5px}.featured-copy{min-height:116px}.feature-actions{margin-top:8px}.list-actions{flex-wrap:wrap}.footer-top{flex-wrap:wrap}.footer-top>div{flex-shrink:0}.hero h1{font-size:clamp(24px,7.5vw,29px)}}
+.mascot{display:block;height:auto;user-select:none;-webkit-user-drag:none;pointer-events:none}
+.footer-sign{display:flex;align-items:center;gap:12px}.footer-sign .disclosure{margin-bottom:0}
+.footer-mascot{width:44px;height:auto;transform:rotate(-6deg)}
+.hero-mascot{width:96px;margin:0 auto 6px;animation:mascot-bob 3.2s ease-in-out infinite}
+@keyframes mascot-bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(3deg)}}
+@media(prefers-reduced-motion:reduce){.hero-mascot{animation:none}}
+@media(max-width:700px){.hero-mascot{width:70px}.footer-mascot{width:36px}}
