@@ -32,3 +32,5 @@ footer{border-top:1px solid var(--line);padding-top:22px;padding-bottom:22px}.fo
 @keyframes mascot-bob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-6px) rotate(3deg)}}
 @media(prefers-reduced-motion:reduce){.hero-mascot{animation:none}}
 @media(max-width:700px){.hero-mascot{width:70px}.footer-mascot{width:36px}}
+.hero-mascot-duo{width:132px}
+@media(max-width:700px){.hero-mascot-duo{width:100px}}
