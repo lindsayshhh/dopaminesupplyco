@@ -36,3 +36,7 @@ footer{border-top:1px solid var(--line);padding-top:22px;padding-bottom:22px}.fo
 @media(max-width:700px){.hero-mascot-duo{width:100px}}
 .hero-mascot-wide{width:196px}
 @media(max-width:700px){.hero-mascot-wide{width:150px}}
+.hero-mascot-crew{width:250px}
+.hero-mascot-wide,.hero-mascot-crew{animation-name:mascot-float}
+@keyframes mascot-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media(max-width:700px){.hero-mascot-crew{width:190px}}
