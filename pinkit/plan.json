@@ -63,6 +63,55 @@
    "season": "all year, extra weight Jan to Apr"
   },
   {
+   "slug": "gifts-under-15",
+   "name": "Funny Gifts Under $15 That Don't Look Cheap",
+   "picks": 30,
+   "board": "Gift Ideas",
+   "season": "Oct 15 to Dec 24, extra weight in Nov and Dec"
+  },
+  {
+   "slug": "gifts-under-25",
+   "name": "Funny Gifts Under $25 for Secret Santa and Everyone Else",
+   "picks": 31,
+   "board": "Gift Ideas",
+   "season": "Oct 15 to Dec 24, extra weight in Nov and Dec"
+  },
+  {
+   "slug": "gifts-under-50",
+   "name": "Weird Gifts Under $50 That Feel Like a Big Deal",
+   "picks": 30,
+   "board": "Gift Ideas",
+   "season": "Nov 1 to Dec 24, extra weight in Dec"
+  },
+  {
+   "slug": "gifts-for-best-friend",
+   "name": "Funny Gifts for Your Best Friend",
+   "picks": 25,
+   "board": "Gift Ideas",
+   "season": "all year, extra weight Nov, Dec and Feb"
+  },
+  {
+   "slug": "gifts-for-mom",
+   "name": "Fun, Quirky Gifts for Mom",
+   "picks": 24,
+   "board": "Gift Ideas",
+   "season": "all year, extra weight Nov, Dec and late Apr to May 10"
+  },
+  {
+   "slug": "gifts-for-him",
+   "name": "Funny Gifts for Him That He'll Actually Use",
+   "picks": 24,
+   "board": "Gift Ideas",
+   "season": "all year, extra weight Nov, Dec and June"
+  },
+  {
+   "slug": "gifts-for-person-who-has-everything",
+   "name": "Weird Gifts for the Person Who Has Everything",
+   "picks": 25,
+   "board": "Gift Ideas",
+   "season": "all year, extra weight Nov and Dec"
+  },
+  {
    "slug": "prescription",
    "name": "Gift prescription quiz",
    "picks": 3,

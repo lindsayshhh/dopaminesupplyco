@@ -53,3 +53,6 @@
 @media(max-width:380px){.guide-tiles{grid-template-columns:minmax(0,1fr)}}
 @media(prefers-reduced-motion:reduce){.guide-tile{transition:none}}
 .t-mint{--tile:#bfe7d9}
+.guide-group+.guide-group{margin-top:30px}
+.guide-group-title{font-family:'DM Sans',Arial,sans-serif;font-size:11px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;margin:0 0 14px}
+@media(max-width:700px){.guide-group+.guide-group{margin-top:22px}.guide-group-title{font-size:10px;margin-bottom:10px}}
