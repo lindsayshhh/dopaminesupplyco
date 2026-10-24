@@ -3187,7 +3187,7 @@ window.PRODUCTS = [
  {
   "id": "monet-water-lilies-cat-art",
   "name": "Water lilies cat art",
-  "caption": "Monet's water lilies, but a black cat is sitting right in the middle of them. Gold frame, fancy energy.",
+  "caption": "Monet's water lilies, but two cats are swimming right through the middle of them. Gold frame, fancy energy.",
   "brand": "AYHSSMO",
   "moods": [
    "Colorful",
@@ -3276,7 +3276,7 @@ window.PRODUCTS = [
  {
   "id": "a-few-showers-later-curtain",
   "name": "A Few Showers Later shower curtain",
-  "caption": "A blue ocean shower curtain with a skeleton joke: a few showers later.",
+  "caption": "A bright blue ocean shower curtain with sea creatures and a big promise: a few showers later.",
   "brand": "KAIRA",
   "moods": [
    "Weird",
@@ -3312,7 +3312,7 @@ window.PRODUCTS = [
  {
   "id": "dopamine-cat-shower-curtain",
   "name": "Dopamine cat shower curtain",
-  "caption": "A Matisse-style shower curtain full of tropical leaves, bright color blocks and one cool black cat.",
+  "caption": "A Matisse-style shower curtain full of tropical plants, bright colors and a few very relaxed black cats.",
   "brand": "Lifeella",
   "moods": [
    "Colorful"
@@ -3700,7 +3700,7 @@ window.PRODUCTS = [
  {
   "id": "face-planters",
   "name": "Face planters",
-  "caption": "Two blue resin head planters that grow little succulents right out of their heads.",
+  "caption": "A white resin planter shaped like a lounging little person holding two tiny pots for succulents.",
   "brand": "Sederikun",
   "moods": [
    "Weird",
