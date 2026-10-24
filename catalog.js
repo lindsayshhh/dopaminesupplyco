@@ -3094,6 +3094,732 @@ window.PRODUCTS = [
   "affiliateUrl": "https://www.amazon.com/dp/1617750255",
   "amazonVerified": "2026-10-18",
   "active": true
+ },
+ {
+  "id": "monstera-leaf-slotted-spoon",
+  "name": "Monstera leaf slotted spoon",
+  "caption": "A bright green slotted spoon shaped like a monstera leaf. Your pasta water drains through the leaf holes.",
+  "brand": "ZYROA",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FSKBYG5V",
+  "sourceType": "amazon",
+  "image": "assets/monstera-leaf-slotted-spoon.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/7112wVQa1FL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FSKBYG5V",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "cat-paw-mini-tongs",
+  "name": "Cat paw mini tongs",
+  "caption": "Two little stainless tongs that end in tiny cat paws. Grab snacks, olives or ice cubes like a cat would.",
+  "brand": "Acxetx",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GR56SLMN",
+  "sourceType": "amazon",
+  "image": "assets/cat-paw-mini-tongs.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71lDglPb+mL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GR56SLMN",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "rainbow-silicone-utensil-set",
+  "name": "Rainbow silicone utensil set",
+  "caption": "Nine rainbow-handled silicone kitchen tools, tongs included. Same cooking, louder drawer.",
+  "brand": "EcoGadgetz",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DTC5S4T8",
+  "sourceType": "amazon",
+  "image": "assets/rainbow-silicone-utensil-set.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71Ju40vOgML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DTC5S4T8",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "meerkat-jar-spatula",
+  "name": "Meerkat jar spatula",
+  "caption": "A skinny silicone meerkat that dives into jars and scrapes out the last bit of peanut butter.",
+  "brand": "BuddyGadget",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H99FBWB1",
+  "sourceType": "amazon",
+  "image": "assets/meerkat-jar-spatula.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61vVA5zBgeL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H99FBWB1",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "what-would-jesus-stew-spoon",
+  "name": "What Would Jesus Stew spoon",
+  "caption": "A wooden spoon engraved with a very serious question: what would Jesus stew?",
+  "brand": "GOOFBALLS",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GHZQDJNQ",
+  "sourceType": "amazon",
+  "image": "assets/what-would-jesus-stew-spoon.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51Waridg1DL._AC_SL1200_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GHZQDJNQ",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "monet-water-lilies-cat-art",
+  "name": "Water lilies cat art",
+  "caption": "Monet's water lilies, but a black cat is sitting right in the middle of them. Gold frame, fancy energy.",
+  "brand": "AYHSSMO",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GD1F3KJZ",
+  "sourceType": "amazon",
+  "image": "assets/monet-water-lilies-cat-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71CTz73ZW2L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GD1F3KJZ",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "tiger-print-rug",
+  "name": "Tiger print rug",
+  "caption": "A soft rug cut in the shape of a tiger pelt, minus any actual tigers. Instant maximalist living room.",
+  "brand": "yingda1992",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07XTPF5G6",
+  "sourceType": "amazon",
+  "image": "assets/tiger-print-rug.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61PkwG7DHUL._AC_SL1000_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07XTPF5G6",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "cat-flower-kitchen-towels",
+  "name": "Cat and flower kitchen towels",
+  "caption": "Two kitchen towels covered in black cats hiding in bright flowers.",
+  "brand": "Miss Adola",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DS26NT82",
+  "sourceType": "amazon",
+  "image": "assets/cat-flower-kitchen-towels.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81+QJTgMwfL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DS26NT82",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "cat-bathing-dino-shower-curtain",
+  "name": "Cat bathing a dinosaur shower curtain",
+  "caption": "A shower curtain where a cat is giving a T. rex a bubble bath. Nobody looks thrilled.",
+  "brand": "BIYSUC",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H4RRR8R2",
+  "sourceType": "amazon",
+  "image": "assets/cat-bathing-dino-shower-curtain.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61O6fL26AJL._AC_SL1200_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H4RRR8R2",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "would-poop-here-again-sign",
+  "name": "Would Poop Here Again sign",
+  "caption": "A five-star review sign for your bathroom. Rated: would poop here again.",
+  "brand": "CrazySign",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BLVKBS3R",
+  "sourceType": "amazon",
+  "image": "assets/would-poop-here-again-sign.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61-5EFrT9VL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BLVKBS3R",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "a-few-showers-later-curtain",
+  "name": "A Few Showers Later shower curtain",
+  "caption": "A blue ocean shower curtain with a skeleton joke: a few showers later.",
+  "brand": "KAIRA",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FVSK265B",
+  "sourceType": "amazon",
+  "image": "assets/a-few-showers-later-curtain.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71k8IRN7CDL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FVSK265B",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "what-if-it-all-works-out-neon",
+  "name": "What If It All Works Out neon sign",
+  "caption": "A pink LED neon sign with a hopeful question: what if it all works out?",
+  "brand": "Gdbkabf",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F21MJCRD",
+  "sourceType": "amazon",
+  "image": "assets/what-if-it-all-works-out-neon.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71QUk6TJx+L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F21MJCRD",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "dopamine-cat-shower-curtain",
+  "name": "Dopamine cat shower curtain",
+  "caption": "A Matisse-style shower curtain full of tropical leaves, bright color blocks and one cool black cat.",
+  "brand": "Lifeella",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GR31X75L",
+  "sourceType": "amazon",
+  "image": "assets/dopamine-cat-shower-curtain.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81lERAXWvwL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GR31X75L",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "reading-parrot-art",
+  "name": "Reading parrot art",
+  "caption": "A framed portrait of a cockatoo in glasses, deeply into a good book.",
+  "brand": "RLKHG",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GY4S8HJ4",
+  "sourceType": "amazon",
+  "image": "assets/reading-parrot-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/814knhl4vPL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GY4S8HJ4",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "pigeon-pooping-on-people-art",
+  "name": "Pigeon reading Pooping on People art",
+  "caption": "A framed pigeon in pink glasses, studying a book called Pooping on People. Research matters.",
+  "brand": "Julaydi",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FD36R1B3",
+  "sourceType": "amazon",
+  "image": "assets/pigeon-pooping-on-people-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/6184tEIosqL._AC_SL1194_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FD36R1B3",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "are-you-pooping-cat-rug",
+  "name": "Are You Pooping cat rug",
+  "caption": "A U-shaped toilet rug with three black cats asking the obvious question.",
+  "brand": "Drydiet",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FJRTT61B",
+  "sourceType": "amazon",
+  "image": "assets/are-you-pooping-cat-rug.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/812F-3gUt4L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FJRTT61B",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "chill-out-floaty-pen",
+  "name": "Chill Out floaty pen",
+  "caption": "A floaty pen where tiny pills drift back and forth past the words Chill Out.",
+  "brand": "GOOFBALLS",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FVHMMLTM",
+  "sourceType": "amazon",
+  "image": "assets/chill-out-floaty-pen.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61w8mDD3B7L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FVHMMLTM",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "scented-lava-gel-pens",
+  "name": "Scented lava gel pens",
+  "caption": "Five gel pens with lava-lamp goo inside, and each one smells like something different.",
+  "brand": "Lifelines",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DCCFVWTC",
+  "sourceType": "amazon",
+  "image": "assets/scented-lava-gel-pens.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81dkaMmRm5L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DCCFVWTC",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "mini-hand-tongs",
+  "name": "Mini hand tongs",
+  "caption": "Eight little tongs with silicone hands on the end. Pinch your snacks with tiny fingers.",
+  "brand": "Shindel",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B071P81QVN",
+  "sourceType": "amazon",
+  "image": "assets/mini-hand-tongs.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61-gHYvbWSL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B071P81QVN",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "drippy-painted-apple-statue",
+  "name": "Drippy painted apple statue",
+  "caption": "A big glossy apple with bright paint dripping down the sides. Pop art for the shelf.",
+  "brand": "JOOMBE",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FJRV53F8",
+  "sourceType": "amazon",
+  "image": "assets/drippy-painted-apple-statue.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71+-GwHqHUL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FJRV53F8",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "moss-pond-rug",
+  "name": "Moss and pond rug",
+  "caption": "A shaggy rug made to look like mossy hills around a little blue pond.",
+  "brand": "THRILRUG",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0C373MWWM",
+  "sourceType": "amazon",
+  "image": "assets/moss-pond-rug.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/910n89hFspL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0C373MWWM",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "lego-starry-night",
+  "name": "LEGO Starry Night",
+  "caption": "Van Gogh's Starry Night as a LEGO build, with a little Vincent painting in the corner.",
+  "brand": "LEGO",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B09SM828FD",
+  "sourceType": "amazon",
+  "image": "assets/lego-starry-night.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81n1a0P+yyL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B09SM828FD",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "crochet-flower-pot-coasters",
+  "name": "Crochet flower pot coasters",
+  "caption": "Handmade crochet flower coasters that stack back into their own little plant pot.",
+  "brand": "Vane Oak",
+  "moods": [
+   "Cozy",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F8VLGR1X",
+  "sourceType": "amazon",
+  "image": "assets/crochet-flower-pot-coasters.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81aun7L6UNL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F8VLGR1X",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "pink-parrot-bookends",
+  "name": "Pink parrot bookends",
+  "caption": "Two pink parrots holding your books in place, and not quietly either.",
+  "brand": "JOOMBE",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BW8W5R7T",
+  "sourceType": "amazon",
+  "image": "assets/pink-parrot-bookends.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81P7fbsinML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BW8W5R7T",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "mushroom-toilet-bolt-covers",
+  "name": "Mushroom toilet bolt covers",
+  "caption": "Two red ceramic mushrooms that hide the bolts at the base of your toilet.",
+  "brand": "WANSHUNLMI",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DLPFK82H",
+  "sourceType": "amazon",
+  "image": "assets/mushroom-toilet-bolt-covers.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71WHg6csiXL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DLPFK82H",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "checkerboard-laundry-basket",
+  "name": "Rainbow checkerboard laundry basket",
+  "caption": "A fabric laundry hamper with a wavy rainbow top and a black and white checkerboard bottom.",
+  "brand": "SELIONLIKN",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0D3L8RH6P",
+  "sourceType": "amazon",
+  "image": "assets/checkerboard-laundry-basket.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81p9JjViWxL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0D3L8RH6P",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "adhd-ave-street-sign",
+  "name": "ADHD Ave street sign",
+  "caption": "A retro street sign for the address where every project gets started at once.",
+  "brand": "RCXsigns",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DD7FFT1X",
+  "sourceType": "amazon",
+  "image": "assets/adhd-ave-street-sign.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61k7Xke5NML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DD7FFT1X",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "purple-lava-lamp",
+  "name": "Purple lava lamp",
+  "caption": "A classic 16-inch lava lamp with purple liquid and orange-yellow wax blobs.",
+  "brand": "JAMBO",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CCB5ZJB5",
+  "sourceType": "amazon",
+  "image": "assets/purple-lava-lamp.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71s5dOp1cTL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CCB5ZJB5",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "waving-lucky-cat-neon",
+  "name": "Waving lucky cat neon sign",
+  "caption": "An LED neon lucky cat whose paw waves back and forth.",
+  "brand": "CinsYarn",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DXPT4DTS",
+  "sourceType": "amazon",
+  "image": "assets/waving-lucky-cat-neon.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71OhRC4QfGL._AC_SL1414_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DXPT4DTS",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "toilet-bowl-night-light",
+  "name": "Toilet bowl night light",
+  "caption": "A motion-sensor light that clips inside the toilet and glows in different colors at night.",
+  "brand": "Chunace",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07L2Y62G2",
+  "sourceType": "amazon",
+  "image": "assets/toilet-bowl-night-light.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/610TVg0PliL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07L2Y62G2",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "trex-eating-gnome-statue",
+  "name": "T. rex eating a gnome statue",
+  "caption": "A bronze-look T. rex statue that is mid-snack on a garden gnome.",
+  "brand": "JJALIGHTS",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H6RK6J77",
+  "sourceType": "amazon",
+  "image": "assets/trex-eating-gnome-statue.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71WPNUyXUrL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H6RK6J77",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "skeleton-heart-hands",
+  "name": "Skeleton heart hands",
+  "caption": "Two skeleton hands making a heart. Spooky and sweet at the same time.",
+  "brand": "GJFASGF",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FGJVH7G4",
+  "sourceType": "amazon",
+  "image": "assets/skeleton-heart-hands.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51BF1wq1IvL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FGJVH7G4",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "fancy-dog-paint-by-numbers",
+  "name": "Fancy dog paint by numbers",
+  "caption": "Six paint-by-numbers kits of dogs in sunglasses and headscarves. Paint the fanciest dogs you know.",
+  "brand": "GEEHEIY",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0G2RRC96R",
+  "sourceType": "amazon",
+  "image": "assets/fancy-dog-paint-by-numbers.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81aXVEpxFWL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0G2RRC96R",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "grumpy-toad-statue",
+  "name": "Grumpy toad statue",
+  "caption": "A hand-painted resin toad that looks permanently annoyed, like an angry avocado.",
+  "brand": "MOLMH",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DBVTF6LR",
+  "sourceType": "amazon",
+  "image": "assets/grumpy-toad-statue.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71T+WIBDVNL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DBVTF6LR",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "face-planters",
+  "name": "Face planters",
+  "caption": "Two blue resin head planters that grow little succulents right out of their heads.",
+  "brand": "Sederikun",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F6D2C58S",
+  "sourceType": "amazon",
+  "image": "assets/face-planters.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71L-qZQSbcL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F6D2C58S",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "pooping-dog-ornament",
+  "name": "Pooping dog ornament",
+  "caption": "A silver dog ornament in a Santa hat, with a tiny 2026 poop dangling underneath.",
+  "brand": "VIVIKEN",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F5381WZR",
+  "sourceType": "amazon",
+  "image": "assets/pooping-dog-ornament.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61dCCEjISvL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F5381WZR",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "couch-club-tin-sign",
+  "name": "Couch Club tin sign",
+  "caption": "A retro ticket-style tin sign for members of the couch club.",
+  "brand": "AmzVoice",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HDY2N971",
+  "sourceType": "amazon",
+  "image": "assets/couch-club-tin-sign.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71hFUuUfnUL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HDY2N971",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "rock-paper-scissors-art",
+  "name": "Rock paper scissors art",
+  "caption": "A framed print of rock, paper and scissors, for settling every argument like adults.",
+  "brand": "RAHUAO",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HCHZRBQ5",
+  "sourceType": "amazon",
+  "image": "assets/rock-paper-scissors-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71ZicmcCPDL._AC_SL1448_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HCHZRBQ5",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "pigeon-plush-set",
+  "name": "Pigeon plush set",
+  "caption": "A set of soft, chunky pigeon plushies. City birds, but cuddly.",
+  "brand": "Tezituor",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GQB6GCDL",
+  "sourceType": "amazon",
+  "image": "assets/pigeon-plush-set.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61tfEBLZFcL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GQB6GCDL",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "gummy-bear-mugshot-art",
+  "name": "Gummy bear mugshot art",
+  "caption": "Pop-art mugshots of four gummy bears who clearly did something.",
+  "brand": "YELLOWBIRD ART & DESIGN",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B08F6D4ZC5",
+  "sourceType": "amazon",
+  "image": "assets/gummy-bear-mugshot-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71-48JhyWRL._AC_SL1000_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B08F6D4ZC5",
+  "amazonVerified": "2026-10-24",
+  "active": true
+ },
+ {
+  "id": "neon-david-statue-art",
+  "name": "Neon David statue art",
+  "caption": "A framed poster of Michelangelo's David covered in neon graffiti, with lights built in.",
+  "brand": "divatla",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H1LQK7LP",
+  "sourceType": "amazon",
+  "image": "assets/neon-david-statue-art.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71ETdWGn8HL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H1LQK7LP",
+  "amazonVerified": "2026-10-24",
+  "active": true
  }
 ];
 window.SHOP_ITEMS = [{"id":"just-say-no-tee","name":"Just Say No tee","caption":"A retro green circle logo with a firm little message. Garment-dyed and lived-in soft.","kind":"Unisex tee","price":"$35.00","url":"https://www.etsy.com/listing/4593892518/just-say-no-circle-logo-t-shirt-retro","image":"assets/shop/just-say-no-tee.webp","alt":"White t-shirt with a distressed green circle logo reading Just say no"},{"id":"support-your-local-murder-tee","name":"Support Your Local Murder tee","caption":"A murder of crows, sticking together. For bird people and true crime fans.","kind":"Unisex tee","price":"$30.00","url":"https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow","image":"assets/shop/support-your-local-murder-tee.webp","alt":"White t-shirt printed with four black crows and the words Support Your Local Murder"},{"id":"rosie-riveter-pin","name":"Rosie the Riveter pin","caption":"We can do it, on your denim jacket. A glossy pin of the classic Rosie art.","kind":"Pin button","price":"From $6.10","url":"https://www.etsy.com/listing/4593859985/rosie-the-riveter-artwork-pin-button","image":"assets/shop/rosie-riveter-pin.webp","alt":"Round yellow pin button showing Rosie the Riveter flexing her arm"},{"id":"franklin-blanket","name":"Ben Franklin money blanket","caption":"Ben Franklin's engraved stare, blown up on a plush velveteen throw. Very money.","kind":"Velveteen throw","price":"From $25.00","url":"https://www.etsy.com/listing/4433255473/benjamin-franklin-portrait-blanket-money","image":"assets/shop/franklin-blanket.webp","alt":"Blanket printed with a close-up of Benjamin Franklin's engraved face from the 100 dollar bill"}];
