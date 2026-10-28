@@ -3820,6 +3820,79 @@ window.PRODUCTS = [
   "affiliateUrl": "https://www.amazon.com/dp/B0H1LQK7LP",
   "amazonVerified": "2026-10-24",
   "active": true
+ },
+ {
+  "id": "canine-post-newspaper-dog-toys",
+  "name": "Canine Post newspaper dog toys",
+  "caption": "Two crinkly plush newspapers from The Canine Post, featuring the scoop on postal worker escape routes. Finally, a paper your dog can fetch and actually read.",
+  "brand": "CAWOOYII",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H99GDV6V",
+  "sourceType": "amazon",
+  "image": "assets/canine-post-newspaper-dog-toys.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81YHk5Dtu0L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H99GDV6V",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "pepperoni-pizza-blanket",
+  "name": "Pepperoni pizza blanket",
+  "caption": "A round fleece throw printed to look exactly like a giant pepperoni pizza. Wrap yourself up and become the slice.",
+  "brand": "moonysweet",
+  "moods": [
+   "Cozy",
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0B2172DBB",
+  "sourceType": "amazon",
+  "image": "assets/pepperoni-pizza-blanket.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91fQl1T3VYL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0B2172DBB",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "rainbow-octopus-desk-toy",
+  "name": "Rainbow octopus desk toy",
+  "caption": "A bendy silicone octopus with real suction cups. Stick it to your monitor, wrap it on your wrist or let it hold your phone.",
+  "brand": "AOSTEONG",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FNX9VMB5",
+  "sourceType": "amazon",
+  "image": "assets/rainbow-octopus-desk-toy.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71OSteuXz-L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FNX9VMB5",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "giant-paper-poppies",
+  "name": "Giant paper poppies",
+  "caption": "Three pink paper poppies on tall green stems, the biggest bloom two feet wide and the whole bouquet nearly six feet tall. Houseplants that never need watering and make every room look like a fairy tale.",
+  "brand": "PUIBTOIV",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FDJZSZVG",
+  "sourceType": "amazon",
+  "image": "assets/giant-paper-poppies.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/7119T237DKL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FDJZSZVG",
+  "amazonVerified": "2026-10-28",
+  "active": true
  }
 ];
 window.SHOP_ITEMS = [{"id":"just-say-no-tee","name":"Just Say No tee","caption":"A retro green circle logo with a firm little message. Garment-dyed and lived-in soft.","kind":"Unisex tee","price":"$35.00","url":"https://www.etsy.com/listing/4593892518/just-say-no-circle-logo-t-shirt-retro","image":"assets/shop/just-say-no-tee.webp","alt":"White t-shirt with a distressed green circle logo reading Just say no"},{"id":"support-your-local-murder-tee","name":"Support Your Local Murder tee","caption":"A murder of crows, sticking together. For bird people and true crime fans.","kind":"Unisex tee","price":"$30.00","url":"https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow","image":"assets/shop/support-your-local-murder-tee.webp","alt":"White t-shirt printed with four black crows and the words Support Your Local Murder"},{"id":"rosie-riveter-pin","name":"Rosie the Riveter pin","caption":"We can do it, on your denim jacket. A glossy pin of the classic Rosie art.","kind":"Pin button","price":"From $6.10","url":"https://www.etsy.com/listing/4593859985/rosie-the-riveter-artwork-pin-button","image":"assets/shop/rosie-riveter-pin.webp","alt":"Round yellow pin button showing Rosie the Riveter flexing her arm"},{"id":"franklin-blanket","name":"Ben Franklin money blanket","caption":"Ben Franklin's engraved stare, blown up on a plush velveteen throw. Very money.","kind":"Velveteen throw","price":"From $25.00","url":"https://www.etsy.com/listing/4433255473/benjamin-franklin-portrait-blanket-money","image":"assets/shop/franklin-blanket.webp","alt":"Blanket printed with a close-up of Benjamin Franklin's engraved face from the 100 dollar bill"}];
