@@ -3893,6 +3893,420 @@ window.PRODUCTS = [
   "affiliateUrl": "https://www.amazon.com/dp/B0FDJZSZVG",
   "amazonVerified": "2026-10-28",
   "active": true
+ },
+ {
+  "id": "detective-mystery-advent-calendar",
+  "name": "Detective mystery advent calendar",
+  "caption": "Twenty-four envelopes, one missing detective and a suspicious fire in a snowy alpine village. Each day's clue unlocks the next page of the case.",
+  "brand": "Mystery Hunters",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H7K1KXZK",
+  "sourceType": "amazon",
+  "image": "assets/detective-mystery-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/712AYWYAIkL._AC_SL1254_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H7K1KXZK",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "exit-escape-room-advent-calendar",
+  "name": "EXIT escape room advent calendar",
+  "caption": "A 24-day escape room in a box. Each riddle tells you which door to open next as you track down a movie star who vanished mid-shoot.",
+  "brand": "Thames & Kosmos",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CRHWGGQ9",
+  "sourceType": "amazon",
+  "image": "assets/exit-escape-room-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81ru2x+E1LL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CRHWGGQ9",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "clue-advent-calendar",
+  "name": "Clue advent calendar",
+  "caption": "The classic board game turned into a 24-day winter mystery. Daily puzzles and cipher codes lead you to who did it, where and with what.",
+  "brand": "Hasbro Gaming",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DN32L3BC",
+  "sourceType": "amazon",
+  "image": "assets/clue-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/819qwfY1jGL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DN32L3BC",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "flower-bouquet-advent-calendar",
+  "name": "Flower bouquet building advent calendar",
+  "caption": "Twenty-four little brick-built roses in six candy colors, from bud to full bloom. By Christmas Eve you have a bouquet that never needs water.",
+  "brand": "Sopu",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F6YB8QHM",
+  "sourceType": "amazon",
+  "image": "assets/flower-bouquet-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/914EGlj-r8L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F6YB8QHM",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "succulent-building-advent-calendar",
+  "name": "Mini succulent building advent calendar",
+  "caption": "Twenty-four tiny potted succulents built from blocks, one a day. A windowsill garden with zero chance of overwatering.",
+  "brand": "Qumic",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HD6K3D3W",
+  "sourceType": "amazon",
+  "image": "assets/succulent-building-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91nlZfueskL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HD6K3D3W",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "monopoly-token-advent-calendar",
+  "name": "Monopoly token advent calendar",
+  "caption": "Twenty-four Monopoly tokens behind 24 doors, including 8 holiday tokens made only for this calendar, plus a stand to show them off.",
+  "brand": "Hasbro Gaming",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GH956Y17",
+  "sourceType": "amazon",
+  "image": "assets/monopoly-token-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71udqs5jNfL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GH956Y17",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "mini-squishy-advent-calendar",
+  "name": "Mini squishy character advent calendar",
+  "caption": "Twenty-four tiny squishy holiday characters, one behind each door. Squeeze them, collect them and line them up on your desk.",
+  "brand": "Tellsoul",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HNVCCLYX",
+  "sourceType": "amazon",
+  "image": "assets/mini-squishy-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81r02EQUpLL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HNVCCLYX",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "dnd-dice-advent-calendar",
+  "name": "D&D dice advent calendar",
+  "caption": "Twenty-one surprise acrylic dice, a metal D20, a resin D20 and a pin, one a day. Every door is a loot drop.",
+  "brand": "QMay",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H6SSGLZS",
+  "sourceType": "amazon",
+  "image": "assets/dnd-dice-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91DHu0pdOPL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H6SSGLZS",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "anatomy-ornament-advent-calendar",
+  "name": "Anatomy ornament advent calendar",
+  "caption": "Twenty-four flat acrylic ornaments with anatomy designs, like an anatomical heart, plus a custom name printed on the box.",
+  "brand": "Generic",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HMRBWH33",
+  "sourceType": "amazon",
+  "image": "assets/anatomy-ornament-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81AX+9VuIsL._AC_SL1254_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HMRBWH33",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "whiskey-smoker-advent-calendar",
+  "name": "Whiskey smoker advent calendar",
+  "caption": "A 24-day countdown that builds a cocktail smoker kit, with smoking accessories and bar tools for a smoky Old Fashioned. Bring your own bourbon.",
+  "brand": "AILE",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HBHYCS2N",
+  "sourceType": "amazon",
+  "image": "assets/whiskey-smoker-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81XaAMXgt9L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HBHYCS2N",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "fishing-lure-advent-calendar",
+  "name": "Fishing lure advent calendar",
+  "caption": "Twenty-four fishing lures, from poppers and spoons to soft baits, one a day. A fresh tackle box by Christmas.",
+  "brand": "Lihome",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DFWQF61W",
+  "sourceType": "amazon",
+  "image": "assets/fishing-lure-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71IgZx1OKRL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DFWQF61W",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "survival-kit-advent-calendar",
+  "name": "Survival kit advent calendar",
+  "caption": "Twenty-four emergency tools like a fire starter, compass, paracord and wire saw, packed in a waterproof case. Ready for the woods, or a power outage.",
+  "brand": "Anner Lily",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0F8J16KHX",
+  "sourceType": "amazon",
+  "image": "assets/survival-kit-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81jiKuvpmJL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0F8J16KHX",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "star-wars-darth-vader-advent-calendar",
+  "name": "Star Wars advent calendar for adults",
+  "caption": "Twenty-four officially licensed Star Wars extras for grown-up fans, like a Millennium Falcon bottle opener keychain and an R2-D2 mouse pad.",
+  "brand": "Get Trend",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GY95M1BB",
+  "sourceType": "amazon",
+  "image": "assets/star-wars-darth-vader-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91wLG+HJsoL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GY95M1BB",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "crystal-advent-calendar",
+  "name": "Crystal and gemstone advent calendar",
+  "caption": "Twenty-four natural stones, raw and tumbled, plus two necklaces and a guide to what each one is. A tiny rock collection by Christmas.",
+  "brand": "pozemu",
+  "moods": [
+   "Colorful",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0D8PGR1XD",
+  "sourceType": "amazon",
+  "image": "assets/crystal-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81cisKEdrsL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0D8PGR1XD",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "kitsch-self-care-advent-calendar",
+  "name": "Kitsch 12-day self-care advent calendar",
+  "caption": "Twelve days of hair care, beauty extras and hair accessories from Kitsch. A shorter countdown, so it works even if you start late.",
+  "brand": "Kitsch",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HFYPSJKW",
+  "sourceType": "amazon",
+  "image": "assets/kitsch-self-care-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91eq3sPDTfL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HFYPSJKW",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "sephora-beauty-advent-calendar",
+  "name": "Sephora Collection beauty advent calendar",
+  "caption": "Twenty-four beauty surprises, with 13 full-size products like mascara, lip color and masks, plus travel sizes and tools.",
+  "brand": "SEPHORA",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HK2CLJPH",
+  "sourceType": "amazon",
+  "image": "assets/sephora-beauty-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81rWAUrzWCL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HK2CLJPH",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "body-shop-advent-calendar",
+  "name": "The Body Shop advent calendar",
+  "caption": "A big box of body creams, shower gels, hand balms and more, one behind each door. The splurge pick on this list.",
+  "brand": "The Body Shop",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H5L3RQXD",
+  "sourceType": "amazon",
+  "image": "assets/body-shop-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71pluOwWsHL._SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H5L3RQXD",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "red-bull-advent-calendar",
+  "name": "Red Bull advent calendar",
+  "caption": "Twenty-four cans across 11 flavors, including winter editions and sugarfree ones. A fully caffeinated countdown.",
+  "brand": "Red Bull",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0HGSTZBM9",
+  "sourceType": "amazon",
+  "image": "assets/red-bull-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/8185NfE-XCL._SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0HGSTZBM9",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "sour-patch-kids-advent-calendar",
+  "name": "Sour Patch Kids advent calendar",
+  "caption": "Forty-eight wrapped, double-size Sour Patch Kids behind 24 doors. Sour first, then sweet, every single morning.",
+  "brand": "Sour Patch Kids",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0D61T3XB9",
+  "sourceType": "amazon",
+  "image": "assets/sour-patch-kids-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81sS3qjXw4L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0D61T3XB9",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "cat-toy-advent-calendar",
+  "name": "Cat toy advent calendar",
+  "caption": "Twenty-four cat toys, like feather wands, bells and little balls, one a day. Finally, the cat gets a countdown too.",
+  "brand": "Larchio",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0B85DXZFZ",
+  "sourceType": "amazon",
+  "image": "assets/cat-toy-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81G4j3e3ToL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0B85DXZFZ",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "wooden-train-advent-calendar",
+  "name": "Wooden train advent calendar",
+  "caption": "A magnetic wooden train set that arrives one piece at a time: track, engines, cars, signs and Christmas figures. A full railway by Christmas Eve.",
+  "brand": "RONSTONE",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H3NZL9L4",
+  "sourceType": "amazon",
+  "image": "assets/wooden-train-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81rcsMxRDOL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H3NZL9L4",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "star-wars-kids-advent-calendar",
+  "name": "Star Wars advent calendar for kids",
+  "caption": "Eighteen squishy mini figures plus 6 vehicles and creatures, with a snowy play scene that folds out of the box. Grogu is in there.",
+  "brand": "STAR WARS",
+  "moods": [
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DMWKPLJT",
+  "sourceType": "amazon",
+  "image": "assets/star-wars-kids-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81D+F69pQML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DMWKPLJT",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "rubber-duck-advent-calendar",
+  "name": "Rubber duck advent calendar",
+  "caption": "Twenty-four holiday rubber ducks, all different, one behind each door. A whole festive flock for the bathtub.",
+  "brand": "SQZUWIT",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CC2Z4JTB",
+  "sourceType": "amazon",
+  "image": "assets/rubber-duck-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/818SRfjhy+L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CC2Z4JTB",
+  "amazonVerified": "2026-10-28",
+  "active": true
+ },
+ {
+  "id": "bluey-advent-calendar",
+  "name": "Bluey advent calendar",
+  "caption": "Bluey, Bingo and Bartlebee figures in Christmas jumpers, plus 16 holiday accessories, stickers and a little tree to decorate.",
+  "brand": "Bluey",
+  "moods": [
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BSLXCNXK",
+  "sourceType": "amazon",
+  "image": "assets/bluey-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/818ewB4pTiL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BSLXCNXK",
+  "amazonVerified": "2026-10-28",
+  "active": true
  }
 ];
 window.SHOP_ITEMS = [{"id":"just-say-no-tee","name":"Just Say No tee","caption":"A retro green circle logo with a firm little message. Garment-dyed and lived-in soft.","kind":"Unisex tee","price":"$35.00","url":"https://www.etsy.com/listing/4593892518/just-say-no-circle-logo-t-shirt-retro","image":"assets/shop/just-say-no-tee.webp","alt":"White t-shirt with a distressed green circle logo reading Just say no"},{"id":"support-your-local-murder-tee","name":"Support Your Local Murder tee","caption":"A murder of crows, sticking together. For bird people and true crime fans.","kind":"Unisex tee","price":"$30.00","url":"https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow","image":"assets/shop/support-your-local-murder-tee.webp","alt":"White t-shirt printed with four black crows and the words Support Your Local Murder"},{"id":"rosie-riveter-pin","name":"Rosie the Riveter pin","caption":"We can do it, on your denim jacket. A glossy pin of the classic Rosie art.","kind":"Pin button","price":"From $6.10","url":"https://www.etsy.com/listing/4593859985/rosie-the-riveter-artwork-pin-button","image":"assets/shop/rosie-riveter-pin.webp","alt":"Round yellow pin button showing Rosie the Riveter flexing her arm"},{"id":"franklin-blanket","name":"Ben Franklin money blanket","caption":"Ben Franklin's engraved stare, blown up on a plush velveteen throw. Very money.","kind":"Velveteen throw","price":"From $25.00","url":"https://www.etsy.com/listing/4433255473/benjamin-franklin-portrait-blanket-money","image":"assets/shop/franklin-blanket.webp","alt":"Blanket printed with a close-up of Benjamin Franklin's engraved face from the 100 dollar bill"}];

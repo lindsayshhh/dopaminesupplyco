@@ -68,3 +68,8 @@ guide page in Playwright (Chromium at /opt/pw-browsers/chromium) for JS errors a
   of these if its current Amazon price fits the band. Prices were last checked for every find on 2026-10-19.
 - Recipient guides: gifts-for-best-friend, gifts-for-mom, gifts-for-him, gifts-for-person-who-has-everything.
   Keep spicy finds out of gifts-for-mom.
+
+## Advent calendar guide (added Oct 2026)
+- advent-calendars.html groups its picks under H2 headings (puzzle, build, collectible, hobbies, beauty, snacks, cats, kids).
+  add_finds.py appends new finds to the last group (kids), so move a new card into the right group by hand and renumber
+  the "No." badges in order. Only add true advent or countdown calendars to this guide. Season: Oct 20 to Dec 5.

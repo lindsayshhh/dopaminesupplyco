@@ -56,7 +56,7 @@ const WEIGHTS = {
   },
   occ: {
     halloween: { g: { 'spooky-cute-halloween-gifts': 5 } },
-    holidays: { g: { 'weird-stocking-stuffers': 3 } },
+    holidays: { g: { 'weird-stocking-stuffers': 3, 'advent-calendars': 1 } },
     swap: { g: { 'funny-white-elephant-gifts': 3, 'desk-gifts-for-coworkers': 1 } },
     birthday: { g: { 'dopamine-decor': 1, 'funny-throw-pillows': 1, 'weird-stocking-stuffers': 1 } },
     just: { m: { Unnecessary: 1 } }
