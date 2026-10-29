@@ -39,6 +39,8 @@
  .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule:nth-child(2),.maker-shop[style*="--span:3;"] .maker-pills .rx-capsule:nth-child(2),.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule:nth-child(2){left:96px;top:14px}
  .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule:nth-child(3),.maker-shop[style*="--span:3;"] .maker-pills .rx-capsule:nth-child(3),.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule:nth-child(3){left:46px;top:96px}
  .maker-shop[style*="--span:2;"] .maker-pills .rx-capsule:nth-child(1),.maker-shop[style*="--span:3;"] .maker-pills .rx-capsule:nth-child(1),.maker-shop[style*="--span:4;"] .maker-pills .rx-capsule:nth-child(1){top:40px}
+ .maker-shop[style*="--span:2;"] h3{font-size:38px;letter-spacing:-1.5px}
+ .maker-shop[style*="--span:2;"] .maker-pills{right:24px}
 }
 @media(max-width:900px) and (min-width:701px){.maker-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.maker-shop{grid-column:span var(--span3,1)}}
 @media(max-width:700px){
