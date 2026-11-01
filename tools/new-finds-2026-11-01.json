@@ -1,0 +1,666 @@
+[
+ {
+  "asin": "B00ZDVG6KE",
+  "id": "singing-bird-in-cage",
+  "name": "Singing bird in a cage",
+  "brand": "PowerTRC",
+  "caption": "A little blue bird in a gold cage that chirps, sings and bobs around whenever it hears you. All the birdsong, none of the birdseed.",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "label": [
+   "Clap once for a song.",
+   "Coworkers asking if you got a pet."
+  ],
+  "good": "The desk that needs a tiny roommate.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "gifts-under-25",
+   "gifts-for-person-who-has-everything"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71ZywF0JUtL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0CLVKXNDT",
+  "id": "santorini-3d-memo-pad",
+  "name": "Santorini 3D memo pad",
+  "brand": "SIWEME",
+  "caption": "A block of sticky-free notes that slowly reveals a carved paper Santorini village as you tear the pages away. It lights up too.",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "label": [
+   "Tear one note per to-do.",
+   "A tiny Greek vacation by Friday."
+  ],
+  "good": "The coworker who keeps a vacation countdown.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "gifts-under-50",
+   "gifts-for-mom"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71FQW9p+icL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0GSJ12N4Y",
+  "id": "f-bomb-bath-bombs",
+  "name": "F-bomb bath bombs",
+  "brand": "MESMOS",
+  "caption": "Five citrus bath fizzers shaped like little cartoon bombs. Drop one when the day deserves a swear word.",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "spicy": true,
+  "label": [
+   "Drop one F-bomb per bath.",
+   "Swearing a lot less afterward."
+  ],
+  "good": "The friend who swears like a sailor and soaks like a queen.",
+  "guides": [
+   "funny-white-elephant-gifts",
+   "gifts-under-25",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71F6vO9RFQL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B01MCUSHKA",
+  "id": "brain-specimen-coasters",
+  "name": "Brain specimen coasters",
+  "brand": "Generix Geek",
+  "caption": "Ten coasters printed with cross-section slices of a human brain. Stack them up and you get the whole brain back.",
+  "moods": [
+   "Weird"
+  ],
+  "label": [
+   "One slice under each drink.",
+   "Thinking about thinking."
+  ],
+  "good": "The science nerd with a big brain and a lot of mugs.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "gifts-under-50",
+   "gifts-for-person-who-has-everything"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81x7mul8pxL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B07Y5N5TXP",
+  "id": "floppy-disk-coasters",
+  "name": "Floppy disk coasters",
+  "brand": "Infiniti Star",
+  "caption": "Six coasters that look exactly like colorful old floppy disks. Your coffee is now saved to drive A.",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "label": [
+   "Save one drink at a time.",
+   "Explaining floppy disks to anyone under 30."
+  ],
+  "good": "The IT person who still misses the dial-up noise.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "gifts-under-25",
+   "gifts-for-him"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61VJ-VC5JXL._AC_SL1250_.jpg"
+ },
+ {
+  "asin": "B092S8WYXS",
+  "id": "vinyl-record-coasters",
+  "name": "Vinyl record coasters",
+  "brand": "Valdivia",
+  "caption": "Six mini vinyl record coasters that live on a little turntable-shaped holder. The only records that like getting wet.",
+  "moods": [
+   "Unnecessary"
+  ],
+  "label": [
+   "Spin up one per drink.",
+   "Humming your favorite B-side."
+  ],
+  "good": "The record collector who already owns every pressing.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-15",
+   "gifts-for-him"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71WOM-tCByL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0G27QR496",
+  "id": "mini-working-record-player",
+  "name": "Mini working record player",
+  "brand": "Mini Brands",
+  "caption": "A palm-sized record player that actually spins and plays real music from teeny tiny vinyl. Completely pointless and completely delightful.",
+  "moods": [
+   "Unnecessary",
+   "Colorful"
+  ],
+  "label": [
+   "Play one mini record as needed.",
+   "Shrinking everything you own."
+  ],
+  "good": "The music lover who has run out of shelf space.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-25",
+   "gifts-for-person-who-has-everything"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81iCTDqDyML._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0B5FHYJ83",
+  "id": "thumby-keychain-game-console",
+  "name": "Thumby keychain game console",
+  "brand": "TinyCircuits",
+  "caption": "A working retro game console the size of a keychain, with five built-in games and room to code your own. Very small, very addictive.",
+  "moods": [
+   "Unnecessary"
+  ],
+  "label": [
+   "One quick game per boring line.",
+   "Squinting, happily."
+  ],
+  "good": "The gamer who has every full-size console already.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-50",
+   "gifts-for-him"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71XeyzGE9LL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0GMC39XJV",
+  "id": "ringmaster-dish-towel",
+  "name": "Ringmaster of the sh*t show towel",
+  "brand": "Blue Q",
+  "caption": "A cotton dish towel crowning you Ringmaster of the Sh*t Show, starring a very determined duck and her ducklings. Accurate.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "spicy": true,
+  "label": [
+   "Wave once over the chaos.",
+   "Feeling extremely in charge."
+  ],
+  "good": "The mom friend who keeps the whole circus running.",
+  "guides": [
+   "weird-kitchen-gadgets",
+   "gifts-under-15",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71QLANF5NML._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0CQKRQT8R",
+  "id": "talk-to-your-kittens-catnip-toy",
+  "name": "Talk to your kittens catnip toy",
+  "brand": "Blue Q",
+  "caption": "A catnip pillow toy with a vintage-style PSA telling you to talk to your kittens about catnip. Too late, honestly.",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "label": [
+   "Toss to one cat, then step back.",
+   "Zoomies at 3am."
+  ],
+  "good": "The cat parent whose cat runs the house.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81hOB7r-GiL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B07M6K14GG",
+  "id": "secret-ingredient-oven-mitt",
+  "name": "Secret ingredient oven mitt",
+  "brand": "Blue Q",
+  "caption": "A pink oven mitt that says B*tch, I Am the Secret Ingredient. No notes.",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "spicy": true,
+  "label": [
+   "Wear while pulling out anything golden.",
+   "Taking full credit for dinner."
+  ],
+  "good": "The friend who cooks with confidence and a little attitude.",
+  "guides": [
+   "weird-kitchen-gadgets",
+   "gifts-under-25",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81I9quJrFAL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0DKXKR5WG",
+  "id": "santa-swap-gift-exchange-dice",
+  "name": "Santa swap gift exchange dice",
+  "brand": "oyeftp",
+  "caption": "A giant green die with gift exchange rules on every side, like swap with anyone or open now. Instant chaos for the office party.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "label": [
+   "Roll once per turn.",
+   "Friendships tested by a candle."
+  ],
+  "good": "The person who hosts the white elephant every year.",
+  "guides": [
+   "funny-white-elephant-gifts",
+   "weird-stocking-stuffers",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61+X79LaGyL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0G3XB14S4",
+  "id": "salted-butter-blanket",
+  "name": "Salted butter blanket",
+  "brand": "Buryeah",
+  "caption": "A soft throw printed to look like a giant stick of salted butter, wrapper and all. Spread yourself on the couch.",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "label": [
+   "Spread evenly over one person.",
+   "Craving toast."
+  ],
+  "good": "The friend who thinks butter is a personality.",
+  "guides": [
+   "funny-white-elephant-gifts",
+   "gifts-under-25",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71r51yBVxHL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0GCHQQBT7",
+  "id": "mini-book-advent-calendar",
+  "name": "Mini book advent calendar",
+  "brand": "Mini Brands",
+  "caption": "Twenty-four days of tiny surprises, including 18 real miniature books and little reading accessories. A dollhouse library by Christmas.",
+  "moods": [
+   "Unnecessary",
+   "Cozy"
+  ],
+  "label": [
+   "Open one door each December morning.",
+   "Wanting a smaller bookshelf."
+  ],
+  "good": "The book lover who already has every real book.",
+  "guides": [
+   "advent-calendars"
+  ],
+  "img": "https://m.media-amazon.com/images/I/91n4iOuicnL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0GCGSPB8K",
+  "id": "mini-masterpieces-advent-calendar",
+  "name": "Mini masterpieces advent calendar",
+  "brand": "Mini Brands",
+  "caption": "Twenty days of tiny famous artworks, a mini statue and gallery accessories. You end up curating a museum the size of a shoebox.",
+  "moods": [
+   "Unnecessary",
+   "Colorful"
+  ],
+  "label": [
+   "Hang one masterpiece a day.",
+   "Strong opinions about tiny frames."
+  ],
+  "good": "The art lover with no wall space left.",
+  "guides": [
+   "advent-calendars"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81Np8zQ1lEL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0GVFY79M8",
+  "id": "make-it-mini-holiday-advent-calendar",
+  "name": "Make It Mini holiday advent calendar",
+  "brand": "MGA's Miniverse",
+  "caption": "Twenty-four days of tiny ingredients and props for building five little holiday food scenes from resin. Crafty, festive and very small.",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "label": [
+   "Assemble one tiny treat a day.",
+   "Tweezers everywhere."
+  ],
+  "good": "The crafter who loves anything miniature.",
+  "guides": [
+   "advent-calendars"
+  ],
+  "img": "https://m.media-amazon.com/images/I/911DsnXT0kL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0H5JZTT13",
+  "id": "mini-vhs-tapes-capsule",
+  "name": "Mini VHS tapes capsule",
+  "brand": "MGA's Miniverse",
+  "caption": "A mystery capsule with three tiny playable videotapes of real movies and shows, plus a mini keychain. Be kind, rewind.",
+  "moods": [
+   "Unnecessary"
+  ],
+  "label": [
+   "Unbox one capsule, rewind as needed.",
+   "Nostalgia for video store Fridays."
+  ],
+  "good": "The 90s kid who misses the video store.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81eVJtDzMZL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0FPF46NYT",
+  "id": "capybara-blind-box",
+  "name": "Capybara blind box",
+  "brand": "Popobox",
+  "caption": "One mystery capybara figure doing something extremely relaxed, from a set of seven. Nobody knows which one you get.",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "label": [
+   "Open one box, stay calm.",
+   "Buying the other six."
+  ],
+  "good": "The friend who is a capybara at heart.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-15",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61Uwb2e4+xL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B07DCCWW19",
+  "id": "dopamine-molecule-necklace",
+  "name": "Dopamine molecule necklace",
+  "brand": "Clayton Jewelry Labs",
+  "caption": "A stainless steel pendant shaped like the dopamine molecule. Wear your favorite chemical.",
+  "moods": [
+   "Unnecessary"
+  ],
+  "label": [
+   "Wear daily for a small boost.",
+   "Science nerds stopping you to say nice."
+  ],
+  "good": "The chemistry lover who chases the good feelings.",
+  "guides": [
+   "gifts-for-best-friend",
+   "gifts-for-person-who-has-everything"
+  ],
+  "img": "https://m.media-amazon.com/images/I/51HqO6TQvkL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0FPBJ71QX",
+  "id": "black-cat-heating-pad",
+  "name": "Black cat heating pad",
+  "brand": "HOTHUGZ",
+  "caption": "A plush black cat that warms up over USB, with a timer for safe naps. A lap cat that never leaves.",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "label": [
+   "Hug one warm cat as needed.",
+   "Never wanting to get up."
+  ],
+  "good": "The always-cold friend who wants a cat.",
+  "guides": [
+   "gifts-under-50",
+   "gifts-for-mom",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71MzAtrcFeL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "1452177082",
+  "id": "storm-cloud-weather-predictor",
+  "name": "Storm cloud weather predictor",
+  "brand": "Bitten",
+  "caption": "A glass cloud filled with liquid that grows crystals depending on the weather outside. A 19th-century storm glass, but cute.",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "label": [
+   "Check once each morning.",
+   "Ignoring the actual forecast."
+  ],
+  "good": "The weather watcher with a sunny windowsill.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "dopamine-decor",
+   "gifts-for-person-who-has-everything"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71Kv-AgIvXL._SL1500_.jpg"
+ },
+ {
+  "asin": "B086FPKMCF",
+  "id": "ufo-paperclip-dispenser",
+  "name": "UFO paperclip dispenser",
+  "brand": "Genuine Fred",
+  "caption": "A flying saucer that magnetically beams up cow-shaped paper clips. Close encounters of the office kind.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "label": [
+   "Abduct one cow per document.",
+   "Believing in office aliens."
+  ],
+  "good": "The coworker who swears the printer is haunted.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "gifts-under-50"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61dtfnvez1L._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B01IIAD3H0",
+  "id": "anatomical-heart-plush",
+  "name": "Anatomical heart plush",
+  "brand": "GIANT MICROBES",
+  "caption": "A big, huggable plush of a real anatomical heart, with little blood cell buddies tucked in a zip pocket. Gives you all of it.",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "label": [
+   "Hug once with your whole heart.",
+   "Learning what an aorta is."
+  ],
+  "good": "The nurse, doctor or anatomy nerd who has everything.",
+  "guides": [
+   "gifts-under-50",
+   "gifts-for-person-who-has-everything"
+  ],
+  "img": "https://m.media-amazon.com/images/I/613jvPDr3VL._AC_SL1350_.jpg"
+ },
+ {
+  "asin": "B076KRB8M6",
+  "id": "brainwashed-soap",
+  "name": "Brainwashed soap",
+  "brand": "GIANT MICROBES",
+  "caption": "A pink, fig-scented shea butter soap shaped like a human brain. Get a little brainwashed every morning.",
+  "moods": [
+   "Weird"
+  ],
+  "label": [
+   "Lather once daily.",
+   "Feeling suspiciously agreeable."
+  ],
+  "good": "The friend with a dark sense of humor and a clean bathroom.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/31bycL20fGL.jpg"
+ },
+ {
+  "asin": "B07Q3YCXN5",
+  "id": "dinosaur-taco-holders",
+  "name": "Dinosaur taco holders",
+  "brand": "Penko",
+  "caption": "A triceratops and an ultrasaurus that carry two tacos each on their backs. Taco Tuesday, but prehistoric.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "label": [
+   "Load two tacos per dino.",
+   "Roaring at dinner."
+  ],
+  "good": "The taco lover who never grew out of dinosaurs.",
+  "guides": [
+   "weird-kitchen-gadgets",
+   "gifts-under-25"
+  ],
+  "img": "https://m.media-amazon.com/images/I/81+J84uuW1L._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0BYSN9Q8R",
+  "id": "gnome-dish-brush",
+  "name": "Gnome dish brush",
+  "brand": "OTOTO",
+  "caption": "Beardy the gnome is a dish brush whose bristles are his beard, and his red hat is the handle. Dish duty, but enchanted.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "label": [
+   "Scrub with one gnome nightly.",
+   "Talking to your dish brush."
+  ],
+  "good": "The garden gnome fan who does all the dishes.",
+  "guides": [
+   "weird-kitchen-gadgets",
+   "gifts-under-15",
+   "gifts-for-mom"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71T4zYtDOFL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0FKBK5BTN",
+  "id": "spinning-food-decision-dice",
+  "name": "Spinning food decision dice",
+  "brand": "ESENHARBER",
+  "caption": "A heavy metal die that spins for ages and lands on dinner, from sushi to burgers. No more whatever, you pick.",
+  "moods": [
+   "Unnecessary"
+  ],
+  "label": [
+   "Spin once at dinnertime.",
+   "Arguing with a die anyway."
+  ],
+  "good": "The couple who can never decide where to eat.",
+  "guides": [
+   "weird-stocking-stuffers",
+   "gifts-under-15",
+   "gifts-for-him"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71O4dpoFUTL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B07CZLYK8V",
+  "id": "mr-predicto-crystal-ball",
+  "name": "Mr. Predicto crystal ball",
+  "brand": "Kamhi World",
+  "caption": "Wave over this talking crystal ball and a booming wizard voice answers your yes or no question. It lights up for drama.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "label": [
+   "Ask one question at a time.",
+   "Making life choices by wizard."
+  ],
+  "good": "The friend who needs help making every decision.",
+  "guides": [
+   "funny-white-elephant-gifts",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/71Fqv3mJTcL._AC_SL1360_.jpg"
+ },
+ {
+  "asin": "B0DGWQW11C",
+  "id": "gift-not-included-batteries",
+  "name": "Gift not included batteries",
+  "brand": "Gelid",
+  "caption": "A pack of two batteries labeled Gift Not Included. The lowest-effort, highest-laugh present under the tree.",
+  "moods": [
+   "Unnecessary",
+   "Weird"
+  ],
+  "label": [
+   "Hand over with a straight face.",
+   "Everyone asking where the gift is."
+  ],
+  "good": "The white elephant crowd who appreciates a bit.",
+  "guides": [
+   "funny-white-elephant-gifts",
+   "weird-stocking-stuffers",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61XokB7bumL._AC_SL1431_.jpg"
+ },
+ {
+  "asin": "B0DRL96PCC",
+  "id": "lying-flat-duck-lamp",
+  "name": "Lying flat duck lamp",
+  "brand": "YR YRHH-PET",
+  "caption": "A squishy silicone duck night light, collapsed face down like it is simply done. Tap to turn it on.",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "label": [
+   "Tap once at bedtime.",
+   "Lying flat in solidarity."
+  ],
+  "good": "The friend who is so done this week.",
+  "guides": [
+   "dopamine-decor",
+   "gifts-under-25",
+   "gifts-for-best-friend"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61Ya2XgGpQL._AC_SL1500_.jpg"
+ },
+ {
+  "asin": "B0DBQV8X25",
+  "id": "answer-desk-rates-sign",
+  "name": "Answer desk rates sign",
+  "brand": "MBL",
+  "caption": "A yellow caution-style desk sign listing prices for answers, correct answers and dumb looks. Payable immediately.",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "label": [
+   "Display at desk, collect fees.",
+   "Fewer interruptions. Maybe."
+  ],
+  "good": "The coworker everyone comes to with questions.",
+  "guides": [
+   "desk-gifts-for-coworkers",
+   "funny-white-elephant-gifts",
+   "gifts-under-15"
+  ],
+  "img": "https://m.media-amazon.com/images/I/61oF5dHJzUL._AC_SL1500_.jpg"
+ }
+]
