@@ -4307,6 +4307,557 @@ window.PRODUCTS = [
   "affiliateUrl": "https://www.amazon.com/dp/B0BSLXCNXK",
   "amazonVerified": "2026-10-28",
   "active": true
+ },
+ {
+  "id": "singing-bird-in-cage",
+  "name": "Singing bird in a cage",
+  "caption": "A little blue bird in a gold cage that chirps, sings and bobs around whenever it hears you. All the birdsong, none of the birdseed.",
+  "brand": "PowerTRC",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B00ZDVG6KE",
+  "sourceType": "amazon",
+  "image": "assets/singing-bird-in-cage.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71ZywF0JUtL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B00ZDVG6KE",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "santorini-3d-memo-pad",
+  "name": "Santorini 3D memo pad",
+  "caption": "A block of sticky-free notes that slowly reveals a carved paper Santorini village as you tear the pages away. It lights up too.",
+  "brand": "SIWEME",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CLVKXNDT",
+  "sourceType": "amazon",
+  "image": "assets/santorini-3d-memo-pad.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71FQW9p+icL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CLVKXNDT",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "f-bomb-bath-bombs",
+  "name": "F-bomb bath bombs",
+  "caption": "Five citrus bath fizzers shaped like little cartoon bombs. Drop one when the day deserves a swear word.",
+  "brand": "MESMOS",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GSJ12N4Y",
+  "sourceType": "amazon",
+  "image": "assets/f-bomb-bath-bombs.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71F6vO9RFQL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GSJ12N4Y",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "brain-specimen-coasters",
+  "name": "Brain specimen coasters",
+  "caption": "Ten coasters printed with cross-section slices of a human brain. Stack them up and you get the whole brain back.",
+  "brand": "Generix Geek",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B01MCUSHKA",
+  "sourceType": "amazon",
+  "image": "assets/brain-specimen-coasters.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81x7mul8pxL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B01MCUSHKA",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "floppy-disk-coasters",
+  "name": "Floppy disk coasters",
+  "caption": "Six coasters that look exactly like colorful old floppy disks. Your coffee is now saved to drive A.",
+  "brand": "Infiniti Star",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07Y5N5TXP",
+  "sourceType": "amazon",
+  "image": "assets/floppy-disk-coasters.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61VJ-VC5JXL._AC_SL1250_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07Y5N5TXP",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "vinyl-record-coasters",
+  "name": "Vinyl record coasters",
+  "caption": "Six mini vinyl record coasters that live on a little turntable-shaped holder. The only records that like getting wet.",
+  "brand": "Valdivia",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B092S8WYXS",
+  "sourceType": "amazon",
+  "image": "assets/vinyl-record-coasters.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71WOM-tCByL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B092S8WYXS",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "mini-working-record-player",
+  "name": "Mini working record player",
+  "caption": "A palm-sized record player that actually spins and plays real music from teeny tiny vinyl. Completely pointless and completely delightful.",
+  "brand": "Mini Brands",
+  "moods": [
+   "Unnecessary",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0G27QR496",
+  "sourceType": "amazon",
+  "image": "assets/mini-working-record-player.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81iCTDqDyML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0G27QR496",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "thumby-keychain-game-console",
+  "name": "Thumby keychain game console",
+  "caption": "A working retro game console the size of a keychain, with five built-in games and room to code your own. Very small, very addictive.",
+  "brand": "TinyCircuits",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0B5FHYJ83",
+  "sourceType": "amazon",
+  "image": "assets/thumby-keychain-game-console.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71XeyzGE9LL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0B5FHYJ83",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "ringmaster-dish-towel",
+  "name": "Ringmaster of the sh*t show towel",
+  "caption": "A cotton dish towel crowning you Ringmaster of the Sh*t Show, starring a very determined duck and her ducklings. Accurate.",
+  "brand": "Blue Q",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GMC39XJV",
+  "sourceType": "amazon",
+  "image": "assets/ringmaster-dish-towel.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71QLANF5NML._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GMC39XJV",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "talk-to-your-kittens-catnip-toy",
+  "name": "Talk to your kittens catnip toy",
+  "caption": "A catnip pillow toy with a vintage-style PSA telling you to talk to your kittens about catnip. Too late, honestly.",
+  "brand": "Blue Q",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0CQKRQT8R",
+  "sourceType": "amazon",
+  "image": "assets/talk-to-your-kittens-catnip-toy.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81hOB7r-GiL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0CQKRQT8R",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "secret-ingredient-oven-mitt",
+  "name": "Secret ingredient oven mitt",
+  "caption": "A pink oven mitt that says B*tch, I Am the Secret Ingredient. No notes.",
+  "brand": "Blue Q",
+  "moods": [
+   "Colorful",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07M6K14GG",
+  "sourceType": "amazon",
+  "image": "assets/secret-ingredient-oven-mitt.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81I9quJrFAL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07M6K14GG",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "santa-swap-gift-exchange-dice",
+  "name": "Santa swap gift exchange dice",
+  "caption": "A giant green die with gift exchange rules on every side, like swap with anyone or open now. Instant chaos for the office party.",
+  "brand": "oyeftp",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DKXKR5WG",
+  "sourceType": "amazon",
+  "image": "assets/santa-swap-gift-exchange-dice.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61+X79LaGyL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DKXKR5WG",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "salted-butter-blanket",
+  "name": "Salted butter blanket",
+  "caption": "A soft throw printed to look like a giant stick of salted butter, wrapper and all. Spread yourself on the couch.",
+  "brand": "Buryeah",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0G3XB14S4",
+  "sourceType": "amazon",
+  "image": "assets/salted-butter-blanket.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71r51yBVxHL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0G3XB14S4",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "mini-book-advent-calendar",
+  "name": "Mini book advent calendar",
+  "caption": "Twenty-four days of tiny surprises, including 18 real miniature books and little reading accessories. A dollhouse library by Christmas.",
+  "brand": "Mini Brands",
+  "moods": [
+   "Unnecessary",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GCHQQBT7",
+  "sourceType": "amazon",
+  "image": "assets/mini-book-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/91n4iOuicnL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GCHQQBT7",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "mini-masterpieces-advent-calendar",
+  "name": "Mini masterpieces advent calendar",
+  "caption": "Twenty days of tiny famous artworks, a mini statue and gallery accessories. You end up curating a museum the size of a shoebox.",
+  "brand": "Mini Brands",
+  "moods": [
+   "Unnecessary",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GCGSPB8K",
+  "sourceType": "amazon",
+  "image": "assets/mini-masterpieces-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81Np8zQ1lEL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GCGSPB8K",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "make-it-mini-holiday-advent-calendar",
+  "name": "Make It Mini holiday advent calendar",
+  "caption": "Twenty-four days of tiny ingredients and props for building five little holiday food scenes from resin. Crafty, festive and very small.",
+  "brand": "MGA's Miniverse",
+  "moods": [
+   "Colorful",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0GVFY79M8",
+  "sourceType": "amazon",
+  "image": "assets/make-it-mini-holiday-advent-calendar.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/911DsnXT0kL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0GVFY79M8",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "mini-vhs-tapes-capsule",
+  "name": "Mini VHS tapes capsule",
+  "caption": "A mystery capsule with three tiny playable videotapes of real movies and shows, plus a mini keychain. Be kind, rewind.",
+  "brand": "MGA's Miniverse",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0H5JZTT13",
+  "sourceType": "amazon",
+  "image": "assets/mini-vhs-tapes-capsule.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81eVJtDzMZL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0H5JZTT13",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "capybara-blind-box",
+  "name": "Capybara blind box",
+  "caption": "One mystery capybara figure doing something extremely relaxed, from a set of seven. Nobody knows which one you get.",
+  "brand": "Popobox",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FPF46NYT",
+  "sourceType": "amazon",
+  "image": "assets/capybara-blind-box.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61Uwb2e4+xL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FPF46NYT",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "dopamine-molecule-necklace",
+  "name": "Dopamine molecule necklace",
+  "caption": "A stainless steel pendant shaped like the dopamine molecule. Wear your favorite chemical.",
+  "brand": "Clayton Jewelry Labs",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07DCCWW19",
+  "sourceType": "amazon",
+  "image": "assets/dopamine-molecule-necklace.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/51HqO6TQvkL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07DCCWW19",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "black-cat-heating-pad",
+  "name": "Black cat heating pad",
+  "caption": "A plush black cat that warms up over USB, with a timer for safe naps. A lap cat that never leaves.",
+  "brand": "HOTHUGZ",
+  "moods": [
+   "Cozy",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FPBJ71QX",
+  "sourceType": "amazon",
+  "image": "assets/black-cat-heating-pad.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71MzAtrcFeL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FPBJ71QX",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "storm-cloud-weather-predictor",
+  "name": "Storm cloud weather predictor",
+  "caption": "A glass cloud filled with liquid that grows crystals depending on the weather outside. A 19th-century storm glass, but cute.",
+  "brand": "Bitten",
+  "moods": [
+   "Weird",
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/1452177082",
+  "sourceType": "amazon",
+  "image": "assets/storm-cloud-weather-predictor.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71Kv-AgIvXL._SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/1452177082",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "ufo-paperclip-dispenser",
+  "name": "UFO paperclip dispenser",
+  "caption": "A flying saucer that magnetically beams up cow-shaped paper clips. Close encounters of the office kind.",
+  "brand": "Genuine Fred",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B086FPKMCF",
+  "sourceType": "amazon",
+  "image": "assets/ufo-paperclip-dispenser.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61dtfnvez1L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B086FPKMCF",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "anatomical-heart-plush",
+  "name": "Anatomical heart plush",
+  "caption": "A big, huggable plush of a real anatomical heart, with little blood cell buddies tucked in a zip pocket. Gives you all of it.",
+  "brand": "GIANT MICROBES",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B01IIAD3H0",
+  "sourceType": "amazon",
+  "image": "assets/anatomical-heart-plush.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/613jvPDr3VL._AC_SL1350_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B01IIAD3H0",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "brainwashed-soap",
+  "name": "Brainwashed soap",
+  "caption": "A pink, fig-scented shea butter soap shaped like a human brain. Get a little brainwashed every morning.",
+  "brand": "GIANT MICROBES",
+  "moods": [
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B076KRB8M6",
+  "sourceType": "amazon",
+  "image": "assets/brainwashed-soap.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/31bycL20fGL.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B076KRB8M6",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "dinosaur-taco-holders",
+  "name": "Dinosaur taco holders",
+  "caption": "A triceratops and an ultrasaurus that carry two tacos each on their backs. Taco Tuesday, but prehistoric.",
+  "brand": "Penko",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07Q3YCXN5",
+  "sourceType": "amazon",
+  "image": "assets/dinosaur-taco-holders.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/81+J84uuW1L._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07Q3YCXN5",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "gnome-dish-brush",
+  "name": "Gnome dish brush",
+  "caption": "Beardy the gnome is a dish brush whose bristles are his beard, and his red hat is the handle. Dish duty, but enchanted.",
+  "brand": "OTOTO",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0BYSN9Q8R",
+  "sourceType": "amazon",
+  "image": "assets/gnome-dish-brush.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71T4zYtDOFL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0BYSN9Q8R",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "spinning-food-decision-dice",
+  "name": "Spinning food decision dice",
+  "caption": "A heavy metal die that spins for ages and lands on dinner, from sushi to burgers. No more whatever, you pick.",
+  "brand": "ESENHARBER",
+  "moods": [
+   "Unnecessary"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0FKBK5BTN",
+  "sourceType": "amazon",
+  "image": "assets/spinning-food-decision-dice.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71O4dpoFUTL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0FKBK5BTN",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "mr-predicto-crystal-ball",
+  "name": "Mr. Predicto crystal ball",
+  "caption": "Wave over this talking crystal ball and a booming wizard voice answers your yes or no question. It lights up for drama.",
+  "brand": "Kamhi World",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B07CZLYK8V",
+  "sourceType": "amazon",
+  "image": "assets/mr-predicto-crystal-ball.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/71Fqv3mJTcL._AC_SL1360_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B07CZLYK8V",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "gift-not-included-batteries",
+  "name": "Gift not included batteries",
+  "caption": "A pack of two batteries labeled Gift Not Included. The lowest-effort, highest-laugh present under the tree.",
+  "brand": "Gelid",
+  "moods": [
+   "Unnecessary",
+   "Weird"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DGWQW11C",
+  "sourceType": "amazon",
+  "image": "assets/gift-not-included-batteries.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61XokB7bumL._AC_SL1431_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DGWQW11C",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "lying-flat-duck-lamp",
+  "name": "Lying flat duck lamp",
+  "caption": "A squishy silicone duck night light, collapsed face down like it is simply done. Tap to turn it on.",
+  "brand": "YR YRHH-PET",
+  "moods": [
+   "Weird",
+   "Cozy"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DRL96PCC",
+  "sourceType": "amazon",
+  "image": "assets/lying-flat-duck-lamp.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61Ya2XgGpQL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DRL96PCC",
+  "amazonVerified": "2026-11-01",
+  "active": true
+ },
+ {
+  "id": "answer-desk-rates-sign",
+  "name": "Answer desk rates sign",
+  "caption": "A yellow caution-style desk sign listing prices for answers, correct answers and dumb looks. Payable immediately.",
+  "brand": "MBL",
+  "moods": [
+   "Weird",
+   "Colorful"
+  ],
+  "referencePrice": null,
+  "source": "https://www.amazon.com/dp/B0DBQV8X25",
+  "sourceType": "amazon",
+  "image": "assets/answer-desk-rates-sign.webp",
+  "imageSource": "https://m.media-amazon.com/images/I/61oF5dHJzUL._AC_SL1500_.jpg",
+  "affiliateUrl": "https://www.amazon.com/dp/B0DBQV8X25",
+  "amazonVerified": "2026-11-01",
+  "active": true
  }
 ];
 window.SHOP_ITEMS = [{"id":"tiny-person-necklace","name":"Tiny person necklace","caption":"A hand-painted tiny human sealed in a clear pill capsule. Emotional support, worn daily.","kind":"Necklace","price":"$20.00","url":"https://www.etsy.com/listing/4606008946/hand-painted-miniature-person-necklace","image":"assets/shop/tiny-person-necklace.webp","alt":"Clear pill-shaped capsule pendant holding a tiny hand-painted woman in a purple top, on a silver chain"},{"id":"just-say-no-tee","name":"Just Say No tee","caption":"A retro green circle logo with a firm little message. Garment-dyed and lived-in soft.","kind":"Unisex tee","price":"$35.00","url":"https://www.etsy.com/listing/4593892518/just-say-no-circle-logo-t-shirt-retro","image":"assets/shop/just-say-no-tee.webp","alt":"White t-shirt with a distressed green circle logo reading Just say no"},{"id":"support-your-local-murder-tee","name":"Support Your Local Murder tee","caption":"A murder of crows, sticking together. For bird people and true crime fans.","kind":"Unisex tee","price":"$30.00","url":"https://www.etsy.com/listing/4593307642/support-your-local-murder-tee-raven-crow","image":"assets/shop/support-your-local-murder-tee.webp","alt":"White t-shirt printed with four black crows and the words Support Your Local Murder"},{"id":"rosie-riveter-pin","name":"Rosie the Riveter pin","caption":"We can do it, on your denim jacket. A glossy pin of the classic Rosie art.","kind":"Pin button","price":"From $6.10","url":"https://www.etsy.com/listing/4593859985/rosie-the-riveter-artwork-pin-button","image":"assets/shop/rosie-riveter-pin.webp","alt":"Round yellow pin button showing Rosie the Riveter flexing her arm"},{"id":"franklin-blanket","name":"Ben Franklin money blanket","caption":"Ben Franklin's engraved stare, blown up on a plush velveteen throw. Very money.","kind":"Velveteen throw","price":"From $25.00","url":"https://www.etsy.com/listing/4433255473/benjamin-franklin-portrait-blanket-money","image":"assets/shop/franklin-blanket.webp","alt":"Blanket printed with a close-up of Benjamin Franklin's engraved face from the 100 dollar bill"},{"id":"tiny-person-keychain","name":"Tiny person keychain","caption":"A tiny man in a green jacket, sealed in a clear capsule. For absolutely no reason.","kind":"Keychain","price":"$14.95","url":"https://www.etsy.com/listing/4598077309/tiny-person-in-a-capsule-keychain","image":"assets/shop/tiny-person-keychain.webp","alt":"Keychain with a tiny man in a green jacket and blue pants inside a clear pill-shaped capsule"}];
