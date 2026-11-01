@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+Social share image (1200x630) for a guide or the homepage. Rendered by og.mjs, which sets window.SPEC:
+{ chip, head, accent (optional words at the end of head shown in orange), images: [4 product image URLs], mascot: image URL }
+-->
+<html><head><meta charset="utf-8"><style>
+:root{--ink:#26251e;--cream:#fff9ee;--orange:#f46b45}
+*{box-sizing:border-box}
+body{margin:0}
+.og{width:1200px;height:630px;background:var(--cream);position:relative;overflow:hidden;font-family:'DM Sans',sans-serif;color:var(--ink)}
+.left{position:absolute;left:56px;top:52px;width:560px;bottom:44px;display:flex;flex-direction:column}
+.chip{align-self:flex-start;display:inline-flex;align-items:center;gap:12px;border:3px solid var(--ink);border-radius:99px;padding:8px 20px 8px 14px;font-size:17px;font-weight:800;letter-spacing:2.5px;text-transform:uppercase;background:#fff}
+.cap{width:30px;height:16px;border:3px solid var(--ink);border-radius:99px;display:flex;overflow:hidden;transform:rotate(-30deg)}
+.cap span{flex:1;background:var(--orange)}.cap span+span{background:#f8d959;border-left:3px solid var(--ink)}
+h1{margin:22px 0 0;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:72px;line-height:.98;letter-spacing:-.045em}
+h1 em{font-style:normal;color:var(--orange)}
+.foot{margin-top:auto;display:flex;align-items:center;gap:16px}
+.foot img{width:76px;height:76px;background:#fff;border-radius:50%}
+.foot b{display:block;font-family:'Space Grotesk',sans-serif;font-size:27px;letter-spacing:-1px}
+.foot span{font-size:19px;font-weight:600;letter-spacing:.4px}
+.mascot{position:absolute;left:470px;bottom:28px;height:170px}
+.grid{position:absolute;right:52px;top:44px;width:500px;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{background:#fff;border:4px solid var(--ink);border-radius:24px;overflow:hidden;box-shadow:8px 8px 0 var(--ink);height:250px}
+.card img{width:100%;height:100%;object-fit:contain;padding:14px}
+.card:nth-child(1){transform:rotate(-2deg)}.card:nth-child(4){transform:rotate(2deg)}
+</style></head><body><div class="og">
+<div class="left">
+<div class="chip"><span class="cap"><span></span><span></span></span><span id="chip"></span></div>
+<h1 id="head"></h1>
+<div class="foot"><img id="logo" alt=""><div><b>Dopamine Supply Co.</b><span>dopaminesupplyco.com</span></div></div>
+</div>
+<img class="mascot" id="mascot" alt="">
+<div class="grid" id="grid"></div>
+</div>
+<script>
+window.applySpec = (s) => {
+  document.getElementById('chip').textContent = s.chip;
+  const h = document.getElementById('head'); h.textContent = '';
+  const words = s.head.split(' '); const n = s.accent ? s.accent.split(' ').length : 0;
+  h.append(words.slice(0, words.length - n).join(' ') + (n ? ' ' : ''));
+  if (n) { const em = document.createElement('em'); em.textContent = words.slice(-n).join(' '); h.append(em); }
+  document.getElementById('logo').src = s.logo;
+  const m = document.getElementById('mascot'); m.src = s.mascot || ''; m.style.display = s.mascot ? '' : 'none';
+  document.getElementById('grid').innerHTML = s.images.map(u => `<div class="card"><img src="${u}"></div>`).join('');
+};
+// Shrink the headline until it fits above the brand footer without hitting the mascot.
+window.fit = () => {
+  const h = document.getElementById('head'); let size = 72;
+  const room = () => document.querySelector('.foot').getBoundingClientRect().top - h.getBoundingClientRect().bottom;
+  while (size > 40 && room() < 120) { size -= 2; h.style.fontSize = size + 'px'; }
+  return { size, overflow: room() < 120 };
+};
+</script>
+</body></html>

@@ -10,7 +10,7 @@ The JSON file is a list of finds:
 
 It updates catalog.js, rx-data.js, index.html (static grid, JSON-LD, count),
 each guide page (card, JSON-LD, count), the guide tile counts on every page,
-and pinkit/plan.json. Product photos are downloaded and converted to
+and pinkit/plan.json, then runs tools/seo_pass.py (structured data, share tags, sitemap). Product photos are downloaded and converted to
 assets/<id>.webp by the "Fetch product images" GitHub Action after the push
 (the cloud sandbox can't reach Amazon's image CDN).
 """
@@ -25,8 +25,12 @@ def esc(s):
 
 
 def ld_split(page):
-    m = re.search(r'(<script type="application/ld\+json">)(.*?)(</script>)', page, re.S)
-    return m, json.loads(m.group(2))
+    """The ItemList JSON-LD block, or (None, None) if the page has none (the homepage)."""
+    for m in re.finditer(r'(<script type="application/ld\+json">)(.*?)(</script>)', page, re.S):
+        data = json.loads(m.group(2))
+        if data.get('@type') == 'ItemList':
+            return m, data
+    return None, None
 
 
 def ld_put(page, m, data):
@@ -99,10 +103,6 @@ def main():
     marker = '</div><div class="empty" id="empty"'
     assert s.count(marker) == 1
     s = s.replace(marker, ''.join(card(p) for p, _ in added) + marker)
-    m, ld = ld_split(s)
-    for p, _ in added:
-        ld['itemListElement'].append({'@type': 'ListItem', 'position': len(ld['itemListElement']) + 1, 'name': p['name'], 'description': p['caption']})
-    s = ld_put(s, m, ld)
     total = s.count('<article class="card"')
     s = re.sub(r'(<span id="results" role="status">)\d+ finds', rf'\g<1>{total} finds', s)
     ipath.write_text(s)
@@ -147,6 +147,10 @@ def main():
         if gd['slug'] in counts:
             gd['picks'] = counts[gd['slug']]
     ppath.write_text(json.dumps(plan, indent=1, ensure_ascii=False))
+
+    # Share tags, structured data, related guides and sitemap dates
+    import seo_pass
+    seo_pass.main()
 
     print(f'Added {len(added)} finds. Catalog now {len(products)}. Guide counts: {counts}')
 

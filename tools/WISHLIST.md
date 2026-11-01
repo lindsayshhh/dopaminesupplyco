@@ -73,3 +73,10 @@ guide page in Playwright (Chromium at /opt/pw-browsers/chromium) for JS errors a
 - advent-calendars.html groups its picks under H2 headings (puzzle, build, collectible, hobbies, beauty, snacks, cats, kids).
   add_finds.py appends new finds to the last group (kids), so move a new card into the right group by hand and renumber
   the "No." badges in order. Only add true advent or countdown calendars to this guide. Season: Oct 20 to Dec 5.
+
+## SEO pass (added Nov 2026)
+- add_finds.py ends by running `tools/seo_pass.py`, which rebuilds each guide's ItemList (with product
+  links and images), breadcrumbs, share tags and related-guides line, and writes sitemap.xml with lastmod dates.
+  It is safe to run any number of times. Don't hand-edit those parts of the pages; edit seo_pass.py instead.
+- When you add a new guide: add its slug to ANCHOR and RELATED in seo_pass.py, then run
+  `python3 tools/seo_pass.py --og` (after `npm install` in pinkit/) to render its 1200x630 share image into assets/og/.
