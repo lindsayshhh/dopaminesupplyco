@@ -706,5 +706,27 @@
   "board": "Gift Ideas",
   "pin": "https://www.pinterest.com/pin/723390758945445874/",
   "note": "Catch-up pin for days missed while the desktop app was offline (Lindsay asked on 2026-11-07)."
+ },
+ {
+  "date": "2026-11-07",
+  "type": "product",
+  "subject": "cat-bag-clips",
+  "layout": "amazon-photo",
+  "title": "Cat Bag Clips: Six Colorful Cat Chip Clips, a Cute Stocking Stuffer for Snack Lovers",
+  "link": "https://www.amazon.com/dp/B0G7HTVJS2?tag=dopaminesupplyco-20",
+  "board": "Stocking Stuffer Ideas",
+  "pin": "https://www.pinterest.com/pin/723390758945445944/",
+  "note": "Catch-up product pin at Lindsay's request. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-07",
+  "type": "product",
+  "subject": "big-eyed-frog-lamp",
+  "layout": "amazon-photo",
+  "title": "Big Eyed Frog Lamp: Squishy Silicone Frog Night Light, a Funny Desk Gift for Coworkers",
+  "link": "https://www.amazon.com/dp/B0H1HP9VH7?tag=dopaminesupplyco-20",
+  "board": "Gift Ideas",
+  "pin": "https://www.pinterest.com/pin/723390758945445947/",
+  "note": "Catch-up product pin at Lindsay's request. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
  }
 ]
