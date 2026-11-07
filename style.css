@@ -40,3 +40,10 @@ footer{border-top:1px solid var(--line);padding-top:22px;padding-bottom:22px}.fo
 .hero-mascot-wide,.hero-mascot-crew{animation-name:mascot-float}
 @keyframes mascot-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @media(max-width:700px){.hero-mascot-crew{width:190px}}
+.quick-nav{display:none}
+@media(max-width:700px){.quick-nav{display:flex;gap:6px;padding:10px 22px 0}.quick-nav a{flex:1 1 0;min-width:0;min-height:44px;display:flex;align-items:center;justify-content:center;text-align:center;border:1.5px solid var(--ink);border-radius:99px;background:#fff;color:var(--ink);font-size:12px;font-weight:700;line-height:1.15;padding:4px 6px;text-decoration:none}.quick-nav a:active{background:var(--yellow)}}
+.more-line{display:flex;justify-content:center;margin:36px 0 4px}
+.more-line .solid{display:inline-block;border:0;border-radius:99px;padding:15px 30px;font-size:14px;cursor:pointer}
+.more-line .solid:hover{background:var(--orange)}
+.guide-group-title .countdown{display:inline-block;margin-left:10px;padding:3px 10px;border-radius:99px;background:var(--ink);color:var(--paper);letter-spacing:1px;vertical-align:1px}
+.guide-group-title .countdown[hidden]{display:none}

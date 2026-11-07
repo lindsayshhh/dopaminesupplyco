@@ -62,7 +62,43 @@ RELATED = {
     'gifts-for-person-who-has-everything': ['gifts-for-best-friend', 'dopamine-decor', 'gifts-under-50'],
 }
 
-HOME_TITLE = 'Weird Gifts and Funny Gift Ideas | Dopamine Supply Co.'
+# Gift guide tiles. The tile blocks on the homepage, the quiz page and every guide's "More gift guides"
+# section are rebuilt from this, with pick counts read from each guide page. Add a row when you add a guide.
+TILES = {
+    'spooky-cute-halloween-gifts': ('t-orange', 'Spooky-cute gifts', 'For people who decorate in September.'),
+    'advent-calendars': ('t-green', 'Advent calendars', 'One tiny surprise a day until Christmas.'),
+    'weird-stocking-stuffers': ('t-pink', 'Stocking stuffers', 'Small enough to fit. Weird enough to remember.'),
+    'funny-white-elephant-gifts': ('t-yellow', 'White elephant gifts', 'The gift that gets stolen twice.'),
+    'gifts-for-best-friend': ('t-pink', 'For your best friend', 'For the one who gets the joke.'),
+    'gifts-for-mom': ('t-lavender', 'For mom', 'Cheerful, cozy and actually useful.'),
+    'gifts-for-him': ('t-blue', 'For him', 'Desk toys, kitchen gear and a goose.'),
+    'gifts-for-person-who-has-everything': ('t-orange', 'Has everything', "They definitely don't have a raw chicken vase."),
+    'desk-gifts-for-coworkers': ('t-lavender', 'Coworker gifts', 'For the eight hours you spend there.'),
+    'gifts-for-tea-lovers': ('t-blue', 'Gifts for tea lovers', 'Tiny friends who live in your mug.'),
+    'gifts-under-15': ('t-yellow', 'Under $15', 'Big laugh. Tiny receipt.'),
+    'gifts-under-25': ('t-green', 'Under $25', 'The Secret Santa sweet spot.'),
+    'gifts-under-50': ('t-mint', 'Under $50', "For when they're worth a little more."),
+    'weird-kitchen-gadgets': ('t-green', 'Weird kitchen gadgets', 'Funny tools that still do the job.'),
+    'dopamine-decor': ('t-amber', 'Dopamine decor', 'Bright, loud and a little ridiculous.'),
+    'funny-throw-pillows': ('t-mint', 'Funny pillows', 'Soft, squishy and a little absurd.'),
+}
+TILE_GROUPS = [
+    ('For the holidays', ['spooky-cute-halloween-gifts', 'advent-calendars', 'weird-stocking-stuffers', 'funny-white-elephant-gifts']),
+    ('By person', ['gifts-for-best-friend', 'gifts-for-mom', 'gifts-for-him', 'gifts-for-person-who-has-everything',
+                   'desk-gifts-for-coworkers', 'gifts-for-tea-lovers']),
+    ('By budget', ['gifts-under-15', 'gifts-under-25', 'gifts-under-50']),
+    ('By vibe', ['weird-kitchen-gadgets', 'dopamine-decor', 'funny-throw-pillows']),
+]
+# Seasonal guides only get a tile in these months (the pages themselves stay live and in the sitemap).
+TILE_MONTHS = {'spooky-cute-halloween-gifts': {9, 10}}
+HOME_GUIDES_NOTE = 'Shop by holiday, person, budget or vibe.'
+HOME_GRID_LIMIT = 24  # cards in the homepage's static grid; app.js shows the rest with "Show more"
+
+QUICK_NAV = ('<nav class="quick-nav" aria-label="Quick links"><a href="index.html#guides">Gift guides</a>'
+             '<a href="prescription.html">Gift quiz</a><a href="index.html#shop">My designs</a>'
+             '<a href="index.html#collection">Browse</a></nav>')
+
+HOME_TITLE ='Weird Gifts and Funny Gift Ideas | Dopamine Supply Co.'
 HOME_DESC = ('Weird gifts and funny gift ideas for your very specific people. Browse playful finds, '
              'gift guides by budget and recipient, and a gift prescription quiz.')
 HOME_OG_TITLE = 'Dopamine Supply Co.: weird gifts and funny gift ideas'
@@ -124,10 +160,73 @@ def guide_pages():
 
 
 def guide_names():
-    """Short guide names from the homepage tiles, e.g. 'Under $25'."""
-    s = (ROOT / 'index.html').read_text()
-    return {m.group(1): unesc(m.group(2)) for m in
-            re.finditer(r'href="([a-z0-9-]+)\.html"><span class="guide-rx">.*?<h3>(.*?)</h3>', s)}
+    """Short guide names from the tile list, e.g. 'Under $25'."""
+    return {slug: t[1] for slug, t in TILES.items()}
+
+
+def pick_count(slug):
+    m = re.search(r'Gift guide · (\d+) picks', (ROOT / f'{slug}.html').read_text())
+    return int(m.group(1)) if m else 0
+
+
+def tile_groups_html(exclude=None, countdown=False):
+    month = datetime.date.today().month
+    out = []
+    for title, slugs in TILE_GROUPS:
+        tiles = []
+        for slug in slugs:
+            if slug == exclude or not (ROOT / f'{slug}.html').exists():
+                continue
+            if slug in TILE_MONTHS and month not in TILE_MONTHS[slug]:
+                continue
+            color, name, blurb = TILES[slug]
+            tiles.append(f'<a class="guide-tile {color}" href="{slug}.html"><span class="guide-rx"><span class="mini-capsule" '
+                         f'aria-hidden="true"></span>{pick_count(slug)} picks</span><h3>{esc(name)}</h3><p>{esc(blurb)}</p>'
+                         f'<span class="go">Open the guide <span aria-hidden="true">→</span></span></a>')
+        if not tiles:
+            continue
+        extra = ' <span class="countdown" data-countdown hidden></span>' if countdown and title == 'For the holidays' else ''
+        out.append(f'<div class="guide-group"><h3 class="guide-group-title">{title}{extra}</h3>'
+                   f'<div class="guide-tiles">{"".join(tiles)}</div></div>')
+    return ''.join(out)
+
+
+def set_tiles(page, exclude=None, countdown=False):
+    """Replace the guide groups in the page's tile section (homepage #guides or a 'more-guides' section)."""
+    i = page.find('class="guide-tile')
+    if i < 0:
+        return page
+    sec = page.rfind('<section', 0, i)
+    start = page.index('<div class="guide-group">', sec)
+    end = page.index('</section>', start)
+    return page[:start] + tile_groups_html(exclude, countdown) + page[end:]
+
+
+def set_quick_nav(page):
+    page = re.sub(r'<nav class="quick-nav".*?</nav>', '', page, flags=re.S)
+    return page.replace('</header>', '</header>' + QUICK_NAV, 1) if '</header>' in page else page
+
+
+def active_products():
+    s = (ROOT / 'catalog.js').read_text()
+    i = s.index('window.PRODUCTS = ') + len('window.PRODUCTS = ')
+    products, _ = json.JSONDecoder().raw_decode(s, i)
+    return sum(1 for p in products if p.get('active') is not False)
+
+
+def trim_home_grid(s):
+    """Keep the first HOME_GRID_LIMIT cards in the static grid and add the Show more button."""
+    a = s.index('<div class="grid" id="grid">') + len('<div class="grid" id="grid">')
+    b = s.index('</div><div class="empty" id="empty"', a)
+    grid_cards = re.findall(r'<article class="card".*?</article>', s[a:b], re.S)
+    s = s[:a] + ''.join(grid_cards[:HOME_GRID_LIMIT]) + s[b:]
+    n = active_products()
+    s = re.sub(r'(<span id="results" role="status">)\d+ finds', rf'\g<1>{n} finds', s)
+    s = re.sub(r'<div class="more-line">.*?</div>', '', s, flags=re.S)
+    more = '<div class="more-line"><button class="solid" id="show-more" type="button" hidden>Show more finds</button></div>'
+    c = s.index('id="collection"')
+    p = s.index('<p class="price-note">', c)
+    return s[:p] + more + s[p:]
 
 
 def cards(page):
@@ -182,6 +281,8 @@ def do_guide(path, names):
         pos = g.index('class="guide-hero') + note.end()
         g = g[:pos] + f'\n<p class="related-guides">Also worth a look: {line}.</p>' + g[pos:]
 
+    g = set_tiles(g, exclude=slug)
+    g = set_quick_nav(g)
     path.write_text(g)
     return slug, h1, cards(g)
 
@@ -201,6 +302,11 @@ def do_home():
                                    'logo': f'{SITE}/assets/dopamine-logo-transparent.png', 'sameAs': SAME_AS})
     s = set_ld(s, 'WebSite', {'@context': 'https://schema.org', '@type': 'WebSite', '@id': f'{SITE}/#website',
                               'name': 'Dopamine Supply Co.', 'url': f'{SITE}/', 'publisher': {'@id': f'{SITE}/#org'}})
+    s = re.sub(r'(<section class="guides-home wrap" id="guides"><div class="section-heading"><div><h2>Gift guides\.</h2>'
+               r'<p class="affiliate-note">)[^<]*(</p>)', rf'\g<1>{esc(HOME_GUIDES_NOTE)}\g<2>', s, count=1)
+    s = set_tiles(s, countdown=True)
+    s = set_quick_nav(s)
+    s = trim_home_grid(s)
     p.write_text(s)
 
 
@@ -208,7 +314,15 @@ def do_quiz():
     p = ROOT / 'prescription.html'
     s = p.read_text()
     s = set_share_tags(s, 'assets/og/prescription.jpg', 'Gift prescription quiz from Dopamine Supply Co.', 'website')
+    s = set_tiles(s)
+    s = set_quick_nav(s)
     p.write_text(s)
+
+
+def do_404():
+    p = ROOT / '404.html'
+    if p.exists():
+        p.write_text(set_quick_nav(p.read_text()))
 
 
 def lastmod(path):
@@ -272,6 +386,7 @@ def main():
     info = [do_guide(p, names) for p in guides]
     do_home()
     do_quiz()
+    do_404()
     if '--og' in sys.argv:
         render_og(info, names)
     do_sitemap(guides)

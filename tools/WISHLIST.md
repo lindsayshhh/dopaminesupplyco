@@ -80,3 +80,14 @@ guide page in Playwright (Chromium at /opt/pw-browsers/chromium) for JS errors a
   It is safe to run any number of times. Don't hand-edit those parts of the pages; edit seo_pass.py instead.
 - When you add a new guide: add its slug to ANCHOR and RELATED in seo_pass.py, then run
   `python3 tools/seo_pass.py --og` (after `npm install` in pinkit/) to render its 1200x630 share image into assets/og/.
+
+## Homepage and guide tiles (added Nov 2026)
+- seo_pass.py rebuilds the gift guide tile blocks on the homepage, the quiz page and every guide's
+  "More gift guides" section from TILES and TILE_GROUPS (groups: For the holidays, By person, By budget, By vibe).
+  Pick counts come from each guide page. A new guide needs a TILES row and a spot in TILE_GROUPS.
+- TILE_MONTHS hides seasonal tiles out of season: the Halloween tile only shows in September and October.
+  The guide page itself stays live and in the sitemap.
+- The homepage's static grid holds only the first 24 cards; app.js renders from catalog.js and shows
+  24 more per "Show more" click. Search and mood filters cover the full catalog. The "N finds" count
+  comes from the active products in catalog.js.
+- Every page gets a phone-only quick menu (Gift guides, Gift quiz, My designs, Browse) under the header.
