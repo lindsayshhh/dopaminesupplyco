@@ -731,6 +731,18 @@
  },
  {
   "date": "2026-11-08",
+  "type": "guide",
+  "subject": "home-decor",
+  "layout": "list",
+  "image": "pins/2026-11-08-home-decor.jpg",
+  "title": "Funny Home Decor for Every Room: 144 Weird and Colorful Finds, Sorted by Room",
+  "link": "https://dopaminesupplyco.com/home-decor.html",
+  "board": "Dopamine Home",
+  "pin": "https://www.pinterest.com/pin/723390758945456570/",
+  "note": "Posted at Lindsay's request to launch the new Home decor page; counts as today's pin."
+ },
+ {
+  "date": "2026-11-08",
   "type": "product",
   "subject": "melting-clock",
   "layout": "amazon-photo",
@@ -794,17 +806,5 @@
   "board": "Dopamine Home",
   "pin": "https://www.pinterest.com/pin/723390758945456636/",
   "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
- },
- {
-  "date": "2026-11-08",
-  "type": "guide",
-  "subject": "home-decor",
-  "layout": "list",
-  "image": "pins/2026-11-08-home-decor.jpg",
-  "title": "Funny Home Decor for Every Room: 144 Weird and Colorful Finds, Sorted by Room",
-  "link": "https://dopaminesupplyco.com/home-decor.html",
-  "board": "Dopamine Home",
-  "pin": "https://www.pinterest.com/pin/723390758945456570/",
-  "note": "Posted at Lindsay's request to launch the new Home decor page; counts as today's pin."
  }
 ]
