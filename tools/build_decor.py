@@ -170,6 +170,15 @@ def main():
         if t2 != t:
             h.write_text(t2)
 
+    # Keep the pin plan's pick count current
+    ppath = ROOT / 'pinkit' / 'plan.json'
+    if ppath.exists():
+        plan = json.loads(ppath.read_text())
+        for gd in plan.get('guides', []):
+            if gd.get('slug') == 'home-decor' and gd.get('picks') != total:
+                gd['picks'] = total
+                ppath.write_text(json.dumps(plan, indent=1, ensure_ascii=False))
+
     print(f'Home decor: {total} picks across {sum(1 for r in rooms if r["products"])} rooms.')
 
 
