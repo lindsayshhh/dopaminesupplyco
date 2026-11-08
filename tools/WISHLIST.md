@@ -57,7 +57,7 @@ crude or sexual beyond a wink, and near-duplicates of items already on the site.
 Each find: asin, id (kebab-case, unique), name (short, sentence case), brand, caption (one or two playful
 sentences naming what it really is), moods (from Weird, Unnecessary, Colorful, Cozy), spicy (optional),
 label [dosage, side effects] in pharmacy-label voice, good (one "Good for" sentence), guides (slugs from
-pinkit/plan.json; the Halloween guide only Sept and Oct), img (the m.media-amazon.com URL).
+pinkit/plan.json; the Halloween guide only Sept and Oct), room (optional, see Home decor below), img (the m.media-amazon.com URL).
 No em dashes anywhere. No prices.
 
 `python3 tools/add_finds.py tools/new-finds-<date>.json --date <date>`, then smoke-test index.html and one
@@ -90,4 +90,17 @@ guide page in Playwright (Chromium at /opt/pw-browsers/chromium) for JS errors a
 - The homepage's static grid holds only the first 24 cards; app.js renders from catalog.js and shows
   24 more per "Show more" click. Search and mood filters cover the full catalog. The "N finds" count
   comes from the active products in catalog.js.
-- Every page gets a phone-only quick menu (Gift guides, Gift quiz, My designs, Browse) under the header.
+- Every page gets a phone-only quick menu (Gift guides, Home decor, Gift quiz, My designs, Browse) under the header.
+
+## Home decor section (added Nov 2026)
+- home-decor.html is the site's Home decor section: every decor find sorted onto one room shelf, with a sticky
+  room chip bar. It is linked from the main menu, the phone quick menu and the homepage "Home decor, by room" tiles.
+- The shelves live in tools/home-decor.json. Room slugs: walls (wall art and signs), lights (lamps and neon),
+  living (rugs, clocks, bookends, sculptures, coasters), cozy (pillows and throws), kitchen (towels, oven mitts,
+  spoon rests, magnets, kitchen art), bathroom, plants (planters, vases, faux flowers, sun catchers, garden), candles.
+- When a new find is home decor, give it a "room" field with one of those slugs. Decor finds usually also go in the
+  dopamine-decor guide (and funny-throw-pillows for pillows). Kitchen gadgets and tools are not decor: leave
+  "room" off for those. Desk toys, wearables and plush toys stay off the shelves too.
+- add_finds.py appends the find to its room and runs tools/build_decor.py, which rebuilds the page, the chip counts
+  and the homepage tiles (the first three finds of each room are the tile photos). To move or reorder items, edit
+  tools/home-decor.json and run `python3 tools/build_decor.py && python3 tools/seo_pass.py`.

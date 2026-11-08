@@ -1,0 +1,77 @@
+{
+ "note": "Room shelves for home-decor.html. Each product id appears in one room only. tools/build_decor.py rebuilds the page from this file and catalog.js; tools/add_finds.py appends a find to the room named in its \"room\" field.",
+ "rooms": [
+  {
+   "slug": "walls",
+   "title": "Wall art & signs",
+   "tile": "t-pink",
+   "rx": "For a blank wall with no personality yet",
+   "blurb": "Framed weirdos, cheeky prints and signs with opinions. Hang one, then start a gallery wall.",
+   "related": "",
+   "ids": ["dino-nugget-wall-art", "audacity-newspaper-wall-art", "eclectic-art-print-set", "sleeping-leopard-art", "chili-disco-wall-art", "gold-framed-pigeon-art", "monet-water-lilies-cat-art", "reading-parrot-art", "pigeon-pooping-on-people-art", "gummy-bear-mugshot-art", "neon-david-statue-art", "queen-of-hearts-print", "pink-sea-otter-print", "never-lose-your-whimsy-art", "golden-girls-portrait-set", "vintage-goose-oval-art", "rock-paper-scissors-art", "juice-pouch-still-life", "lounging-opossum-art", "chubby-cat-couple-art", "smoking-frog-art", "panic-at-the-desk-o-print", "live-laugh-lobotomy-sign", "couch-club-tin-sign", "giant-push-pin-hooks"]
+  },
+  {
+   "slug": "lights",
+   "title": "Lamps & neon",
+   "tile": "t-yellow",
+   "rx": "For a room that needs a glow-up",
+   "blurb": "Neon signs, squishy night lights and lamps shaped like food. Mood lighting, but make it funny.",
+   "related": "",
+   "ids": ["dopamine-molecule-neon-sign", "what-if-it-all-works-out-neon", "stay-trashy-neon-sign", "waving-lucky-cat-neon", "tomato-lamp", "duck-egg-lamp", "pearl-shell-lamp", "purple-lava-lamp", "lying-flat-duck-lamp", "big-eyed-frog-lamp", "friendship-lamp", "disco-string-lights", "skull-candle-warmer-lamp", "pac-man-ghost-light"]
+  },
+  {
+   "slug": "living",
+   "title": "Rugs, shelves & tabletops",
+   "tile": "t-amber",
+   "rx": "For a living room that takes itself too seriously",
+   "blurb": "Melting clocks, butter rugs, bookends and coasters. The little things guests ask about first.",
+   "related": "",
+   "ids": ["butter-rug", "melting-rug", "money-bag-rug", "tiger-print-rug", "moss-pond-rug", "melting-clock", "melted-disco-ball", "modern-cuckoo-clock", "pink-balloon-dog", "middle-finger-balloon-dog", "strawberry-bookends", "pink-parrot-bookends", "drippy-painted-apple-statue", "grumpy-toad-statue", "skeleton-heart-hands", "storm-cloud-weather-predictor", "singing-bird-in-cage", "lego-starry-night", "banana-bean-bag", "checkerboard-laundry-basket", "cactus-coaster-set", "crochet-flower-pot-coasters", "hot-and-fresh", "vinyl-record-coasters", "floppy-disk-coasters", "brain-specimen-coasters"]
+  },
+  {
+   "slug": "cozy",
+   "title": "Pillows & throws",
+   "tile": "t-lavender",
+   "rx": "For a couch that needs more snacks",
+   "blurb": "Food-shaped pillows, rude pillows and blankets that turn you into a burrito, a pizza or a stick of butter.",
+   "related": "funny-throw-pillows",
+   "ids": ["giant-toast-pillow", "giant-pickle-pillow", "giant-dumpling-pillow", "cheese-cracker-pillow", "dino-nugget-pillows", "emotional-support-cheez-it", "chill-pill-pillow", "sour-patch-pink-pillow", "chubby-seal-pillow", "giant-goose-pillow", "campfire-reading-pillow", "queen-card-pillow", "funky-tiger-pillow-cover", "velvet-stripe-pillow-covers", "ew-david-pillow", "poop-emoji-pillow", "middle-finger-pillow", "shit-typography-pillow", "burrito-blanket", "pepperoni-pizza-blanket", "salted-butter-blanket"]
+  },
+  {
+   "slug": "kitchen",
+   "title": "Kitchen decor",
+   "tile": "t-green",
+   "rx": "For a kitchen that could use a laugh",
+   "blurb": "Dish towels with attitude, oven mitts with claws, spoon rests and art for above the stove.",
+   "related": "weird-kitchen-gadgets",
+   "ids": ["pickle-panic-print", "floral-taco-art", "chef-was-cute-poster", "im-fine-kitchen-towels", "space-cowboy-kitchen-towels", "cat-flower-kitchen-towels", "have-you-tried-cheese-towel", "ringmaster-dish-towel", "long-cat-hand-towel", "lobster-claw-oven-mitts", "bear-hands-oven-mitts", "this-is-bananas-oven-mitt", "scares-your-family-oven-mitt", "secret-ingredient-oven-mitt", "bat-oven-mitts", "ravioli-spoon-rest", "ketchup-splat-spoon-rest", "dolly-big-hair-spoon-rest", "smiley-flower-sponge-holders", "golden-girls-dishwasher-magnet", "funny-fridge-magnets"]
+  },
+  {
+   "slug": "bathroom",
+   "title": "Bathroom",
+   "tile": "t-blue",
+   "rx": "For the smallest room with the biggest potential",
+   "blurb": "Shower curtains with plot, bath mats with pep talks and a toilet paper holder in pearls.",
+   "related": "",
+   "ids": ["dopamine-cat-shower-curtain", "cat-bathing-dino-shower-curtain", "a-few-showers-later-curtain", "get-naked-pink-bath-mat", "you-look-good-bath-mat", "egg-bath-mats", "are-you-pooping-cat-rug", "pearl-toilet-paper-holder", "sheep-toilet-paper-holder", "mushroom-toilet-bolt-covers", "leaf-hand-towels", "funny-bathroom-print-set", "would-poop-here-again-sign", "toilet-bowl-night-light", "brainwashed-soap"]
+  },
+  {
+   "slug": "plants",
+   "title": "Plants, vases & windows",
+   "tile": "t-mint",
+   "rx": "For a windowsill that wants attention",
+   "blurb": "A raw chicken vase, a disco-ball planter and rainbow makers that throw sparkles across the room.",
+   "related": "",
+   "ids": ["disco-ball-planter", "raw-chicken-vase", "chill-pill-vase", "hot-dog-vase", "retro-carton-vase", "face-planters", "lego-happy-plants", "giant-paper-poppies", "solar-powered-rainbowmaker", "disco-ball-sun-catcher", "rude-garden-gnome", "trex-eating-gnome-statue"]
+  },
+  {
+   "slug": "candles",
+   "title": "Candles",
+   "tile": "t-orange",
+   "rx": "Light one. Feel slightly better.",
+   "blurb": "Prayer candles for your icons, a giant pill and a few with very clear messages.",
+   "related": "",
+   "ids": ["golden-girls-prayer-candle", "martha-and-snoop-candle", "drag-queen-prayer-candle", "pedro-pascal-candle", "chill-pill-candle", "crochet-friendship-candle", "burn-something-candle", "gold-middle-finger-candle", "wap-waffles-and-pancakes-candle", "vampire-tears-candles"]
+  }
+ ]
+}

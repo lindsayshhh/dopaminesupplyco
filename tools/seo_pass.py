@@ -34,6 +34,7 @@ ANCHOR = {
     'gifts-for-tea-lovers': 'gifts for tea lovers',
     'desk-gifts-for-coworkers': 'desk gifts for coworkers',
     'dopamine-decor': 'dopamine decor',
+    'home-decor': 'funny home decor by room',
     'gifts-under-15': 'gifts under $15',
     'gifts-under-25': 'gifts under $25',
     'gifts-under-50': 'gifts under $50',
@@ -49,10 +50,11 @@ RELATED = {
     'weird-stocking-stuffers': ['gifts-under-15', 'funny-white-elephant-gifts', 'advent-calendars'],
     'funny-white-elephant-gifts': ['gifts-under-25', 'desk-gifts-for-coworkers', 'weird-stocking-stuffers'],
     'weird-kitchen-gadgets': ['gifts-for-mom', 'gifts-for-tea-lovers', 'gifts-under-25'],
-    'funny-throw-pillows': ['dopamine-decor', 'gifts-for-best-friend', 'gifts-under-50'],
+    'funny-throw-pillows': ['home-decor', 'dopamine-decor', 'gifts-for-best-friend'],
     'gifts-for-tea-lovers': ['weird-kitchen-gadgets', 'gifts-for-mom', 'gifts-under-15'],
     'desk-gifts-for-coworkers': ['funny-white-elephant-gifts', 'gifts-under-25', 'gifts-under-15'],
-    'dopamine-decor': ['funny-throw-pillows', 'gifts-for-person-who-has-everything', 'gifts-under-50'],
+    'dopamine-decor': ['home-decor', 'funny-throw-pillows', 'gifts-for-person-who-has-everything'],
+    'home-decor': ['dopamine-decor', 'funny-throw-pillows', 'weird-kitchen-gadgets'],
     'gifts-under-15': ['weird-stocking-stuffers', 'gifts-under-25', 'desk-gifts-for-coworkers'],
     'gifts-under-25': ['gifts-under-15', 'gifts-under-50', 'funny-white-elephant-gifts'],
     'gifts-under-50': ['gifts-under-25', 'dopamine-decor', 'gifts-for-person-who-has-everything'],
@@ -95,8 +97,11 @@ HOME_GUIDES_NOTE = 'Shop by holiday, person, budget or vibe.'
 HOME_GRID_LIMIT = 24  # cards in the homepage's static grid; app.js shows the rest with "Show more"
 
 QUICK_NAV = ('<nav class="quick-nav" aria-label="Quick links"><a href="index.html#guides">Gift guides</a>'
-             '<a href="prescription.html">Gift quiz</a><a href="index.html#shop">My designs</a>'
-             '<a href="index.html#collection">Browse</a></nav>')
+             '<a href="home-decor.html">Home decor</a><a href="prescription.html">Gift quiz</a>'
+             '<a href="index.html#shop">My designs</a><a href="index.html#collection">Browse</a></nav>')
+
+# Hub pages that use the guide layout but aren't gift guides: their own breadcrumb trail and share-image chip.
+HUBS = {'home-decor': ('Home decor', 'home-decor.html')}
 
 HOME_TITLE ='Weird Gifts and Funny Gift Ideas | Dopamine Supply Co.'
 HOME_DESC = ('Weird gifts and funny gift ideas for your very specific people. Browse playful finds, '
@@ -251,7 +256,8 @@ def do_guide(path, names):
     url = f'{SITE}/{path.name}'
 
     # Share tags
-    g = set_share_tags(g, f'assets/og/{slug}.jpg', f'{h1}, a Dopamine Supply Co. gift guide', 'article')
+    kind = 'home decor guide' if slug in HUBS else 'gift guide'
+    g = set_share_tags(g, f'assets/og/{slug}.jpg', f'{h1}, a Dopamine Supply Co. {kind}', 'article')
 
     # ItemList rebuilt from the cards
     items = []
@@ -266,10 +272,14 @@ def do_guide(path, names):
                                'numberOfItems': len(items), 'itemListElement': items})
 
     # Breadcrumbs, matching the visible "Home / Gift guides" trail
-    g = set_ld(g, 'BreadcrumbList', {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': [
-        {'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': f'{SITE}/'},
-        {'@type': 'ListItem', 'position': 2, 'name': 'Gift guides', 'item': f'{SITE}/index.html#guides'},
-        {'@type': 'ListItem', 'position': 3, 'name': names.get(slug, h1), 'item': url}]})
+    if slug in HUBS:
+        trail = [{'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': f'{SITE}/'},
+                 {'@type': 'ListItem', 'position': 2, 'name': HUBS[slug][0], 'item': url}]
+    else:
+        trail = [{'@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': f'{SITE}/'},
+                 {'@type': 'ListItem', 'position': 2, 'name': 'Gift guides', 'item': f'{SITE}/index.html#guides'},
+                 {'@type': 'ListItem', 'position': 3, 'name': names.get(slug, h1), 'item': url}]
+    g = set_ld(g, 'BreadcrumbList', {'@context': 'https://schema.org', '@type': 'BreadcrumbList', 'itemListElement': trail})
 
     # Related guides line under the intro
     g = re.sub(r'\n*<p class="related-guides">.*?</p>', '', g, flags=re.S)
@@ -359,7 +369,14 @@ def render_og(guides_info, names):
         mascot = re.search(r'hero-mascot" src="([^"]+)"', g)
         words = h1.split()
         two = len(words) > 3 and words[-2].lower() not in {'and', 'for', 'the', 'of', 'to', 'a', 'who', 'that'}
-        specs.append({'out': str(out / f'{slug}.jpg'), 'chip': f'Gift guide · {n} picks', 'head': h1,
+        chip = f'{HUBS[slug][0]} · {n} picks' if slug in HUBS else f'Gift guide · {n} picks'
+        if slug in HUBS:  # one photo from each of the first rooms, so the image isn't all one kind of thing
+            firsts = {}
+            for m in re.finditer(r'<div class="room[^"]*" id="room-([^"]+)".*?<img[^>]*src="(assets/[^"]+)"', g, re.S):
+                firsts.setdefault(m.group(1), m.group(2))
+            pick = [{'image': i} for r, i in firsts.items() if r in ('lights', 'cozy', 'plants', 'bathroom')]
+            cs = pick + cs
+        specs.append({'out': str(out / f'{slug}.jpg'), 'chip': chip, 'head': h1,
                       'accent': ' '.join(words[-2:]) if two else words[-1],
                       'images': imgs(cs), 'mascot': f'{base}/{mascot.group(1)}' if mascot else '',
                       'logo': f'{base}/assets/dopamine-logo-transparent.png'})

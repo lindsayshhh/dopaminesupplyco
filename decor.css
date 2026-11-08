@@ -1,0 +1,47 @@
+/* Home decor section: room chip bar and shelves on home-decor.html, room tiles on the homepage. */
+.room-nav{position:sticky;top:0;z-index:6;background:var(--paper);border-block:1.5px solid var(--ink)}
+.room-nav-inner{display:flex;gap:8px;overflow-x:auto;padding-top:12px;padding-bottom:12px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.room-nav-inner::-webkit-scrollbar{display:none}
+.room-chip{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:700;background:var(--paper);flex:none}
+.room-chip span{font-size:10px;font-weight:800;background:var(--yellow);border:1px solid var(--ink);border-radius:99px;padding:2px 7px;line-height:1.2;color:var(--ink)}
+.room-chip.active span{background:var(--paper)}
+#picks{padding-top:10px}
+.room{padding-top:44px;scroll-margin-top:80px}
+.room+.room{border-top:1.5px dashed var(--line);margin-top:44px}
+.one-room .room{border-top:0;margin-top:0;padding-top:20px}
+.room-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:24px}
+.room-rx{display:inline-block;font-size:10px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;background:var(--tile);border:1.5px solid var(--ink);border-radius:99px;padding:6px 13px}
+.room-head h2{font-size:38px;letter-spacing:-1.8px;line-height:1.1;margin-top:12px}
+.room-head p{font-size:13px;line-height:1.65;color:#57564b;max-width:560px;margin-top:8px}
+.room-more{flex:none;font-size:13px;font-weight:700;text-underline-offset:4px;min-height:44px;display:inline-flex;align-items:center}
+
+.rooms-home{padding-top:56px;padding-bottom:20px}
+.rooms-home .section-heading{gap:20px}
+.rooms-all{text-decoration:none;flex:none;display:inline-flex;gap:8px;align-items:center}
+.room-tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 18px}
+.room-tile{display:flex;flex-direction:column;gap:12px;padding:12px;background:var(--tile);border:2px solid var(--ink);border-radius:22px;box-shadow:3px 4px 0 var(--ink);text-decoration:none;color:var(--ink);transition:transform .16s,box-shadow .16s}
+.room-tile:hover{transform:translate(-1px,-2px);box-shadow:4px 6px 0 var(--ink)}
+.room-thumbs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.room-thumbs img{display:block;width:100%;aspect-ratio:1;height:auto;object-fit:cover;background:#fff;border:1.5px solid var(--ink);border-radius:11px}
+.room-tile-text{display:flex;align-items:baseline;justify-content:space-between;gap:8px;padding:0 4px 2px}
+.room-tile h3{font-size:18px;letter-spacing:-.5px;line-height:1.15}
+.room-count{font-size:11px;font-weight:800;flex:none}
+
+@media(max-width:1000px){.room-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){
+.room-nav-inner{padding-top:10px;padding-bottom:10px}
+.room{padding-top:30px;scroll-margin-top:70px}
+.room+.room{margin-top:34px}
+.room-head{flex-direction:column;align-items:start;gap:6px;margin-bottom:18px}
+.room-head h2{font-size:28px;letter-spacing:-1.2px;margin-top:10px}
+.room-head p{font-size:12px}
+.room-rx{font-size:9px;letter-spacing:1px}
+.rooms-home{padding-top:38px}
+.rooms-home .section-heading{flex-direction:column;align-items:start}
+.room-tiles{gap:14px 12px}
+.room-tile{padding:9px;gap:9px;border-radius:18px}
+.room-thumbs{gap:4px}
+.room-thumbs img{border-radius:8px;border-width:1px}
+.room-tile-text{flex-direction:column;align-items:start;gap:2px;padding:0 3px 2px}
+.room-tile h3{font-size:15px}
+}

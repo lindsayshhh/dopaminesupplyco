@@ -6,11 +6,11 @@ Usage: python3 tools/add_finds.py tools/new-finds-<date>.json [--date YYYY-MM-DD
 The JSON file is a list of finds:
   {"asin", "id", "name", "brand", "caption", "moods": [...], "spicy": bool (optional),
    "label": [dosage, side effects], "good": "Good for sentence",
-   "guides": [guide slugs], "img": "https://m.media-amazon.com/..." (main product photo)}
+   "guides": [guide slugs], "room": "walls" (optional home decor shelf), "img": "https://m.media-amazon.com/..." (main product photo)}
 
 It updates catalog.js, rx-data.js, index.html (static grid, JSON-LD, count),
 each guide page (card, JSON-LD, count), the guide tile counts on every page,
-and pinkit/plan.json, then runs tools/seo_pass.py (structured data, share tags, sitemap). Product photos are downloaded and converted to
+and pinkit/plan.json, rebuilds the Home decor page (tools/build_decor.py), then runs tools/seo_pass.py (structured data, share tags, sitemap). Product photos are downloaded and converted to
 assets/<id>.webp by the "Fetch product images" GitHub Action after the push
 (the cloud sandbox can't reach Amazon's image CDN).
 """
@@ -147,6 +147,24 @@ def main():
         if gd['slug'] in counts:
             gd['picks'] = counts[gd['slug']]
     ppath.write_text(json.dumps(plan, indent=1, ensure_ascii=False))
+
+    # Home decor shelves: a find with a "room" (a room slug from tools/home-decor.json) goes on that shelf
+    dpath = ROOT / 'tools' / 'home-decor.json'
+    decor = json.loads(dpath.read_text())
+    slugs = {r['slug']: r for r in decor['rooms']}
+    placed = 0
+    for p, f in added:
+        room = f.get('room')
+        if not room:
+            continue
+        if room not in slugs:
+            raise SystemExit(f'unknown room "{room}" for {p["id"]}; use one of: {", ".join(slugs)}')
+        if not any(p['id'] in r['ids'] for r in decor['rooms']):
+            slugs[room]['ids'].append(p['id']); placed += 1
+    if placed:
+        dpath.write_text(json.dumps(decor, indent=1, ensure_ascii=False) + '\n')
+    import build_decor
+    build_decor.main()
 
     # Share tags, structured data, related guides and sitemap dates
     import seo_pass
