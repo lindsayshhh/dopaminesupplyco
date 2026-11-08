@@ -731,6 +731,72 @@
  },
  {
   "date": "2026-11-08",
+  "type": "product",
+  "subject": "melting-clock",
+  "layout": "amazon-photo",
+  "title": "Melting Clock: Surreal Dali Style Clock That Drapes Over a Shelf Edge",
+  "link": "https://www.amazon.com/dp/B0BW41N4X6?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "pin": "https://www.pinterest.com/pin/723390758945456623/",
+  "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-08",
+  "type": "product",
+  "subject": "lobster-claw-oven-mitts",
+  "layout": "amazon-photo",
+  "title": "Lobster Claw Oven Mitts: Funny Red Silicone Pot Holders for Your Kitchen",
+  "link": "https://www.amazon.com/dp/B08MYSXZN9?tag=dopaminesupplyco-20",
+  "board": "Dopamine Kitchen",
+  "pin": "https://www.pinterest.com/pin/723390758945456625/",
+  "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-08",
+  "type": "product",
+  "subject": "duck-egg-lamp",
+  "layout": "amazon-photo",
+  "title": "Egg Laying Duck Lamp: Funny Night Light Where a Duck Lays a Glowing Egg",
+  "link": "https://www.amazon.com/dp/B0CKR23MC2?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "pin": "https://www.pinterest.com/pin/723390758945456626/",
+  "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-08",
+  "type": "product",
+  "subject": "money-bag-rug",
+  "layout": "amazon-photo",
+  "title": "Money Bag Rug: Pink Tufted Dollar Sign Rug for a Fun, Colorful Room",
+  "link": "https://www.amazon.com/dp/B0D22JMPGV?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "pin": "https://www.pinterest.com/pin/723390758945456630/",
+  "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-08",
+  "type": "product",
+  "subject": "dopamine-cat-shower-curtain",
+  "layout": "amazon-photo",
+  "title": "Colorful Cat Shower Curtain: Matisse Style Bathroom With Plants and Black Cats",
+  "link": "https://www.amazon.com/dp/B0GR31X75L?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "pin": "https://www.pinterest.com/pin/723390758945456634/",
+  "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-08",
+  "type": "product",
+  "subject": "giant-toast-pillow",
+  "layout": "amazon-photo",
+  "title": "Giant Bread Pillow: Huge Plush Loaf of Bread for a Funny, Cozy Couch",
+  "link": "https://www.amazon.com/dp/B07QLCLJ2Q?tag=dopaminesupplyco-20",
+  "board": "Dopamine Home",
+  "pin": "https://www.pinterest.com/pin/723390758945456636/",
+  "note": "Extra decor product pin at Lindsay's request on launch day of the Home decor page. Amazon blocked the live product check, so the saved Amazon photo from catalog.js was used and stock was not verified (Lindsay OK'd this)."
+ },
+ {
+  "date": "2026-11-08",
   "type": "guide",
   "subject": "home-decor",
   "layout": "list",
