@@ -2728,8 +2728,8 @@ window.PRODUCTS = [
  },
  {
   "id": "giant-toast-pillow",
-  "name": "Giant toast pillow",
-  "caption": "A huge slice of buttered toast you can lie on. Carbs, but cozy.",
+  "name": "Giant bread pillow",
+  "caption": "A giant plush loaf of bread you can hug like a body pillow. Carbs, but cozy.",
   "brand": "Levenkeness",
   "moods": [
    "Cozy",
