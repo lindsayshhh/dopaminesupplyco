@@ -6,6 +6,10 @@ checkoutUrl (a Stripe Payment Link, Shopify Buy link, etc.), then it shows "Buy 
 Header, footer and dialogs are copied from home-decor.html so the page matches the site.
 
 Usage: python3 tools/build_supply_shop.py
+
+Paused 2026-11-19: the page and its "Shop" nav links were removed. To bring it back, run this
+script, then re-add <a class="nav-discover" href="supply-shop.html">Shop</a> to the nav, the
+quick-nav link, and the sitemap entry.
 """
 import html, json, pathlib
 
