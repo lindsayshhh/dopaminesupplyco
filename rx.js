@@ -26,7 +26,7 @@ const QUESTIONS = [
     { id: 'chaos', t: 'Chaos agent', s: 'Will laugh at anything', c: ['#4754cf', '#ff8ebd'] }
   ] },
   { key: 'occ', q: "What's the occasion?", opts: [
-    { id: 'halloween', t: 'Spooky season', s: 'Halloween, or every day', c: ['#f46b45', '#26251e'] },
+    { id: 'halloween', t: 'Spooky season', s: 'Halloween, or every day', c: ['#f46b45', '#26251e'], months: [9, 10] },
     { id: 'holidays', t: 'The holidays', s: 'Stockings and gift piles', c: ['#d8e897', '#ff8ebd'] },
     { id: 'swap', t: 'A gift swap', s: 'White elephant or Secret Santa', c: ['#ffd84d', '#4754cf'] },
     { id: 'birthday', t: 'Birthday', s: 'Another trip around the sun', c: ['#ff8ebd', '#fff9ee'] },
@@ -135,7 +135,9 @@ function renderQuestion() {
     return `<span class="rx-chip">${esc(o.t)}</span>`;
   }).join('');
   $('rx-question').textContent = Q.q;
-  $('rx-options').innerHTML = Q.opts.map(o => `<button type="button" class="rx-opt" data-opt="${o.id}" aria-pressed="${answers[Q.key] === o.id}"><span class="rx-capsule" aria-hidden="true"><span style="background:${o.c[0]}"></span><span style="background:${o.c[1]}"></span></span><span class="rx-opt-text"><b>${esc(o.t)}</b><small>${esc(o.s)}</small></span><svg class="rx-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button>`).join('');
+  // Seasonal options (months: [...]) only show in their months; shared links with them still work.
+  const month = new Date().getMonth() + 1;
+  $('rx-options').innerHTML = Q.opts.filter(o => !o.months || o.months.includes(month)).map(o => `<button type="button" class="rx-opt" data-opt="${o.id}" aria-pressed="${answers[Q.key] === o.id}"><span class="rx-capsule" aria-hidden="true"><span style="background:${o.c[0]}"></span><span style="background:${o.c[1]}"></span></span><span class="rx-opt-text"><b>${esc(o.t)}</b><small>${esc(o.s)}</small></span><svg class="rx-check" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></button>`).join('');
   $('rx-next').disabled = !answers[Q.key];
   $('rx-next-label').textContent = step === QUESTIONS.length - 1 ? 'Fill my prescription' : 'Next';
 }

@@ -41,6 +41,7 @@ ANCHOR = {
     'gifts-for-best-friend': 'gifts for your best friend',
     'gifts-for-mom': 'quirky gifts for mom',
     'gifts-for-him': 'funny gifts for him',
+    'gifts-for-her': 'funny gifts for her',
     'gifts-for-person-who-has-everything': 'gifts for the person who has everything',
 }
 # Three related guides for each guide. Add a row here when you add a guide.
@@ -58,9 +59,10 @@ RELATED = {
     'gifts-under-15': ['weird-stocking-stuffers', 'gifts-under-25', 'desk-gifts-for-coworkers'],
     'gifts-under-25': ['gifts-under-15', 'gifts-under-50', 'funny-white-elephant-gifts'],
     'gifts-under-50': ['gifts-under-25', 'dopamine-decor', 'gifts-for-person-who-has-everything'],
-    'gifts-for-best-friend': ['gifts-under-25', 'funny-throw-pillows', 'gifts-for-person-who-has-everything'],
+    'gifts-for-best-friend': ['gifts-for-her', 'gifts-under-25', 'funny-throw-pillows'],
     'gifts-for-mom': ['weird-kitchen-gadgets', 'gifts-for-tea-lovers', 'dopamine-decor'],
-    'gifts-for-him': ['desk-gifts-for-coworkers', 'weird-kitchen-gadgets', 'gifts-under-50'],
+    'gifts-for-him': ['gifts-for-her', 'desk-gifts-for-coworkers', 'weird-kitchen-gadgets'],
+    'gifts-for-her': ['gifts-for-best-friend', 'dopamine-decor', 'gifts-under-50'],
     'gifts-for-person-who-has-everything': ['gifts-for-best-friend', 'dopamine-decor', 'gifts-under-50'],
 }
 
@@ -74,6 +76,7 @@ TILES = {
     'gifts-for-best-friend': ('t-pink', 'For your best friend', 'For the one who gets the joke.'),
     'gifts-for-mom': ('t-lavender', 'For mom', 'Cheerful, cozy and actually useful.'),
     'gifts-for-him': ('t-blue', 'For him', 'Desk toys, kitchen gear and a goose.'),
+    'gifts-for-her': ('t-pink', 'For her', 'Pink, glowy and a little bit cheeky.'),
     'gifts-for-person-who-has-everything': ('t-orange', 'Has everything', "They definitely don't have a raw chicken vase."),
     'desk-gifts-for-coworkers': ('t-lavender', 'Coworker gifts', 'For the eight hours you spend there.'),
     'gifts-for-tea-lovers': ('t-blue', 'Gifts for tea lovers', 'Tiny friends who live in your mug.'),
@@ -86,7 +89,7 @@ TILES = {
 }
 TILE_GROUPS = [
     ('For the holidays', ['spooky-cute-halloween-gifts', 'advent-calendars', 'weird-stocking-stuffers', 'funny-white-elephant-gifts']),
-    ('By person', ['gifts-for-best-friend', 'gifts-for-mom', 'gifts-for-him', 'gifts-for-person-who-has-everything',
+    ('By person', ['gifts-for-her', 'gifts-for-best-friend', 'gifts-for-mom', 'gifts-for-him', 'gifts-for-person-who-has-everything',
                    'desk-gifts-for-coworkers', 'gifts-for-tea-lovers']),
     ('By budget', ['gifts-under-15', 'gifts-under-25', 'gifts-under-50']),
     ('By vibe', ['weird-kitchen-gadgets', 'dopamine-decor', 'funny-throw-pillows']),

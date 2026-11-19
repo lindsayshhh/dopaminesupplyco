@@ -66,7 +66,7 @@ guide page in Playwright (Chromium at /opt/pw-browsers/chromium) for JS errors a
 ## Budget and recipient guides (added Oct 2026)
 - Budget guides: gifts-under-15, gifts-under-25 ($15 to $25), gifts-under-50 ($25 to $50). Only add a new find to one
   of these if its current Amazon price fits the band. Prices were last checked for every find on 2026-10-19.
-- Recipient guides: gifts-for-best-friend, gifts-for-mom, gifts-for-him, gifts-for-person-who-has-everything.
+- Recipient guides: gifts-for-her, gifts-for-best-friend, gifts-for-mom, gifts-for-him, gifts-for-person-who-has-everything.
   Keep spicy finds out of gifts-for-mom.
 
 ## Advent calendar guide (added Oct 2026)

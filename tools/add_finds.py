@@ -126,6 +126,8 @@ def main():
             for p, _ in new_here:
                 ld['itemListElement'].append({'@type': 'ListItem', 'position': len(ld['itemListElement']) + 1, 'name': p['name'], 'description': p['caption']})
             g = ld_put(g, m, ld)
+            month = datetime.date.fromisoformat(date).strftime('%B %Y')
+            g = re.sub(r'(picks · Updated )[A-Z][a-z]+ \d{4}', rf'\g<1>{month}', g, count=1)
         start = g.index('id="picks"')
         n = g[start:g.index('</section>', start)].count('<article class="card"')
         g = re.sub(r'(Gift guide · )\d+( picks)', rf'\g<1>{n}\g<2>', g, count=1)
