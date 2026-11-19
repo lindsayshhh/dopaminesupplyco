@@ -12,6 +12,13 @@ c = (ROOT / 'catalog.js').read_text()
 a = c.index('['); b = c.index('];\n', a)
 products = json.loads(c[a:b + 1])
 missing = [p for p in products if p.get('image', '').startswith('assets/') and not (ROOT / p['image']).exists() and p.get('imageSource')]
+# Supply Shop items (tools/supply-shop.json) are sold on supply-shop.html, not in the catalog.
+supply = ROOT / 'tools' / 'supply-shop.json'
+if supply.exists():
+    for it in json.loads(supply.read_text())['items']:
+        img = f"assets/supply/{it['id']}.webp"
+        if it.get('imageSource') and not (ROOT / img).exists():
+            missing.append({'id': it['id'], 'image': img, 'imageSource': it['imageSource']})
 print(f'{len(missing)} images to fetch')
 failed = []
 for p in missing:

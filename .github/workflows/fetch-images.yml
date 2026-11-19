@@ -2,7 +2,7 @@ name: Fetch product images
 on:
   push:
     branches: [main]
-    paths: [catalog.js]
+    paths: [catalog.js, tools/supply-shop.json]
   workflow_dispatch:
 permissions:
   contents: write
