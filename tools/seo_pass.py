@@ -113,6 +113,9 @@ HOME_OG_TITLE = 'Dopamine Supply Co.: weird gifts and funny gift ideas'
 HOME_INTRO_OLD = 'A curated collection of playful finds for your daily dose of dopamine.'
 HOME_INTRO_NEW = 'Weird gifts, funny gift ideas and playful finds for your daily dose of dopamine.'
 SAME_AS = ['https://dopaminesupplyco2026.etsy.com']
+# Cloudflare Web Analytics (cookie-free page view counts). Added to every page by add_analytics().
+CF_BEACON = ("<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' "
+             "data-cf-beacon='{\"token\": \"70ca9a18d5b5461687466235cbd3d777\"}'></script><!-- End Cloudflare Web Analytics -->")
 
 
 def esc(s):
@@ -400,6 +403,16 @@ def render_og(guides_info, names):
         raise SystemExit('Share image render had problems (see above).')
 
 
+def add_analytics():
+    """Put the Cloudflare Web Analytics beacon right before </body> on every page. Idempotent."""
+    for h in ROOT.glob('*.html'):
+        t = h.read_text()
+        t2 = re.sub(r'<!-- Cloudflare Web Analytics -->.*?<!-- End Cloudflare Web Analytics -->\n?', '', t, flags=re.S)
+        t2 = t2.replace('</body>', CF_BEACON + '\n</body>', 1)
+        if t2 != t:
+            h.write_text(t2)
+
+
 def main():
     names = guide_names()
     guides = guide_pages()
@@ -407,6 +420,7 @@ def main():
     do_home()
     do_quiz()
     do_404()
+    add_analytics()
     if '--og' in sys.argv:
         render_og(info, names)
     do_sitemap(guides)
