@@ -144,3 +144,4 @@ body{font-family:'DM Sans','Helvetica Neue',Arial,sans-serif}
 .rx-mascot-result{width:92px;margin-bottom:2px}
 @media(max-width:900px){.rx-mascot-start{display:none}}
 @media(max-width:700px){.rx-mascot-result{width:72px}}
+.rx-promo .rx-promo-card+.rx-promo-card{margin-top:16px}

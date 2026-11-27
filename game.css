@@ -1,0 +1,108 @@
+/* Name That Side Effect game. Builds on rx.css (pill pieces, pad, buttons). */
+.se:not(.se-ready) #se-begin{display:none}
+.se .rx-col{max-width:560px}
+.se-start-label{transform:rotate(-1.5deg);max-width:420px;align-self:center;width:100%}
+.se-start-label .rx-pad-body p{margin:0;font-size:15px;line-height:1.5}
+.se-start-label .se-sample{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:22px;font-weight:700;letter-spacing:-.5px;line-height:1.2}
+.se-rules{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;font-size:14px;line-height:1.45}
+.se-rules li{display:flex;gap:10px;align-items:flex-start}
+.se-rules .rx-capsule{margin-top:3px}
+#se-start-best{font-weight:700;color:var(--ink)}
+
+/* Top bar */
+.se-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.se-progress{display:flex;flex-direction:column;gap:6px;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}
+.se-dots{display:flex;gap:4px}
+.se-dot{width:16px;height:9px;border:2px solid var(--ink);border-radius:99px;background:var(--paper)}
+.se-dot.now{background:var(--yellow)}
+.se-dot.hit{background:#7cc46a}
+.se-dot.miss{background:#d7d0c1}
+.se-scorebox{display:flex;align-items:center;gap:10px}
+.se-streak{font-size:12px;font-weight:800;color:#ad2462}
+.se-streak:empty{display:none}
+.se-points{display:flex;align-items:baseline;gap:4px;background:var(--pink);border:2px solid var(--ink);border-radius:99px;padding:5px 12px;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-weight:700;font-size:18px}
+.se-points small{font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase}
+
+/* The label you are matching */
+.se-label{transform:rotate(-1deg)}
+.se-label .rx-pad-body{gap:8px}
+.se-label-k{font-size:10px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:#625b62;margin:0}
+#se-effect{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:28px;line-height:1.15;letter-spacing:-.9px;font-weight:700;margin:0;outline:none}
+.se-dosage-row{margin:4px 0 0;padding-top:10px;border-top:2px dashed var(--line);font-size:14px;line-height:1.45}
+.se-hint{align-self:flex-start;min-height:40px;padding:0 4px;font-size:13px;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.se-ask{margin:0;font-size:15px;font-weight:700;text-align:center}
+
+/* Four product choices */
+.se-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.se-opt{display:flex;flex-direction:column;gap:0;padding:0;border:2px solid var(--ink);border-radius:18px;background:#fff;color:var(--ink);text-align:left;cursor:pointer;overflow:hidden;box-shadow:3px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s,opacity .2s}
+.se-opt:hover:not(:disabled){transform:translate(-1px,-2px);box-shadow:4px 6px 0 var(--ink)}
+.se-opt:active:not(:disabled){transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.se-opt:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.se-opt:disabled{cursor:default}
+.se-opt-img{position:relative;display:block;aspect-ratio:1;background:#fff;border-bottom:2px solid var(--ink)}
+.se-opt-img img{width:100%;height:100%;object-fit:contain;display:block;padding:8px}
+.se-key{position:absolute;left:8px;top:8px;width:24px;height:24px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--paper);font-size:12px;font-weight:800}
+@media(hover:none){.se-key{display:none}}
+.se-opt-name{padding:9px 11px 11px;font-size:13.5px;font-weight:700;line-height:1.3}
+.se-mark{position:absolute;right:8px;top:8px;width:34px;height:34px;display:none;place-items:center;border:2px solid var(--ink);border-radius:50%;font-size:18px;font-weight:800}
+.se-opt.right{background:#e3f4d6;box-shadow:3px 4px 0 #3c8a2e;border-color:#3c8a2e}
+.se-opt.right .se-mark{display:grid;background:#7cc46a}.se-opt.right .se-mark::before{content:'✓'}
+.se-opt.wrong{background:#fde3e3}
+.se-opt.wrong .se-mark{display:grid;background:#f4a3a3}.se-opt.wrong .se-mark::before{content:'✗'}
+.se-opt.dim{opacity:.45}
+
+/* After answering */
+.se-reveal{display:flex;flex-direction:column;gap:14px;animation:se-pop .25s ease-out}
+@keyframes se-pop{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.se-verdict{margin:0;font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:24px;font-weight:700;letter-spacing:-.6px;text-align:center}
+.se-verdict.yes{color:#2f7a22}.se-verdict.no{color:#ad2462}
+.se-found{display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px;align-items:start;background:#fff;border:2px solid var(--ink);border-radius:18px;padding:12px}
+.se-found img{width:110px;height:110px;object-fit:contain;border-radius:10px;background:#fff}
+.se-found h3{margin:0 0 4px;font-size:17px;line-height:1.25}
+.se-found p{margin:0;font-size:13.5px;line-height:1.45;color:#625b62}
+.se-found-actions{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+.se-buy{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:2px solid var(--ink);border-radius:99px;background:var(--yellow);color:var(--ink);font-weight:700;font-size:13px;text-decoration:none}
+.se-heart{width:40px;height:40px;border:2px solid var(--ink);border-radius:50%;background:var(--paper);display:grid;place-items:center;font-size:20px;line-height:1;cursor:pointer;color:var(--ink)}
+.se-heart.saved,.se-heart:hover{background:var(--pink)}
+.se-next svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+
+/* Results */
+.se-end-head{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px}
+.se-end-head .mascot{width:92px}
+.se-chart{width:100%}
+.se-chart .rx-pad-body{align-items:center;text-align:center}
+.se-chart .se-final{font-family:'Space Grotesk','Helvetica Neue',Arial,sans-serif;font-size:64px;font-weight:700;letter-spacing:-3px;line-height:1;margin:0;color:var(--ink)}
+.se-chart h1{font-size:30px;line-height:1.1;letter-spacing:-1.1px;margin:0}
+.se-chart p{margin:0;font-size:15px;line-height:1.5;color:#625b62;max-width:380px}
+.se-chart .se-meta{font-size:13px;font-weight:700;color:var(--ink)}
+.se-end-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.se-copy{display:flex;flex-direction:column;gap:6px;font-size:13px}
+.se-copy textarea{width:100%;min-height:90px;border:2px solid var(--ink);border-radius:12px;padding:10px;font:inherit;background:#fff}
+.se-dispensed-head{display:flex;flex-direction:column;gap:4px;margin-top:10px}
+.se-dispensed-head h2{font-size:26px;letter-spacing:-1px;margin:0}
+.se-dispensed-head p{margin:0;font-size:14px;color:#625b62}
+.se-dispensed{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 14px}
+.se-mini{display:flex;flex-direction:column;gap:6px;min-width:0}
+.se-mini-img{position:relative;aspect-ratio:1;border:1.5px solid var(--ink);border-radius:14px;overflow:hidden;background:#fff}
+.se-mini-img>button{display:block;width:100%;height:100%;padding:0;border:0;background:none;cursor:pointer}
+.se-mini-img img{width:100%;height:100%;object-fit:contain;display:block;padding:6px}
+.se-mini-img .save-button{width:40px;height:40px}
+.se-mini-mark{position:absolute;left:8px;top:8px;width:26px;height:26px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;font-size:13px;font-weight:800}
+.se-mini-mark.yes{background:#7cc46a}.se-mini-mark.no{background:#d7d0c1}
+.se-mini h3{margin:2px 0 0;font-size:14px;line-height:1.3}
+.se-mini h3 .title-button{text-align:left}
+.se-mini p{margin:0;font-size:12.5px;line-height:1.4;color:#625b62;font-style:italic}
+.se-mini .amazon-link{font-size:11px;align-self:flex-start}
+.se-more{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+
+@media(max-width:560px){
+ #se-effect{font-size:24px}
+ .se-options{gap:10px}
+ .se-opt-name{font-size:12.5px;padding:8px 9px 10px}
+ .se-found{grid-template-columns:84px minmax(0,1fr);gap:12px}
+ .se-found img{width:84px;height:84px}
+ .se-chart .se-final{font-size:54px}
+ .se-end-actions{grid-template-columns:minmax(0,1fr)}
+}
+@media(max-width:380px){.se-dot{width:12px}}
+@media(prefers-reduced-motion:reduce){.se-opt,.se-reveal{transition:none;animation:none}}

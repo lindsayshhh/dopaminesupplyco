@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff9ee"><title>Name That Side Effect: A Weird Gift Game | Dopamine Supply Co.</title>
+<meta name="description" content="A quick, silly game: read the side effects on the label and guess which weird little gift caused them. 10 rounds. How high are your dopamine levels?">
+<meta property="og:title" content="Name That Side Effect"><meta property="og:description" content="Read the label. Guess the weird little gift. 10 rounds.">
+<link rel="canonical" href="https://dopaminesupplyco.com/side-effects.html"><meta property="og:url" content="https://dopaminesupplyco.com/side-effects.html"><meta property="og:type" content="website"><meta property="og:site_name" content="Dopamine Supply Co."><meta property="og:image" content="https://dopaminesupplyco.com/assets/og/prescription.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Name That Side Effect, a gift game from Dopamine Supply Co."><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Name That Side Effect"}</script><link rel="icon" href="assets/dopamine-logo-transparent.png" type="image/png"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,800&amp;family=Space+Grotesk:wght@500;700&amp;display=swap"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="capsule.css"><link rel="stylesheet" href="guides.css"><link rel="stylesheet" href="rx.css"><link rel="stylesheet" href="shop.css"><link rel="stylesheet" href="game.css">
+<script src="config.js" defer></script><script src="catalog.js" defer></script><script src="app.js" defer></script><script src="rx-data.js" defer></script><script src="game.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#se">Skip to the game</a>
+<header class="header wrap"><a class="brand" href="index.html" aria-label="Dopamine Supply Co. home"><img class="brand-logo" src="assets/dopamine-logo-transparent.png" alt="Dopamine Supply Co." width="1254" height="1254"></a><nav aria-label="Main navigation"><a class="nav-discover" href="prescription.html">Get a prescription</a><a class="nav-discover" href="index.html#guides">Gift guides</a><a class="nav-discover" href="home-decor.html">Home decor</a><a class="nav-discover" href="index.html#collection">Browse</a><a class="nav-discover" href="index.html#shop">My designs</a><button class="nav-save" id="open-saved"><span aria-hidden="true">♡</span> Saved <span id="saved-count" class="count">0</span></button></nav></header><nav class="quick-nav" aria-label="Quick links"><a href="index.html#guides">Gift guides</a><a href="home-decor.html">Home decor</a><a href="prescription.html">Gift quiz</a><a href="index.html#shop">My designs</a><a href="index.html#collection">Browse</a></nav>
+<main>
+<section class="rx se wrap" id="se"><div class="rx-col">
+<div id="se-start" class="rx-col">
+  <div class="rx-intro">
+    <p class="rx-eyebrow">The Dopamine Pharmacy · A little game</p>
+    <h1>Name that <span class="rx-joy">side effect.</span></h1>
+    <p class="rx-sub">Every find in the shop comes with a warning label. Read the side effects and guess which weird little thing caused them.</p>
+  </div>
+  <div class="rx-pad se-start-label">
+    <div class="rx-pad-top"><span>Rx No. 0001</span><span>Dopamine Supply Co.</span></div>
+    <div class="rx-pad-body">
+      <p class="se-label-k">Side effects may include</p>
+      <p class="se-sample">Cryptid sightings at dinner.</p>
+      <ul class="se-rules">
+        <li><span class="rx-capsule" aria-hidden="true"><span style="background:#ff8ebd"></span><span style="background:#ffd84d"></span></span><span>10 rounds. Pick the right find out of 4.</span></li>
+        <li><span class="rx-capsule" aria-hidden="true"><span style="background:#4754cf"></span><span style="background:#fff9ee"></span></span><span>Stuck? Read the directions for a hint.</span></li>
+        <li><span class="rx-capsule" aria-hidden="true"><span style="background:#d8e897"></span><span style="background:#ff8ebd"></span></span><span>Get your diagnosis at the end.</span></li>
+      </ul>
+    </div>
+  </div>
+  <button type="button" class="rx-cta" id="se-begin"><span class="rx-cta-text"><span class="rx-capsule" aria-hidden="true"><span style="background:#ffd84d"></span><span style="background:#fff9ee"></span></span>Start the game</span><span class="rx-cta-end"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span></button>
+  <p class="rx-small" id="se-start-best" hidden></p>
+  <noscript><p class="rx-noscript">This game needs JavaScript. You can still <a href="index.html#collection">browse every find</a>.</p></noscript>
+</div>
+<div id="se-play" class="rx-col" hidden>
+  <div class="se-top">
+    <div class="se-progress"><span id="se-round">Round 1 of 10</span><span class="se-dots" id="se-dots" aria-hidden="true"></span></div>
+    <div class="se-scorebox"><span class="se-streak" id="se-streak"></span><span class="se-points"><span id="se-score">0</span><small>pts</small></span></div>
+  </div>
+  <div class="rx-pad se-label">
+    <div class="rx-pad-top"><span id="se-rxno">Rx No.</span><span>Dopamine Supply Co.</span></div>
+    <div class="rx-pad-body">
+      <p class="se-label-k">Side effects may include</p>
+      <h2 id="se-effect" tabindex="-1"></h2>
+      <p class="se-dosage-row" id="se-dosage-row" hidden><b>Directions:</b> <span id="se-dosage"></span></p>
+      <button type="button" class="text-button se-hint" id="se-hint">Need a hint? Read the directions</button>
+    </div>
+  </div>
+  <p class="se-ask">Which find caused this?</p>
+  <div class="se-options" id="se-options"></div>
+  <div class="se-reveal" id="se-reveal" hidden></div>
+  <div class="sr-only" id="se-status" role="status" aria-live="polite"></div>
+</div>
+<div id="se-end" class="rx-col" hidden>
+  <div class="se-end-head"><img class="mascot" id="se-mascot" src="assets/mascot/thumbs-up.webp" alt="" aria-hidden="true" width="300" height="400" decoding="async"><p class="rx-eyebrow">Your diagnosis</p></div>
+  <div class="rx-pad se-chart">
+    <div class="rx-pad-top"><span>Patient chart</span><span>Dopamine Supply Co.</span></div>
+    <div class="rx-pad-body">
+      <p class="se-final" id="se-final">0/10</p>
+      <h1 id="se-diagnosis"></h1>
+      <p id="se-note"></p>
+      <p class="se-meta"><span id="se-best"></span><br><span id="se-hints-used"></span></p>
+    </div>
+  </div>
+  <div class="se-end-actions">
+    <button type="button" class="rx-btn dark" id="se-again">Play again <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></button>
+    <button type="button" class="rx-btn light" id="se-share"><span id="se-share-label">Share my score</span></button>
+  </div>
+  <div class="se-copy" id="se-copy" hidden><label for="se-copy-text">Copy your score:</label><textarea id="se-copy-text" readonly></textarea></div>
+  <div class="se-dispensed-head"><h2>Today's dispensary.</h2><p>All 10 finds from your game. Save the ones that got you.</p></div>
+  <div class="se-dispensed" id="se-dispensed"></div>
+  <div class="se-more">
+    <a class="rx-btn light" href="prescription.html">Get a gift prescription instead</a>
+    <a class="rx-link" href="index.html#collection">Browse every find <span aria-hidden="true">→</span></a>
+  </div>
+</div>
+</div></section>
+</main>
+<footer class="wrap"><div class="footer-top"><div class="footer-sign"><img class="mascot footer-mascot" src="assets/mascot/wave.webp" alt="" aria-hidden="true" width="300" height="400" loading="lazy" decoding="async"><p class="disclosure">As an Amazon Associate I earn from qualifying purchases.</p></div><div><button class="text-button" id="about">About</button><button class="text-button" id="privacy">Privacy</button></div></div></footer>
+<dialog id="detail" class="detail-dialog"><button class="close" aria-label="Close product details" data-close>×</button><div id="detail-content"></div></dialog>
+<dialog id="saved" class="saved-dialog"><button class="close" aria-label="Close wish list" data-close>×</button><h2 id="list-title">Saved finds.</h2><p class="list-note" id="list-note">Saved on this device.</p><div id="saved-items"></div><div class="list-actions"><button class="solid" id="share-list">Share list ↗</button><button class="text-button" id="own-list" hidden>My saved finds</button></div><div id="copy-fallback" hidden><label for="share-url">Copy this link:</label><input id="share-url" readonly><button class="text-button" id="select-link">Select link</button></div></dialog>
+<dialog id="info" class="info-dialog"><button class="close" aria-label="Close information" data-close>×</button><div id="info-content"></div></dialog>
+<div class="toast" id="toast" role="status"></div><div class="sr-only" id="surprise-status" role="status"></div>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "70ca9a18d5b5461687466235cbd3d777"}'></script><!-- End Cloudflare Web Analytics -->
+</body></html>
