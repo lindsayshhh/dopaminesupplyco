@@ -119,7 +119,7 @@ function answer(id) {
   const p = r.answer, last = round === ROUNDS - 1;
   const verdict = right ? pickOne(CHEERS) : pickOne(OOPS);
   $('se-reveal').innerHTML = `<p class="se-verdict ${right ? 'yes' : 'no'}">${verdict}</p>
-<div class="se-found"><img src="${esc(p.image)}" alt="${esc(p.name)} by ${esc(p.brand)}" width="400" height="400"><div><h3>It's the ${esc(p.name.charAt(0).toLowerCase() + p.name.slice(1))}.</h3><p>${esc(p.caption)}</p><div class="se-found-actions">${buyLink(p, 'se-buy')}${heart(p, 'se-heart')}</div></div></div>
+<div class="se-found"><img src="${esc(p.image)}" alt="${esc(p.name)} by ${esc(p.brand)}" width="400" height="400"><div><h3>It's the ${esc(p.name)}.</h3><p>${esc(p.caption)}</p><div class="se-found-actions">${buyLink(p, 'se-buy')}${heart(p, 'se-heart')}</div></div></div>
 <button type="button" class="rx-btn dark se-next" id="se-next">${last ? 'See my diagnosis' : 'Next round'} <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></button>`;
   $('se-reveal').hidden = false;
   $('se-status').textContent = `${verdict} It's the ${p.name}. Score ${score} of ${round + 1}.`;
